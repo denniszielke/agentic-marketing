@@ -1,0 +1,43 @@
+# All service dependencies — install once for local development
+# Individual service requirements files mirror the relevant subset of these.
+
+# Web / runtime
+# fastapi pinned <0.133.1 for agent-framework-devui compatibility.
+fastapi==0.133.0
+uvicorn==0.49.0
+pydantic==2.13.4
+requests==2.34.2
+aiohttp==3.14.1
+httpx==0.28.1
+python-dotenv==1.2.2
+
+# Agent Framework (incl. shopping simulator)
+agent-framework-core==1.10.0
+agent-framework-foundry==1.10.0
+agent-framework-devui==1.0.0b260630
+agent-framework-azure-ai-search==1.0.0b260630
+agent-framework-ag-ui==1.0.0rc7
+agent-framework-foundry-hosting==1.0.0a260609
+
+# Telemetry / observability (shopping simulator)
+microsoft-opentelemetry==1.3.3
+azure-monitor-opentelemetry==1.8.8
+# OpenAI Agents SDK — required by the microsoft-opentelemetry GenAI
+# auto-instrumentor (imports `agents`); absent it logs a benign ModuleNotFound.
+openai-agents==0.17.7
+
+# Azure SDKs
+azure-ai-projects==2.3.0
+azure-ai-inference==1.0.0b9
+azure-identity==1.25.3
+# Pinned to the only version satisfying agent-framework-azure-ai-search
+# (>=11.7.0b2,<11.7.0b3); 12.x conflicts with it.
+azure-search-documents==12.1.0b1
+
+# MCP (toolbox client + FastMCP servers)
+mcp==1.28.1
+fastmcp==3.4.3
+starlette==1.3.1
+
+# Azure OpenAI SDK — used by scripts/ingest_knowledge.py to embed descriptions.
+openai==2.9.1

@@ -1,0 +1,61 @@
+{
+  "server": "persona_data",
+  "description": "NorthStar Health customer persona segmentation, backed by Azure AI Search.",
+  "transport": "streamable-http",
+  "tools": [
+    {
+      "name": "list_personas",
+      "description": "List personas, optionally filtered by market, preferred category, age group or income band.",
+      "access": "read",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "market": {"type": "string", "description": "Optional market filter — 'Germany', 'UK' or 'Nordics'."},
+          "category": {"type": "string", "description": "Optional preferred-category filter (e.g. 'Home Diagnostics')."},
+          "age_group": {"type": "string", "description": "Optional age band — 'young' (<35), 'mid' (35-54) or 'senior' (55+)."},
+          "income_band": {"type": "string", "description": "Optional income band — 'Low', 'Middle', 'High' or 'Affluent'."},
+          "top": {"type": "integer", "default": 50, "description": "Maximum number of personas to return."}
+        },
+        "required": []
+      }
+    },
+    {
+      "name": "search_personas",
+      "description": "Search personas semantically by need, motivation or behaviour.",
+      "access": "read",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "query": {"type": "string", "description": "Free-text query, e.g. 'biohacker interested in longevity'."},
+          "top": {"type": "integer", "default": 10, "description": "Maximum number of personas to return."}
+        },
+        "required": ["query"]
+      }
+    },
+    {
+      "name": "get_persona",
+      "description": "Get a single persona's full profile by id (e.g. 'GER-001').",
+      "access": "read",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "persona_id": {"type": "string", "description": "The persona id, e.g. 'GER-001'."}
+        },
+        "required": ["persona_id"]
+      }
+    },
+    {
+      "name": "find_personas_by_interest",
+      "description": "Find personas whose health interests match a topic.",
+      "access": "read",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "interest": {"type": "string", "description": "A health interest, e.g. 'Heart Health', 'Sleep'."},
+          "top": {"type": "integer", "default": 20, "description": "Maximum number of personas to return."}
+        },
+        "required": ["interest"]
+      }
+    }
+  ]
+}

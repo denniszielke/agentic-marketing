@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "description": "Virtual Chief Strategy Officer for NorthStar Health. Calculates revenue projections, evaluates profitability, forecasts market share, prioritises launch markets and investments, and produces board-level executive summaries grounded in market, product, persona and innovation data.",
+  "skills": [
+    {
+      "id": "launch-recommendation",
+      "name": "Launch Recommendation",
+      "description": "Select the next product/innovation to launch, the launch market, the investment required and the expected year-1 revenue, margin and market share."
+    },
+    {
+      "id": "investment-prioritisation",
+      "name": "Investment Prioritisation",
+      "description": "Prioritise where to invest a given budget across markets and categories by ROI and strategic fit."
+    }
+  ]
+}

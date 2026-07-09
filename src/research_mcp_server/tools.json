@@ -1,0 +1,54 @@
+{
+  "server": "research_data",
+  "description": "NorthStar Health innovation and research knowledge base, backed by Azure AI Search.",
+  "transport": "streamable-http",
+  "tools": [
+    {
+      "name": "list_innovations",
+      "description": "List innovations, optionally filtered by category, target market, market readiness or max launch year.",
+      "access": "read",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "category": {"type": "string", "description": "Optional category filter (e.g. 'Gut Health')."},
+          "target_market": {"type": "string", "description": "Optional target-market filter — 'Germany', 'UK', 'Nordics' or 'All markets'."},
+          "market_readiness": {"type": "string", "description": "Optional readiness filter — 'Low', 'Medium' or 'High'."},
+          "max_launch_year": {"type": "integer", "description": "Only return innovations expected to launch on or before this year."},
+          "top": {"type": "integer", "default": 50, "description": "Maximum number of innovations to return."}
+        },
+        "required": []
+      }
+    },
+    {
+      "name": "search_innovations",
+      "description": "Search innovations semantically by concept, technology or trend.",
+      "access": "read",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "query": {"type": "string", "description": "Free-text query, e.g. 'continuous microbiome monitoring'."},
+          "top": {"type": "integer", "default": 10, "description": "Maximum number of innovations to return."}
+        },
+        "required": ["query"]
+      }
+    },
+    {
+      "name": "get_innovation",
+      "description": "Get a single innovation's full record by id (e.g. 'INN-001').",
+      "access": "read",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "innovation_id": {"type": "string", "description": "The innovation id, e.g. 'INN-001'."}
+        },
+        "required": ["innovation_id"]
+      }
+    },
+    {
+      "name": "list_trends",
+      "description": "List the emerging trends addressed across the innovation base, with counts.",
+      "access": "read",
+      "inputSchema": {"type": "object", "properties": {}, "required": []}
+    }
+  ]
+}

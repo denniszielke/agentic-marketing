@@ -1,0 +1,18 @@
+{
+  "serverName": "ext_market_insights",
+  "serverUrl": "",
+  "authType": "EntraID",
+  "description": "NorthStar Health market intelligence MCP server (sales, margin, growth, market share, forecast), computed in-process from static datasets.",
+  "publisherName": "NorthStar Health",
+  "tools": [
+    {"name": "get_sales", "description": "Query annual sales rows, optionally filtered by market, category, product, brand and year."},
+    {"name": "get_market_share", "description": "Return market-share by brand for a market (and optional category/year)."},
+    {"name": "get_growth_rates", "description": "Return average annual growth rates by category (and optional market)."},
+    {"name": "compare_margins", "description": "Compare average gross margin for a category across markets."},
+    {"name": "get_forecast", "description": "Return the forecast (projection) rows for a market, aggregated by year."},
+    {"name": "competitor_performance", "description": "Return brand-level performance (revenue, units, share) for competitors."}
+  ],
+  "remoteScopes": null,
+  "externalOAuth": null,
+  "apiKey": null
+}

@@ -1,0 +1,3611 @@
+[
+  {
+    "persona_id": "GER-001",
+    "name": "Daniel Fischer",
+    "market": "Germany",
+    "archetype": "active retiree",
+    "age": 70,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Low",
+    "interests": [
+      "Healthy Aging",
+      "Preventative Care",
+      "Heart Health"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "pharmacies and trusted health retailers",
+    "annual_spend": 1190,
+    "annual_spend_currency": "EUR",
+    "description": "Daniel Fischer is a 70-year-old active retiree in Germany who wants to stay independent and physically active well into later life. With a middle income and low digital fluency, he prefers proven, clinically backed products and values pharmacist advice. Health priorities include Healthy Aging, Preventative Care, Heart Health. He prefers daily supplements, at-home diagnostic kits, shops mainly via pharmacies and trusted health retailers, and spends roughly 1190 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "GER-002",
+    "name": "Andreas Weber",
+    "market": "Germany",
+    "archetype": "time-poor executive",
+    "age": 40,
+    "gender": "male",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Sleep",
+      "Energy",
+      "Cognitive Performance"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "premium online subscriptions",
+    "annual_spend": 1960,
+    "annual_spend_currency": "EUR",
+    "description": "Andreas Weber is a 40-year-old time-poor executive in Germany who seeks to sustain high performance and manage stress under pressure. With a high income and medium digital fluency, he willing to pay a premium for convenience and measurable results. Health priorities include Sleep, Energy, Cognitive Performance. He prefers daily supplements, at-home diagnostic kits, shops mainly via premium online subscriptions, and spends roughly 1960 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GER-003",
+    "name": "Michael Braun",
+    "market": "Germany",
+    "archetype": "pharmacy-loyal shopper",
+    "age": 57,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Low",
+    "interests": [
+      "Immune Health",
+      "Everyday Wellness",
+      "Bone Health"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "local pharmacies",
+    "annual_spend": 380,
+    "annual_spend_currency": "EUR",
+    "description": "Michael Braun is a 57-year-old pharmacy-loyal shopper in Germany who relies on familiar brands and professional recommendations. With a middle income and low digital fluency, he rarely experiments and prioritises trust and safety over novelty. Health priorities include Immune Health, Everyday Wellness, Bone Health. He prefers daily supplements, shops mainly via local pharmacies, and spends roughly 380 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "GER-004",
+    "name": "Anna Klein",
+    "market": "Germany",
+    "archetype": "fitness professional",
+    "age": 31,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Performance Nutrition",
+      "Energy",
+      "Lean Muscle"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Weight Management"
+    ],
+    "preferred_channel": "specialist sports-nutrition retailers and online",
+    "annual_spend": 960,
+    "annual_spend_currency": "EUR",
+    "description": "Anna Klein is a 31-year-old fitness professional in Germany who optimises training, recovery and body composition. With a middle income and medium digital fluency, she reads labels closely and favours high-dosage, transparent formulas. Health priorities include Performance Nutrition, Energy, Lean Muscle. She prefers daily supplements, weight-management and metabolic products, shops mainly via specialist sports-nutrition retailers and online, and spends roughly 960 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GER-005",
+    "name": "Jonas Bauer",
+    "market": "Germany",
+    "archetype": "busy parent",
+    "age": 44,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Immune Health",
+      "Family Wellness",
+      "Convenience"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "supermarkets and convenient online delivery",
+    "annual_spend": 700,
+    "annual_spend_currency": "EUR",
+    "description": "Jonas Bauer is a 44-year-old busy parent in Germany who wants simple, reliable wellness for the whole family. With a middle income and medium digital fluency, he values convenience, bundles and easy reordering. Health priorities include Immune Health, Family Wellness, Convenience. He prefers daily supplements, probiotics and gut support, shops mainly via supermarkets and convenient online delivery, and spends roughly 700 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "GER-006",
+    "name": "Martin Schmidt",
+    "market": "Germany",
+    "archetype": "preventive-health adopter",
+    "age": 56,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Early Detection",
+      "Metabolic Health",
+      "Preventative Care"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "online diagnostics platforms",
+    "annual_spend": 1050,
+    "annual_spend_currency": "EUR",
+    "description": "Martin Schmidt is a 56-year-old preventive-health adopter in Germany who monitors health markers regularly to catch issues early. With a middle income and high digital fluency, he data-driven and comfortable with at-home testing. Health priorities include Early Detection, Metabolic Health, Preventative Care. He prefers at-home diagnostic kits, daily supplements, shops mainly via online diagnostics platforms, and spends roughly 1050 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GER-007",
+    "name": "Sophie Koch",
+    "market": "Germany",
+    "archetype": "biohacker and self-optimiser",
+    "age": 29,
+    "gender": "female",
+    "income_band": "Affluent",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Longevity",
+      "Sleep",
+      "Metabolic Health"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "cutting-edge D2C brands and subscriptions",
+    "annual_spend": 2150,
+    "annual_spend_currency": "EUR",
+    "description": "Sophie Koch is a 29-year-old biohacker and self-optimiser in Germany who treats health as a measurable system to continuously optimise. With a affluent income and high digital fluency, she an early adopter who combines wearables, diagnostics and personalised stacks. Health priorities include Longevity, Sleep, Metabolic Health. She prefers at-home diagnostic kits, daily supplements, probiotics and gut support, shops mainly via cutting-edge D2C brands and subscriptions, and spends roughly 2150 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "GER-008",
+    "name": "Anna Wolf",
+    "market": "Germany",
+    "archetype": "subscription-first consumer",
+    "age": 33,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Personalisation",
+      "Convenience",
+      "Everyday Wellness"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "monthly online subscriptions",
+    "annual_spend": 1130,
+    "annual_spend_currency": "EUR",
+    "description": "Anna Wolf is a 33-year-old subscription-first consumer in Germany who prefers set-and-forget wellness that arrives automatically. With a middle income and high digital fluency, she loyal to brands offering personalisation and easy management. Health priorities include Personalisation, Convenience, Everyday Wellness. She prefers daily supplements, probiotics and gut support, shops mainly via monthly online subscriptions, and spends roughly 1130 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GER-009",
+    "name": "Klaus Schwarz",
+    "market": "Germany",
+    "archetype": "social-led wellness enthusiast",
+    "age": 35,
+    "gender": "male",
+    "income_band": "Low",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Skin & Beauty",
+      "Trending Wellness",
+      "Energy"
+    ],
+    "preferred_categories": [
+      "Gut Health",
+      "Vitamins & Supplements",
+      "Weight Management"
+    ],
+    "preferred_channel": "influencer-driven social commerce",
+    "annual_spend": 830,
+    "annual_spend_currency": "EUR",
+    "description": "Klaus Schwarz is a 35-year-old social-led wellness enthusiast in Germany who discovers products through social media and community trends. With a low income and high digital fluency, he adopts new trends quickly and shares experiences online. Health priorities include Skin & Beauty, Trending Wellness, Energy. He prefers probiotics and gut support, daily supplements, weight-management and metabolic products, shops mainly via influencer-driven social commerce, and spends roughly 830 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "GER-010",
+    "name": "Heike Becker",
+    "market": "Germany",
+    "archetype": "weight-management seeker",
+    "age": 50,
+    "gender": "female",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Metabolic Health",
+      "Weight Loss",
+      "Appetite Control"
+    ],
+    "preferred_categories": [
+      "Weight Management",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "online programmes and pharmacies",
+    "annual_spend": 1360,
+    "annual_spend_currency": "EUR",
+    "description": "Heike Becker is a 50-year-old weight-management seeker in Germany who pursues sustainable weight goals, sometimes alongside GLP-1 therapy. With a high income and high digital fluency, she tracks progress closely and values nutritional support and coaching. Health priorities include Metabolic Health, Weight Loss, Appetite Control. She prefers weight-management and metabolic products, at-home diagnostic kits, shops mainly via online programmes and pharmacies, and spends roughly 1360 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GER-011",
+    "name": "Niklas Koch",
+    "market": "Germany",
+    "archetype": "sustainability-focused buyer",
+    "age": 37,
+    "gender": "male",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Healthy Aging",
+      "Sustainability",
+      "Clean Ingredients"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "eco-conscious premium brands",
+    "annual_spend": 1000,
+    "annual_spend_currency": "EUR",
+    "description": "Niklas Koch is a 37-year-old sustainability-focused buyer in Germany who chooses products aligned with environmental and ethical values. With a high income and high digital fluency, he scrutinises sourcing, packaging and clean-label credentials. Health priorities include Healthy Aging, Sustainability, Clean Ingredients. He prefers daily supplements, probiotics and gut support, shops mainly via eco-conscious premium brands, and spends roughly 1000 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GER-012",
+    "name": "Sven Wolf",
+    "market": "Germany",
+    "archetype": "chronic-condition monitor",
+    "age": 50,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Low",
+    "interests": [
+      "Cholesterol",
+      "Blood Sugar",
+      "Heart Health"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "pharmacies and healthcare providers",
+    "annual_spend": 870,
+    "annual_spend_currency": "EUR",
+    "description": "Sven Wolf is a 50-year-old chronic-condition monitor in Germany who manages ongoing risk factors and tracks them between GP visits. With a middle income and low digital fluency, he adheres to routine testing and doctor-aligned supplementation. Health priorities include Cholesterol, Blood Sugar, Heart Health. He prefers at-home diagnostic kits, daily supplements, shops mainly via pharmacies and healthcare providers, and spends roughly 870 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "GER-013",
+    "name": "Katrin Klein",
+    "market": "Germany",
+    "archetype": "digital-native decision maker",
+    "age": 25,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Energy",
+      "Personalisation",
+      "Gut Health"
+    ],
+    "preferred_categories": [
+      "Gut Health",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "mobile-first apps and marketplaces",
+    "annual_spend": 780,
+    "annual_spend_currency": "EUR",
+    "description": "Katrin Klein is a 25-year-old digital-native decision maker in Germany who relies on apps and reviews to guide every purchase. With a middle income and high digital fluency, she compares options rapidly and expects seamless digital experiences. Health priorities include Energy, Personalisation, Gut Health. She prefers probiotics and gut support, daily supplements, shops mainly via mobile-first apps and marketplaces, and spends roughly 780 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "GER-014",
+    "name": "Maximilian Schmidt",
+    "market": "Germany",
+    "archetype": "longevity innovator",
+    "age": 43,
+    "gender": "male",
+    "income_band": "Affluent",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Longevity",
+      "Preventative Care",
+      "Metabolic Health"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "clinical-grade wellness programmes",
+    "annual_spend": 2100,
+    "annual_spend_currency": "EUR",
+    "description": "Maximilian Schmidt is a 43-year-old longevity innovator in Germany who invests heavily in extending healthspan and measuring biological age. With a affluent income and high digital fluency, he participates in advanced testing and personalised longevity protocols. Health priorities include Longevity, Preventative Care, Metabolic Health. He prefers at-home diagnostic kits, daily supplements, shops mainly via clinical-grade wellness programmes, and spends roughly 2100 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "GER-015",
+    "name": "Katrin Schwarz",
+    "market": "Germany",
+    "archetype": "active retiree",
+    "age": 71,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Healthy Aging",
+      "Longevity",
+      "Preventative Care"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "pharmacies and trusted health retailers",
+    "annual_spend": 1180,
+    "annual_spend_currency": "EUR",
+    "description": "Katrin Schwarz is a 71-year-old active retiree in Germany who wants to stay independent and physically active well into later life. With a middle income and medium digital fluency, she prefers proven, clinically backed products and values pharmacist advice. Health priorities include Healthy Aging, Longevity, Preventative Care. She prefers daily supplements, at-home diagnostic kits, shops mainly via pharmacies and trusted health retailers, and spends roughly 1180 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "GER-016",
+    "name": "Michael Bauer",
+    "market": "Germany",
+    "archetype": "time-poor executive",
+    "age": 42,
+    "gender": "male",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Energy",
+      "Stress Management",
+      "Sleep"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "premium online subscriptions",
+    "annual_spend": 1990,
+    "annual_spend_currency": "EUR",
+    "description": "Michael Bauer is a 42-year-old time-poor executive in Germany who seeks to sustain high performance and manage stress under pressure. With a high income and high digital fluency, he willing to pay a premium for convenience and measurable results. Health priorities include Energy, Stress Management, Sleep. He prefers daily supplements, at-home diagnostic kits, shops mainly via premium online subscriptions, and spends roughly 1990 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GER-017",
+    "name": "Niklas Zimmermann",
+    "market": "Germany",
+    "archetype": "pharmacy-loyal shopper",
+    "age": 66,
+    "gender": "male",
+    "income_band": "Low",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Low",
+    "interests": [
+      "Immune Health",
+      "Everyday Wellness",
+      "Bone Health"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "local pharmacies",
+    "annual_spend": 590,
+    "annual_spend_currency": "EUR",
+    "description": "Niklas Zimmermann is a 66-year-old pharmacy-loyal shopper in Germany who relies on familiar brands and professional recommendations. With a low income and low digital fluency, he rarely experiments and prioritises trust and safety over novelty. Health priorities include Immune Health, Everyday Wellness, Bone Health. He prefers daily supplements, shops mainly via local pharmacies, and spends roughly 590 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "GER-018",
+    "name": "Karin Neumann",
+    "market": "Germany",
+    "archetype": "fitness professional",
+    "age": 24,
+    "gender": "female",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Performance Nutrition",
+      "Lean Muscle",
+      "Energy"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Weight Management"
+    ],
+    "preferred_channel": "specialist sports-nutrition retailers and online",
+    "annual_spend": 1260,
+    "annual_spend_currency": "EUR",
+    "description": "Karin Neumann is a 24-year-old fitness professional in Germany who optimises training, recovery and body composition. With a high income and high digital fluency, she reads labels closely and favours high-dosage, transparent formulas. Health priorities include Performance Nutrition, Lean Muscle, Energy. She prefers daily supplements, weight-management and metabolic products, shops mainly via specialist sports-nutrition retailers and online, and spends roughly 1260 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GER-019",
+    "name": "Anna Schneider",
+    "market": "Germany",
+    "archetype": "busy parent",
+    "age": 40,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Immune Health",
+      "Convenience",
+      "Family Wellness"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "supermarkets and convenient online delivery",
+    "annual_spend": 490,
+    "annual_spend_currency": "EUR",
+    "description": "Anna Schneider is a 40-year-old busy parent in Germany who wants simple, reliable wellness for the whole family. With a middle income and medium digital fluency, she values convenience, bundles and easy reordering. Health priorities include Immune Health, Convenience, Family Wellness. She prefers daily supplements, probiotics and gut support, shops mainly via supermarkets and convenient online delivery, and spends roughly 490 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "GER-020",
+    "name": "Sven Koch",
+    "market": "Germany",
+    "archetype": "preventive-health adopter",
+    "age": 47,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Preventative Care",
+      "Metabolic Health",
+      "Early Detection"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "online diagnostics platforms",
+    "annual_spend": 880,
+    "annual_spend_currency": "EUR",
+    "description": "Sven Koch is a 47-year-old preventive-health adopter in Germany who monitors health markers regularly to catch issues early. With a middle income and high digital fluency, he data-driven and comfortable with at-home testing. Health priorities include Preventative Care, Metabolic Health, Early Detection. He prefers at-home diagnostic kits, daily supplements, shops mainly via online diagnostics platforms, and spends roughly 880 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GER-021",
+    "name": "Florian Schäfer",
+    "market": "Germany",
+    "archetype": "biohacker and self-optimiser",
+    "age": 42,
+    "gender": "male",
+    "income_band": "High",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Sleep",
+      "Metabolic Health",
+      "Cognitive Performance"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "cutting-edge D2C brands and subscriptions",
+    "annual_spend": 1470,
+    "annual_spend_currency": "EUR",
+    "description": "Florian Schäfer is a 42-year-old biohacker and self-optimiser in Germany who treats health as a measurable system to continuously optimise. With a high income and high digital fluency, he an early adopter who combines wearables, diagnostics and personalised stacks. Health priorities include Sleep, Metabolic Health, Cognitive Performance. He prefers at-home diagnostic kits, daily supplements, probiotics and gut support, shops mainly via cutting-edge D2C brands and subscriptions, and spends roughly 1470 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "GER-022",
+    "name": "Niklas Wolf",
+    "market": "Germany",
+    "archetype": "subscription-first consumer",
+    "age": 35,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Everyday Wellness",
+      "Convenience",
+      "Personalisation"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "monthly online subscriptions",
+    "annual_spend": 540,
+    "annual_spend_currency": "EUR",
+    "description": "Niklas Wolf is a 35-year-old subscription-first consumer in Germany who prefers set-and-forget wellness that arrives automatically. With a middle income and high digital fluency, he loyal to brands offering personalisation and easy management. Health priorities include Everyday Wellness, Convenience, Personalisation. He prefers daily supplements, probiotics and gut support, shops mainly via monthly online subscriptions, and spends roughly 540 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GER-023",
+    "name": "Martin Fischer",
+    "market": "Germany",
+    "archetype": "social-led wellness enthusiast",
+    "age": 28,
+    "gender": "male",
+    "income_band": "Low",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Gut Health",
+      "Energy",
+      "Skin & Beauty"
+    ],
+    "preferred_categories": [
+      "Gut Health",
+      "Vitamins & Supplements",
+      "Weight Management"
+    ],
+    "preferred_channel": "influencer-driven social commerce",
+    "annual_spend": 400,
+    "annual_spend_currency": "EUR",
+    "description": "Martin Fischer is a 28-year-old social-led wellness enthusiast in Germany who discovers products through social media and community trends. With a low income and high digital fluency, he adopts new trends quickly and shares experiences online. Health priorities include Gut Health, Energy, Skin & Beauty. He prefers probiotics and gut support, daily supplements, weight-management and metabolic products, shops mainly via influencer-driven social commerce, and spends roughly 400 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "GER-024",
+    "name": "Maximilian Schneider",
+    "market": "Germany",
+    "archetype": "weight-management seeker",
+    "age": 46,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Weight Loss",
+      "Appetite Control",
+      "Metabolic Health"
+    ],
+    "preferred_categories": [
+      "Weight Management",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "online programmes and pharmacies",
+    "annual_spend": 1580,
+    "annual_spend_currency": "EUR",
+    "description": "Maximilian Schneider is a 46-year-old weight-management seeker in Germany who pursues sustainable weight goals, sometimes alongside GLP-1 therapy. With a middle income and high digital fluency, he tracks progress closely and values nutritional support and coaching. Health priorities include Weight Loss, Appetite Control, Metabolic Health. He prefers weight-management and metabolic products, at-home diagnostic kits, shops mainly via online programmes and pharmacies, and spends roughly 1580 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GER-025",
+    "name": "Nadine Schäfer",
+    "market": "Germany",
+    "archetype": "sustainability-focused buyer",
+    "age": 30,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Clean Ingredients",
+      "Sustainability",
+      "Healthy Aging"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "eco-conscious premium brands",
+    "annual_spend": 660,
+    "annual_spend_currency": "EUR",
+    "description": "Nadine Schäfer is a 30-year-old sustainability-focused buyer in Germany who chooses products aligned with environmental and ethical values. With a middle income and medium digital fluency, she scrutinises sourcing, packaging and clean-label credentials. Health priorities include Clean Ingredients, Sustainability, Healthy Aging. She prefers daily supplements, probiotics and gut support, shops mainly via eco-conscious premium brands, and spends roughly 660 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GER-026",
+    "name": "Jonas Hoffmann",
+    "market": "Germany",
+    "archetype": "chronic-condition monitor",
+    "age": 65,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Cholesterol",
+      "Early Detection",
+      "Heart Health"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "pharmacies and healthcare providers",
+    "annual_spend": 980,
+    "annual_spend_currency": "EUR",
+    "description": "Jonas Hoffmann is a 65-year-old chronic-condition monitor in Germany who manages ongoing risk factors and tracks them between GP visits. With a middle income and medium digital fluency, he adheres to routine testing and doctor-aligned supplementation. Health priorities include Cholesterol, Early Detection, Heart Health. He prefers at-home diagnostic kits, daily supplements, shops mainly via pharmacies and healthcare providers, and spends roughly 980 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "GER-027",
+    "name": "Katrin Bauer",
+    "market": "Germany",
+    "archetype": "digital-native decision maker",
+    "age": 27,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Convenience",
+      "Energy",
+      "Personalisation"
+    ],
+    "preferred_categories": [
+      "Gut Health",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "mobile-first apps and marketplaces",
+    "annual_spend": 450,
+    "annual_spend_currency": "EUR",
+    "description": "Katrin Bauer is a 27-year-old digital-native decision maker in Germany who relies on apps and reviews to guide every purchase. With a middle income and high digital fluency, she compares options rapidly and expects seamless digital experiences. Health priorities include Convenience, Energy, Personalisation. She prefers probiotics and gut support, daily supplements, shops mainly via mobile-first apps and marketplaces, and spends roughly 450 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "GER-028",
+    "name": "Martin Weber",
+    "market": "Germany",
+    "archetype": "longevity innovator",
+    "age": 59,
+    "gender": "male",
+    "income_band": "Affluent",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Longevity",
+      "Metabolic Health",
+      "Biological Age"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "clinical-grade wellness programmes",
+    "annual_spend": 2430,
+    "annual_spend_currency": "EUR",
+    "description": "Martin Weber is a 59-year-old longevity innovator in Germany who invests heavily in extending healthspan and measuring biological age. With a affluent income and high digital fluency, he participates in advanced testing and personalised longevity protocols. Health priorities include Longevity, Metabolic Health, Biological Age. He prefers at-home diagnostic kits, daily supplements, shops mainly via clinical-grade wellness programmes, and spends roughly 2430 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "GER-029",
+    "name": "Tobias Schäfer",
+    "market": "Germany",
+    "archetype": "active retiree",
+    "age": 70,
+    "gender": "male",
+    "income_band": "High",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Longevity",
+      "Healthy Aging",
+      "Heart Health"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "pharmacies and trusted health retailers",
+    "annual_spend": 1140,
+    "annual_spend_currency": "EUR",
+    "description": "Tobias Schäfer is a 70-year-old active retiree in Germany who wants to stay independent and physically active well into later life. With a high income and medium digital fluency, he prefers proven, clinically backed products and values pharmacist advice. Health priorities include Longevity, Healthy Aging, Heart Health. He prefers daily supplements, at-home diagnostic kits, shops mainly via pharmacies and trusted health retailers, and spends roughly 1140 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "GER-030",
+    "name": "Ingrid Schäfer",
+    "market": "Germany",
+    "archetype": "time-poor executive",
+    "age": 55,
+    "gender": "female",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Energy",
+      "Cognitive Performance",
+      "Stress Management"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "premium online subscriptions",
+    "annual_spend": 1200,
+    "annual_spend_currency": "EUR",
+    "description": "Ingrid Schäfer is a 55-year-old time-poor executive in Germany who seeks to sustain high performance and manage stress under pressure. With a high income and high digital fluency, she willing to pay a premium for convenience and measurable results. Health priorities include Energy, Cognitive Performance, Stress Management. She prefers daily supplements, at-home diagnostic kits, shops mainly via premium online subscriptions, and spends roughly 1200 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GER-031",
+    "name": "Michael Hoffmann",
+    "market": "Germany",
+    "archetype": "pharmacy-loyal shopper",
+    "age": 66,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Low",
+    "interests": [
+      "Bone Health",
+      "Immune Health",
+      "Everyday Wellness"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "local pharmacies",
+    "annual_spend": 640,
+    "annual_spend_currency": "EUR",
+    "description": "Michael Hoffmann is a 66-year-old pharmacy-loyal shopper in Germany who relies on familiar brands and professional recommendations. With a middle income and low digital fluency, he rarely experiments and prioritises trust and safety over novelty. Health priorities include Bone Health, Immune Health, Everyday Wellness. He prefers daily supplements, shops mainly via local pharmacies, and spends roughly 640 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "GER-032",
+    "name": "Monika Schmidt",
+    "market": "Germany",
+    "archetype": "fitness professional",
+    "age": 39,
+    "gender": "female",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Lean Muscle",
+      "Energy",
+      "Performance Nutrition"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Weight Management"
+    ],
+    "preferred_channel": "specialist sports-nutrition retailers and online",
+    "annual_spend": 1470,
+    "annual_spend_currency": "EUR",
+    "description": "Monika Schmidt is a 39-year-old fitness professional in Germany who optimises training, recovery and body composition. With a high income and medium digital fluency, she reads labels closely and favours high-dosage, transparent formulas. Health priorities include Lean Muscle, Energy, Performance Nutrition. She prefers daily supplements, weight-management and metabolic products, shops mainly via specialist sports-nutrition retailers and online, and spends roughly 1470 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GER-033",
+    "name": "Monika Becker",
+    "market": "Germany",
+    "archetype": "busy parent",
+    "age": 37,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Convenience",
+      "Family Wellness",
+      "Immune Health"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "supermarkets and convenient online delivery",
+    "annual_spend": 700,
+    "annual_spend_currency": "EUR",
+    "description": "Monika Becker is a 37-year-old busy parent in Germany who wants simple, reliable wellness for the whole family. With a middle income and medium digital fluency, she values convenience, bundles and easy reordering. Health priorities include Convenience, Family Wellness, Immune Health. She prefers daily supplements, probiotics and gut support, shops mainly via supermarkets and convenient online delivery, and spends roughly 700 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "GER-034",
+    "name": "Daniel Schwarz",
+    "market": "Germany",
+    "archetype": "preventive-health adopter",
+    "age": 42,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Metabolic Health",
+      "Early Detection",
+      "Preventative Care"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "online diagnostics platforms",
+    "annual_spend": 1080,
+    "annual_spend_currency": "EUR",
+    "description": "Daniel Schwarz is a 42-year-old preventive-health adopter in Germany who monitors health markers regularly to catch issues early. With a middle income and medium digital fluency, he data-driven and comfortable with at-home testing. Health priorities include Metabolic Health, Early Detection, Preventative Care. He prefers at-home diagnostic kits, daily supplements, shops mainly via online diagnostics platforms, and spends roughly 1080 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GER-035",
+    "name": "Maximilian Klein",
+    "market": "Germany",
+    "archetype": "biohacker and self-optimiser",
+    "age": 39,
+    "gender": "male",
+    "income_band": "High",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Longevity",
+      "Sleep",
+      "Cognitive Performance"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "cutting-edge D2C brands and subscriptions",
+    "annual_spend": 1930,
+    "annual_spend_currency": "EUR",
+    "description": "Maximilian Klein is a 39-year-old biohacker and self-optimiser in Germany who treats health as a measurable system to continuously optimise. With a high income and high digital fluency, he an early adopter who combines wearables, diagnostics and personalised stacks. Health priorities include Longevity, Sleep, Cognitive Performance. He prefers at-home diagnostic kits, daily supplements, probiotics and gut support, shops mainly via cutting-edge D2C brands and subscriptions, and spends roughly 1930 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "GER-036",
+    "name": "Petra Schmidt",
+    "market": "Germany",
+    "archetype": "subscription-first consumer",
+    "age": 34,
+    "gender": "female",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Convenience",
+      "Everyday Wellness",
+      "Personalisation"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "monthly online subscriptions",
+    "annual_spend": 600,
+    "annual_spend_currency": "EUR",
+    "description": "Petra Schmidt is a 34-year-old subscription-first consumer in Germany who prefers set-and-forget wellness that arrives automatically. With a high income and high digital fluency, she loyal to brands offering personalisation and easy management. Health priorities include Convenience, Everyday Wellness, Personalisation. She prefers daily supplements, probiotics and gut support, shops mainly via monthly online subscriptions, and spends roughly 600 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GER-037",
+    "name": "Monika Schneider",
+    "market": "Germany",
+    "archetype": "social-led wellness enthusiast",
+    "age": 29,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Skin & Beauty",
+      "Trending Wellness",
+      "Energy"
+    ],
+    "preferred_categories": [
+      "Gut Health",
+      "Vitamins & Supplements",
+      "Weight Management"
+    ],
+    "preferred_channel": "influencer-driven social commerce",
+    "annual_spend": 450,
+    "annual_spend_currency": "EUR",
+    "description": "Monika Schneider is a 29-year-old social-led wellness enthusiast in Germany who discovers products through social media and community trends. With a middle income and high digital fluency, she adopts new trends quickly and shares experiences online. Health priorities include Skin & Beauty, Trending Wellness, Energy. She prefers probiotics and gut support, daily supplements, weight-management and metabolic products, shops mainly via influencer-driven social commerce, and spends roughly 450 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "GER-038",
+    "name": "Birgit Becker",
+    "market": "Germany",
+    "archetype": "weight-management seeker",
+    "age": 48,
+    "gender": "female",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Weight Loss",
+      "Appetite Control",
+      "Metabolic Health"
+    ],
+    "preferred_categories": [
+      "Weight Management",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "online programmes and pharmacies",
+    "annual_spend": 1380,
+    "annual_spend_currency": "EUR",
+    "description": "Birgit Becker is a 48-year-old weight-management seeker in Germany who pursues sustainable weight goals, sometimes alongside GLP-1 therapy. With a high income and high digital fluency, she tracks progress closely and values nutritional support and coaching. Health priorities include Weight Loss, Appetite Control, Metabolic Health. She prefers weight-management and metabolic products, at-home diagnostic kits, shops mainly via online programmes and pharmacies, and spends roughly 1380 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GER-039",
+    "name": "Monika Müller",
+    "market": "Germany",
+    "archetype": "sustainability-focused buyer",
+    "age": 28,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Sustainability",
+      "Healthy Aging",
+      "Clean Ingredients"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "eco-conscious premium brands",
+    "annual_spend": 550,
+    "annual_spend_currency": "EUR",
+    "description": "Monika Müller is a 28-year-old sustainability-focused buyer in Germany who chooses products aligned with environmental and ethical values. With a middle income and medium digital fluency, she scrutinises sourcing, packaging and clean-label credentials. Health priorities include Sustainability, Healthy Aging, Clean Ingredients. She prefers daily supplements, probiotics and gut support, shops mainly via eco-conscious premium brands, and spends roughly 550 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GER-040",
+    "name": "Monika Koch",
+    "market": "Germany",
+    "archetype": "chronic-condition monitor",
+    "age": 53,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Low",
+    "interests": [
+      "Blood Sugar",
+      "Early Detection",
+      "Cholesterol"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "pharmacies and healthcare providers",
+    "annual_spend": 940,
+    "annual_spend_currency": "EUR",
+    "description": "Monika Koch is a 53-year-old chronic-condition monitor in Germany who manages ongoing risk factors and tracks them between GP visits. With a middle income and low digital fluency, she adheres to routine testing and doctor-aligned supplementation. Health priorities include Blood Sugar, Early Detection, Cholesterol. She prefers at-home diagnostic kits, daily supplements, shops mainly via pharmacies and healthcare providers, and spends roughly 940 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "GER-041",
+    "name": "Jonas Richter",
+    "market": "Germany",
+    "archetype": "digital-native decision maker",
+    "age": 23,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Convenience",
+      "Energy",
+      "Personalisation"
+    ],
+    "preferred_categories": [
+      "Gut Health",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "mobile-first apps and marketplaces",
+    "annual_spend": 570,
+    "annual_spend_currency": "EUR",
+    "description": "Jonas Richter is a 23-year-old digital-native decision maker in Germany who relies on apps and reviews to guide every purchase. With a middle income and high digital fluency, he compares options rapidly and expects seamless digital experiences. Health priorities include Convenience, Energy, Personalisation. He prefers probiotics and gut support, daily supplements, shops mainly via mobile-first apps and marketplaces, and spends roughly 570 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "GER-042",
+    "name": "Heike Schmidt",
+    "market": "Germany",
+    "archetype": "longevity innovator",
+    "age": 60,
+    "gender": "female",
+    "income_band": "Affluent",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Metabolic Health",
+      "Longevity",
+      "Biological Age"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "clinical-grade wellness programmes",
+    "annual_spend": 2070,
+    "annual_spend_currency": "EUR",
+    "description": "Heike Schmidt is a 60-year-old longevity innovator in Germany who invests heavily in extending healthspan and measuring biological age. With a affluent income and high digital fluency, she participates in advanced testing and personalised longevity protocols. Health priorities include Metabolic Health, Longevity, Biological Age. She prefers at-home diagnostic kits, daily supplements, shops mainly via clinical-grade wellness programmes, and spends roughly 2070 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "GER-043",
+    "name": "Niklas Weber",
+    "market": "Germany",
+    "archetype": "active retiree",
+    "age": 67,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Heart Health",
+      "Preventative Care",
+      "Longevity"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "pharmacies and trusted health retailers",
+    "annual_spend": 690,
+    "annual_spend_currency": "EUR",
+    "description": "Niklas Weber is a 67-year-old active retiree in Germany who wants to stay independent and physically active well into later life. With a middle income and medium digital fluency, he prefers proven, clinically backed products and values pharmacist advice. Health priorities include Heart Health, Preventative Care, Longevity. He prefers daily supplements, at-home diagnostic kits, shops mainly via pharmacies and trusted health retailers, and spends roughly 690 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "GER-044",
+    "name": "Lena Zimmermann",
+    "market": "Germany",
+    "archetype": "time-poor executive",
+    "age": 41,
+    "gender": "female",
+    "income_band": "Affluent",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Energy",
+      "Stress Management",
+      "Cognitive Performance"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "premium online subscriptions",
+    "annual_spend": 1260,
+    "annual_spend_currency": "EUR",
+    "description": "Lena Zimmermann is a 41-year-old time-poor executive in Germany who seeks to sustain high performance and manage stress under pressure. With a affluent income and high digital fluency, she willing to pay a premium for convenience and measurable results. Health priorities include Energy, Stress Management, Cognitive Performance. She prefers daily supplements, at-home diagnostic kits, shops mainly via premium online subscriptions, and spends roughly 1260 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GER-045",
+    "name": "Vanessa Wagner",
+    "market": "Germany",
+    "archetype": "pharmacy-loyal shopper",
+    "age": 59,
+    "gender": "female",
+    "income_band": "Low",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Low",
+    "interests": [
+      "Immune Health",
+      "Everyday Wellness",
+      "Bone Health"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "local pharmacies",
+    "annual_spend": 620,
+    "annual_spend_currency": "EUR",
+    "description": "Vanessa Wagner is a 59-year-old pharmacy-loyal shopper in Germany who relies on familiar brands and professional recommendations. With a low income and low digital fluency, she rarely experiments and prioritises trust and safety over novelty. Health priorities include Immune Health, Everyday Wellness, Bone Health. She prefers daily supplements, shops mainly via local pharmacies, and spends roughly 620 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "GER-046",
+    "name": "Maximilian Braun",
+    "market": "Germany",
+    "archetype": "fitness professional",
+    "age": 29,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Lean Muscle",
+      "Energy",
+      "Performance Nutrition"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Weight Management"
+    ],
+    "preferred_channel": "specialist sports-nutrition retailers and online",
+    "annual_spend": 1230,
+    "annual_spend_currency": "EUR",
+    "description": "Maximilian Braun is a 29-year-old fitness professional in Germany who optimises training, recovery and body composition. With a middle income and medium digital fluency, he reads labels closely and favours high-dosage, transparent formulas. Health priorities include Lean Muscle, Energy, Performance Nutrition. He prefers daily supplements, weight-management and metabolic products, shops mainly via specialist sports-nutrition retailers and online, and spends roughly 1230 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GER-047",
+    "name": "Nadine Schneider",
+    "market": "Germany",
+    "archetype": "busy parent",
+    "age": 45,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Immune Health",
+      "Family Wellness",
+      "Convenience"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "supermarkets and convenient online delivery",
+    "annual_spend": 460,
+    "annual_spend_currency": "EUR",
+    "description": "Nadine Schneider is a 45-year-old busy parent in Germany who wants simple, reliable wellness for the whole family. With a middle income and medium digital fluency, she values convenience, bundles and easy reordering. Health priorities include Immune Health, Family Wellness, Convenience. She prefers daily supplements, probiotics and gut support, shops mainly via supermarkets and convenient online delivery, and spends roughly 460 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "GER-048",
+    "name": "Karin Weber",
+    "market": "Germany",
+    "archetype": "preventive-health adopter",
+    "age": 39,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Metabolic Health",
+      "Early Detection",
+      "Preventative Care"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "online diagnostics platforms",
+    "annual_spend": 960,
+    "annual_spend_currency": "EUR",
+    "description": "Karin Weber is a 39-year-old preventive-health adopter in Germany who monitors health markers regularly to catch issues early. With a middle income and high digital fluency, she data-driven and comfortable with at-home testing. Health priorities include Metabolic Health, Early Detection, Preventative Care. She prefers at-home diagnostic kits, daily supplements, shops mainly via online diagnostics platforms, and spends roughly 960 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GER-049",
+    "name": "Michael Richter",
+    "market": "Germany",
+    "archetype": "biohacker and self-optimiser",
+    "age": 42,
+    "gender": "male",
+    "income_band": "Affluent",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Metabolic Health",
+      "Cognitive Performance",
+      "Sleep"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "cutting-edge D2C brands and subscriptions",
+    "annual_spend": 2060,
+    "annual_spend_currency": "EUR",
+    "description": "Michael Richter is a 42-year-old biohacker and self-optimiser in Germany who treats health as a measurable system to continuously optimise. With a affluent income and high digital fluency, he an early adopter who combines wearables, diagnostics and personalised stacks. Health priorities include Metabolic Health, Cognitive Performance, Sleep. He prefers at-home diagnostic kits, daily supplements, probiotics and gut support, shops mainly via cutting-edge D2C brands and subscriptions, and spends roughly 2060 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "GER-050",
+    "name": "Monika Weber",
+    "market": "Germany",
+    "archetype": "subscription-first consumer",
+    "age": 28,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Convenience",
+      "Personalisation",
+      "Everyday Wellness"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "monthly online subscriptions",
+    "annual_spend": 930,
+    "annual_spend_currency": "EUR",
+    "description": "Monika Weber is a 28-year-old subscription-first consumer in Germany who prefers set-and-forget wellness that arrives automatically. With a middle income and high digital fluency, she loyal to brands offering personalisation and easy management. Health priorities include Convenience, Personalisation, Everyday Wellness. She prefers daily supplements, probiotics and gut support, shops mainly via monthly online subscriptions, and spends roughly 930 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GBR-001",
+    "name": "Chris Taylor",
+    "market": "UK",
+    "archetype": "active retiree",
+    "age": 75,
+    "gender": "male",
+    "income_band": "High",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Preventative Care",
+      "Healthy Aging",
+      "Heart Health"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "pharmacies and trusted health retailers",
+    "annual_spend": 1170,
+    "annual_spend_currency": "GBP",
+    "description": "Chris Taylor is a 75-year-old active retiree in UK who wants to stay independent and physically active well into later life. With a high income and medium digital fluency, he prefers proven, clinically backed products and values pharmacist advice. Health priorities include Preventative Care, Healthy Aging, Heart Health. He prefers daily supplements, at-home diagnostic kits, shops mainly via pharmacies and trusted health retailers, and spends roughly 1170 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "GBR-002",
+    "name": "Grace Walker",
+    "market": "UK",
+    "archetype": "time-poor executive",
+    "age": 38,
+    "gender": "female",
+    "income_band": "Affluent",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Sleep",
+      "Stress Management",
+      "Cognitive Performance"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "premium online subscriptions",
+    "annual_spend": 1080,
+    "annual_spend_currency": "GBP",
+    "description": "Grace Walker is a 38-year-old time-poor executive in UK who seeks to sustain high performance and manage stress under pressure. With a affluent income and medium digital fluency, she willing to pay a premium for convenience and measurable results. Health priorities include Sleep, Stress Management, Cognitive Performance. She prefers daily supplements, at-home diagnostic kits, shops mainly via premium online subscriptions, and spends roughly 1080 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GBR-003",
+    "name": "Sophie Thomas",
+    "market": "UK",
+    "archetype": "pharmacy-loyal shopper",
+    "age": 48,
+    "gender": "female",
+    "income_band": "Low",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Low",
+    "interests": [
+      "Immune Health",
+      "Everyday Wellness",
+      "Bone Health"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "local pharmacies",
+    "annual_spend": 660,
+    "annual_spend_currency": "GBP",
+    "description": "Sophie Thomas is a 48-year-old pharmacy-loyal shopper in UK who relies on familiar brands and professional recommendations. With a low income and low digital fluency, she rarely experiments and prioritises trust and safety over novelty. Health priorities include Immune Health, Everyday Wellness, Bone Health. She prefers daily supplements, shops mainly via local pharmacies, and spends roughly 660 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "GBR-004",
+    "name": "Chris Walker",
+    "market": "UK",
+    "archetype": "fitness professional",
+    "age": 24,
+    "gender": "male",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Performance Nutrition",
+      "Lean Muscle",
+      "Energy"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Weight Management"
+    ],
+    "preferred_channel": "specialist sports-nutrition retailers and online",
+    "annual_spend": 890,
+    "annual_spend_currency": "GBP",
+    "description": "Chris Walker is a 24-year-old fitness professional in UK who optimises training, recovery and body composition. With a high income and high digital fluency, he reads labels closely and favours high-dosage, transparent formulas. Health priorities include Performance Nutrition, Lean Muscle, Energy. He prefers daily supplements, weight-management and metabolic products, shops mainly via specialist sports-nutrition retailers and online, and spends roughly 890 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GBR-005",
+    "name": "James Jones",
+    "market": "UK",
+    "archetype": "busy parent",
+    "age": 43,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Immune Health",
+      "Family Wellness",
+      "Convenience"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "supermarkets and convenient online delivery",
+    "annual_spend": 760,
+    "annual_spend_currency": "GBP",
+    "description": "James Jones is a 43-year-old busy parent in UK who wants simple, reliable wellness for the whole family. With a middle income and medium digital fluency, he values convenience, bundles and easy reordering. Health priorities include Immune Health, Family Wellness, Convenience. He prefers daily supplements, probiotics and gut support, shops mainly via supermarkets and convenient online delivery, and spends roughly 760 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "GBR-006",
+    "name": "Chloe Evans",
+    "market": "UK",
+    "archetype": "preventive-health adopter",
+    "age": 50,
+    "gender": "female",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Early Detection",
+      "Preventative Care",
+      "Metabolic Health"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "online diagnostics platforms",
+    "annual_spend": 1010,
+    "annual_spend_currency": "GBP",
+    "description": "Chloe Evans is a 50-year-old preventive-health adopter in UK who monitors health markers regularly to catch issues early. With a high income and high digital fluency, she data-driven and comfortable with at-home testing. Health priorities include Early Detection, Preventative Care, Metabolic Health. She prefers at-home diagnostic kits, daily supplements, shops mainly via online diagnostics platforms, and spends roughly 1010 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GBR-007",
+    "name": "Lucy Jones",
+    "market": "UK",
+    "archetype": "biohacker and self-optimiser",
+    "age": 42,
+    "gender": "female",
+    "income_band": "High",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Cognitive Performance",
+      "Sleep",
+      "Longevity"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "cutting-edge D2C brands and subscriptions",
+    "annual_spend": 1640,
+    "annual_spend_currency": "GBP",
+    "description": "Lucy Jones is a 42-year-old biohacker and self-optimiser in UK who treats health as a measurable system to continuously optimise. With a high income and high digital fluency, she an early adopter who combines wearables, diagnostics and personalised stacks. Health priorities include Cognitive Performance, Sleep, Longevity. She prefers at-home diagnostic kits, daily supplements, probiotics and gut support, shops mainly via cutting-edge D2C brands and subscriptions, and spends roughly 1640 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "GBR-008",
+    "name": "Rebecca Wilson",
+    "market": "UK",
+    "archetype": "subscription-first consumer",
+    "age": 28,
+    "gender": "female",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Everyday Wellness",
+      "Personalisation",
+      "Convenience"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "monthly online subscriptions",
+    "annual_spend": 990,
+    "annual_spend_currency": "GBP",
+    "description": "Rebecca Wilson is a 28-year-old subscription-first consumer in UK who prefers set-and-forget wellness that arrives automatically. With a high income and high digital fluency, she loyal to brands offering personalisation and easy management. Health priorities include Everyday Wellness, Personalisation, Convenience. She prefers daily supplements, probiotics and gut support, shops mainly via monthly online subscriptions, and spends roughly 990 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GBR-009",
+    "name": "Sophie Smith",
+    "market": "UK",
+    "archetype": "social-led wellness enthusiast",
+    "age": 34,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Gut Health",
+      "Energy",
+      "Trending Wellness"
+    ],
+    "preferred_categories": [
+      "Gut Health",
+      "Vitamins & Supplements",
+      "Weight Management"
+    ],
+    "preferred_channel": "influencer-driven social commerce",
+    "annual_spend": 660,
+    "annual_spend_currency": "GBP",
+    "description": "Sophie Smith is a 34-year-old social-led wellness enthusiast in UK who discovers products through social media and community trends. With a middle income and high digital fluency, she adopts new trends quickly and shares experiences online. Health priorities include Gut Health, Energy, Trending Wellness. She prefers probiotics and gut support, daily supplements, weight-management and metabolic products, shops mainly via influencer-driven social commerce, and spends roughly 660 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "GBR-010",
+    "name": "Daniel Thomas",
+    "market": "UK",
+    "archetype": "weight-management seeker",
+    "age": 33,
+    "gender": "male",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Appetite Control",
+      "Weight Loss",
+      "Metabolic Health"
+    ],
+    "preferred_categories": [
+      "Weight Management",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "online programmes and pharmacies",
+    "annual_spend": 950,
+    "annual_spend_currency": "GBP",
+    "description": "Daniel Thomas is a 33-year-old weight-management seeker in UK who pursues sustainable weight goals, sometimes alongside GLP-1 therapy. With a high income and medium digital fluency, he tracks progress closely and values nutritional support and coaching. Health priorities include Appetite Control, Weight Loss, Metabolic Health. He prefers weight-management and metabolic products, at-home diagnostic kits, shops mainly via online programmes and pharmacies, and spends roughly 950 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GBR-011",
+    "name": "Harry Brown",
+    "market": "UK",
+    "archetype": "sustainability-focused buyer",
+    "age": 42,
+    "gender": "male",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Sustainability",
+      "Clean Ingredients",
+      "Healthy Aging"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "eco-conscious premium brands",
+    "annual_spend": 1200,
+    "annual_spend_currency": "GBP",
+    "description": "Harry Brown is a 42-year-old sustainability-focused buyer in UK who chooses products aligned with environmental and ethical values. With a high income and high digital fluency, he scrutinises sourcing, packaging and clean-label credentials. Health priorities include Sustainability, Clean Ingredients, Healthy Aging. He prefers daily supplements, probiotics and gut support, shops mainly via eco-conscious premium brands, and spends roughly 1200 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GBR-012",
+    "name": "Jacob Hall",
+    "market": "UK",
+    "archetype": "chronic-condition monitor",
+    "age": 48,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Low",
+    "interests": [
+      "Blood Sugar",
+      "Cholesterol",
+      "Heart Health"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "pharmacies and healthcare providers",
+    "annual_spend": 780,
+    "annual_spend_currency": "GBP",
+    "description": "Jacob Hall is a 48-year-old chronic-condition monitor in UK who manages ongoing risk factors and tracks them between GP visits. With a middle income and low digital fluency, he adheres to routine testing and doctor-aligned supplementation. Health priorities include Blood Sugar, Cholesterol, Heart Health. He prefers at-home diagnostic kits, daily supplements, shops mainly via pharmacies and healthcare providers, and spends roughly 780 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "GBR-013",
+    "name": "Ryan Jones",
+    "market": "UK",
+    "archetype": "digital-native decision maker",
+    "age": 25,
+    "gender": "male",
+    "income_band": "Low",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Gut Health",
+      "Personalisation",
+      "Energy"
+    ],
+    "preferred_categories": [
+      "Gut Health",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "mobile-first apps and marketplaces",
+    "annual_spend": 300,
+    "annual_spend_currency": "GBP",
+    "description": "Ryan Jones is a 25-year-old digital-native decision maker in UK who relies on apps and reviews to guide every purchase. With a low income and high digital fluency, he compares options rapidly and expects seamless digital experiences. Health priorities include Gut Health, Personalisation, Energy. He prefers probiotics and gut support, daily supplements, shops mainly via mobile-first apps and marketplaces, and spends roughly 300 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "GBR-014",
+    "name": "Nathan Hall",
+    "market": "UK",
+    "archetype": "longevity innovator",
+    "age": 53,
+    "gender": "male",
+    "income_band": "Affluent",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Biological Age",
+      "Preventative Care",
+      "Metabolic Health"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "clinical-grade wellness programmes",
+    "annual_spend": 2400,
+    "annual_spend_currency": "GBP",
+    "description": "Nathan Hall is a 53-year-old longevity innovator in UK who invests heavily in extending healthspan and measuring biological age. With a affluent income and high digital fluency, he participates in advanced testing and personalised longevity protocols. Health priorities include Biological Age, Preventative Care, Metabolic Health. He prefers at-home diagnostic kits, daily supplements, shops mainly via clinical-grade wellness programmes, and spends roughly 2400 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "GBR-015",
+    "name": "James Williams",
+    "market": "UK",
+    "archetype": "active retiree",
+    "age": 65,
+    "gender": "male",
+    "income_band": "High",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Heart Health",
+      "Longevity",
+      "Healthy Aging"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "pharmacies and trusted health retailers",
+    "annual_spend": 1160,
+    "annual_spend_currency": "GBP",
+    "description": "James Williams is a 65-year-old active retiree in UK who wants to stay independent and physically active well into later life. With a high income and medium digital fluency, he prefers proven, clinically backed products and values pharmacist advice. Health priorities include Heart Health, Longevity, Healthy Aging. He prefers daily supplements, at-home diagnostic kits, shops mainly via pharmacies and trusted health retailers, and spends roughly 1160 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "GBR-016",
+    "name": "Grace Williams",
+    "market": "UK",
+    "archetype": "time-poor executive",
+    "age": 47,
+    "gender": "female",
+    "income_band": "Affluent",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Energy",
+      "Stress Management",
+      "Sleep"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "premium online subscriptions",
+    "annual_spend": 1040,
+    "annual_spend_currency": "GBP",
+    "description": "Grace Williams is a 47-year-old time-poor executive in UK who seeks to sustain high performance and manage stress under pressure. With a affluent income and high digital fluency, she willing to pay a premium for convenience and measurable results. Health priorities include Energy, Stress Management, Sleep. She prefers daily supplements, at-home diagnostic kits, shops mainly via premium online subscriptions, and spends roughly 1040 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GBR-017",
+    "name": "Freya Taylor",
+    "market": "UK",
+    "archetype": "pharmacy-loyal shopper",
+    "age": 50,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Low",
+    "interests": [
+      "Everyday Wellness",
+      "Immune Health",
+      "Bone Health"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "local pharmacies",
+    "annual_spend": 340,
+    "annual_spend_currency": "GBP",
+    "description": "Freya Taylor is a 50-year-old pharmacy-loyal shopper in UK who relies on familiar brands and professional recommendations. With a middle income and low digital fluency, she rarely experiments and prioritises trust and safety over novelty. Health priorities include Everyday Wellness, Immune Health, Bone Health. She prefers daily supplements, shops mainly via local pharmacies, and spends roughly 340 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "GBR-018",
+    "name": "Barbara Green",
+    "market": "UK",
+    "archetype": "fitness professional",
+    "age": 38,
+    "gender": "female",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Performance Nutrition",
+      "Lean Muscle",
+      "Recovery"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Weight Management"
+    ],
+    "preferred_channel": "specialist sports-nutrition retailers and online",
+    "annual_spend": 820,
+    "annual_spend_currency": "GBP",
+    "description": "Barbara Green is a 38-year-old fitness professional in UK who optimises training, recovery and body composition. With a high income and medium digital fluency, she reads labels closely and favours high-dosage, transparent formulas. Health priorities include Performance Nutrition, Lean Muscle, Recovery. She prefers daily supplements, weight-management and metabolic products, shops mainly via specialist sports-nutrition retailers and online, and spends roughly 820 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GBR-019",
+    "name": "Emma Brown",
+    "market": "UK",
+    "archetype": "busy parent",
+    "age": 42,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Family Wellness",
+      "Convenience",
+      "Immune Health"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "supermarkets and convenient online delivery",
+    "annual_spend": 720,
+    "annual_spend_currency": "GBP",
+    "description": "Emma Brown is a 42-year-old busy parent in UK who wants simple, reliable wellness for the whole family. With a middle income and medium digital fluency, she values convenience, bundles and easy reordering. Health priorities include Family Wellness, Convenience, Immune Health. She prefers daily supplements, probiotics and gut support, shops mainly via supermarkets and convenient online delivery, and spends roughly 720 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "GBR-020",
+    "name": "Charlie Robinson",
+    "market": "UK",
+    "archetype": "preventive-health adopter",
+    "age": 38,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Preventative Care",
+      "Metabolic Health",
+      "Early Detection"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "online diagnostics platforms",
+    "annual_spend": 1390,
+    "annual_spend_currency": "GBP",
+    "description": "Charlie Robinson is a 38-year-old preventive-health adopter in UK who monitors health markers regularly to catch issues early. With a middle income and medium digital fluency, he data-driven and comfortable with at-home testing. Health priorities include Preventative Care, Metabolic Health, Early Detection. He prefers at-home diagnostic kits, daily supplements, shops mainly via online diagnostics platforms, and spends roughly 1390 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GBR-021",
+    "name": "Thomas Taylor",
+    "market": "UK",
+    "archetype": "biohacker and self-optimiser",
+    "age": 31,
+    "gender": "male",
+    "income_band": "Affluent",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Cognitive Performance",
+      "Sleep",
+      "Metabolic Health"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "cutting-edge D2C brands and subscriptions",
+    "annual_spend": 1810,
+    "annual_spend_currency": "GBP",
+    "description": "Thomas Taylor is a 31-year-old biohacker and self-optimiser in UK who treats health as a measurable system to continuously optimise. With a affluent income and high digital fluency, he an early adopter who combines wearables, diagnostics and personalised stacks. Health priorities include Cognitive Performance, Sleep, Metabolic Health. He prefers at-home diagnostic kits, daily supplements, probiotics and gut support, shops mainly via cutting-edge D2C brands and subscriptions, and spends roughly 1810 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "GBR-022",
+    "name": "Ella Taylor",
+    "market": "UK",
+    "archetype": "subscription-first consumer",
+    "age": 27,
+    "gender": "female",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Personalisation",
+      "Everyday Wellness",
+      "Convenience"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "monthly online subscriptions",
+    "annual_spend": 560,
+    "annual_spend_currency": "GBP",
+    "description": "Ella Taylor is a 27-year-old subscription-first consumer in UK who prefers set-and-forget wellness that arrives automatically. With a high income and high digital fluency, she loyal to brands offering personalisation and easy management. Health priorities include Personalisation, Everyday Wellness, Convenience. She prefers daily supplements, probiotics and gut support, shops mainly via monthly online subscriptions, and spends roughly 560 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GBR-023",
+    "name": "Ryan Robinson",
+    "market": "UK",
+    "archetype": "social-led wellness enthusiast",
+    "age": 34,
+    "gender": "male",
+    "income_band": "Low",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Gut Health",
+      "Skin & Beauty",
+      "Trending Wellness"
+    ],
+    "preferred_categories": [
+      "Gut Health",
+      "Vitamins & Supplements",
+      "Weight Management"
+    ],
+    "preferred_channel": "influencer-driven social commerce",
+    "annual_spend": 370,
+    "annual_spend_currency": "GBP",
+    "description": "Ryan Robinson is a 34-year-old social-led wellness enthusiast in UK who discovers products through social media and community trends. With a low income and high digital fluency, he adopts new trends quickly and shares experiences online. Health priorities include Gut Health, Skin & Beauty, Trending Wellness. He prefers probiotics and gut support, daily supplements, weight-management and metabolic products, shops mainly via influencer-driven social commerce, and spends roughly 370 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "GBR-024",
+    "name": "Freya Hughes",
+    "market": "UK",
+    "archetype": "weight-management seeker",
+    "age": 44,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Appetite Control",
+      "Weight Loss",
+      "Metabolic Health"
+    ],
+    "preferred_categories": [
+      "Weight Management",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "online programmes and pharmacies",
+    "annual_spend": 700,
+    "annual_spend_currency": "GBP",
+    "description": "Freya Hughes is a 44-year-old weight-management seeker in UK who pursues sustainable weight goals, sometimes alongside GLP-1 therapy. With a middle income and medium digital fluency, she tracks progress closely and values nutritional support and coaching. Health priorities include Appetite Control, Weight Loss, Metabolic Health. She prefers weight-management and metabolic products, at-home diagnostic kits, shops mainly via online programmes and pharmacies, and spends roughly 700 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GBR-025",
+    "name": "Callum Smith",
+    "market": "UK",
+    "archetype": "sustainability-focused buyer",
+    "age": 48,
+    "gender": "male",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Sustainability",
+      "Clean Ingredients",
+      "Healthy Aging"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "eco-conscious premium brands",
+    "annual_spend": 1200,
+    "annual_spend_currency": "GBP",
+    "description": "Callum Smith is a 48-year-old sustainability-focused buyer in UK who chooses products aligned with environmental and ethical values. With a high income and medium digital fluency, he scrutinises sourcing, packaging and clean-label credentials. Health priorities include Sustainability, Clean Ingredients, Healthy Aging. He prefers daily supplements, probiotics and gut support, shops mainly via eco-conscious premium brands, and spends roughly 1200 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GBR-026",
+    "name": "Daniel White",
+    "market": "UK",
+    "archetype": "chronic-condition monitor",
+    "age": 70,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Low",
+    "interests": [
+      "Heart Health",
+      "Blood Sugar",
+      "Cholesterol"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "pharmacies and healthcare providers",
+    "annual_spend": 580,
+    "annual_spend_currency": "GBP",
+    "description": "Daniel White is a 70-year-old chronic-condition monitor in UK who manages ongoing risk factors and tracks them between GP visits. With a middle income and low digital fluency, he adheres to routine testing and doctor-aligned supplementation. Health priorities include Heart Health, Blood Sugar, Cholesterol. He prefers at-home diagnostic kits, daily supplements, shops mainly via pharmacies and healthcare providers, and spends roughly 580 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "GBR-027",
+    "name": "Oliver Hughes",
+    "market": "UK",
+    "archetype": "digital-native decision maker",
+    "age": 30,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Personalisation",
+      "Gut Health",
+      "Convenience"
+    ],
+    "preferred_categories": [
+      "Gut Health",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "mobile-first apps and marketplaces",
+    "annual_spend": 430,
+    "annual_spend_currency": "GBP",
+    "description": "Oliver Hughes is a 30-year-old digital-native decision maker in UK who relies on apps and reviews to guide every purchase. With a middle income and high digital fluency, he compares options rapidly and expects seamless digital experiences. Health priorities include Personalisation, Gut Health, Convenience. He prefers probiotics and gut support, daily supplements, shops mainly via mobile-first apps and marketplaces, and spends roughly 430 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "GBR-028",
+    "name": "Thomas Green",
+    "market": "UK",
+    "archetype": "longevity innovator",
+    "age": 43,
+    "gender": "male",
+    "income_band": "Affluent",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Biological Age",
+      "Preventative Care",
+      "Metabolic Health"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "clinical-grade wellness programmes",
+    "annual_spend": 2150,
+    "annual_spend_currency": "GBP",
+    "description": "Thomas Green is a 43-year-old longevity innovator in UK who invests heavily in extending healthspan and measuring biological age. With a affluent income and high digital fluency, he participates in advanced testing and personalised longevity protocols. Health priorities include Biological Age, Preventative Care, Metabolic Health. He prefers at-home diagnostic kits, daily supplements, shops mainly via clinical-grade wellness programmes, and spends roughly 2150 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "GBR-029",
+    "name": "Poppy Thomas",
+    "market": "UK",
+    "archetype": "active retiree",
+    "age": 63,
+    "gender": "female",
+    "income_band": "High",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Longevity",
+      "Preventative Care",
+      "Healthy Aging"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "pharmacies and trusted health retailers",
+    "annual_spend": 1160,
+    "annual_spend_currency": "GBP",
+    "description": "Poppy Thomas is a 63-year-old active retiree in UK who wants to stay independent and physically active well into later life. With a high income and medium digital fluency, she prefers proven, clinically backed products and values pharmacist advice. Health priorities include Longevity, Preventative Care, Healthy Aging. She prefers daily supplements, at-home diagnostic kits, shops mainly via pharmacies and trusted health retailers, and spends roughly 1160 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "GBR-030",
+    "name": "Joseph Brown",
+    "market": "UK",
+    "archetype": "time-poor executive",
+    "age": 48,
+    "gender": "male",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Stress Management",
+      "Sleep",
+      "Energy"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "premium online subscriptions",
+    "annual_spend": 1720,
+    "annual_spend_currency": "GBP",
+    "description": "Joseph Brown is a 48-year-old time-poor executive in UK who seeks to sustain high performance and manage stress under pressure. With a high income and medium digital fluency, he willing to pay a premium for convenience and measurable results. Health priorities include Stress Management, Sleep, Energy. He prefers daily supplements, at-home diagnostic kits, shops mainly via premium online subscriptions, and spends roughly 1720 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GBR-031",
+    "name": "Ethan Wright",
+    "market": "UK",
+    "archetype": "pharmacy-loyal shopper",
+    "age": 58,
+    "gender": "male",
+    "income_band": "Low",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Low",
+    "interests": [
+      "Immune Health",
+      "Bone Health",
+      "Everyday Wellness"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "local pharmacies",
+    "annual_spend": 520,
+    "annual_spend_currency": "GBP",
+    "description": "Ethan Wright is a 58-year-old pharmacy-loyal shopper in UK who relies on familiar brands and professional recommendations. With a low income and low digital fluency, he rarely experiments and prioritises trust and safety over novelty. Health priorities include Immune Health, Bone Health, Everyday Wellness. He prefers daily supplements, shops mainly via local pharmacies, and spends roughly 520 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "GBR-032",
+    "name": "Nathan Wilson",
+    "market": "UK",
+    "archetype": "fitness professional",
+    "age": 31,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Recovery",
+      "Performance Nutrition",
+      "Lean Muscle"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Weight Management"
+    ],
+    "preferred_channel": "specialist sports-nutrition retailers and online",
+    "annual_spend": 1000,
+    "annual_spend_currency": "GBP",
+    "description": "Nathan Wilson is a 31-year-old fitness professional in UK who optimises training, recovery and body composition. With a middle income and medium digital fluency, he reads labels closely and favours high-dosage, transparent formulas. Health priorities include Recovery, Performance Nutrition, Lean Muscle. He prefers daily supplements, weight-management and metabolic products, shops mainly via specialist sports-nutrition retailers and online, and spends roughly 1000 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GBR-033",
+    "name": "James Thompson",
+    "market": "UK",
+    "archetype": "busy parent",
+    "age": 40,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Convenience",
+      "Immune Health",
+      "Family Wellness"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "supermarkets and convenient online delivery",
+    "annual_spend": 620,
+    "annual_spend_currency": "GBP",
+    "description": "James Thompson is a 40-year-old busy parent in UK who wants simple, reliable wellness for the whole family. With a middle income and medium digital fluency, he values convenience, bundles and easy reordering. Health priorities include Convenience, Immune Health, Family Wellness. He prefers daily supplements, probiotics and gut support, shops mainly via supermarkets and convenient online delivery, and spends roughly 620 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "GBR-034",
+    "name": "Olivia Hughes",
+    "market": "UK",
+    "archetype": "preventive-health adopter",
+    "age": 44,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Early Detection",
+      "Metabolic Health",
+      "Preventative Care"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "online diagnostics platforms",
+    "annual_spend": 930,
+    "annual_spend_currency": "GBP",
+    "description": "Olivia Hughes is a 44-year-old preventive-health adopter in UK who monitors health markers regularly to catch issues early. With a middle income and high digital fluency, she data-driven and comfortable with at-home testing. Health priorities include Early Detection, Metabolic Health, Preventative Care. She prefers at-home diagnostic kits, daily supplements, shops mainly via online diagnostics platforms, and spends roughly 930 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GBR-035",
+    "name": "Alice Evans",
+    "market": "UK",
+    "archetype": "biohacker and self-optimiser",
+    "age": 38,
+    "gender": "female",
+    "income_band": "Affluent",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Longevity",
+      "Cognitive Performance",
+      "Metabolic Health"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "cutting-edge D2C brands and subscriptions",
+    "annual_spend": 2060,
+    "annual_spend_currency": "GBP",
+    "description": "Alice Evans is a 38-year-old biohacker and self-optimiser in UK who treats health as a measurable system to continuously optimise. With a affluent income and high digital fluency, she an early adopter who combines wearables, diagnostics and personalised stacks. Health priorities include Longevity, Cognitive Performance, Metabolic Health. She prefers at-home diagnostic kits, daily supplements, probiotics and gut support, shops mainly via cutting-edge D2C brands and subscriptions, and spends roughly 2060 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "GBR-036",
+    "name": "Sarah Roberts",
+    "market": "UK",
+    "archetype": "subscription-first consumer",
+    "age": 40,
+    "gender": "female",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Convenience",
+      "Everyday Wellness",
+      "Personalisation"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "monthly online subscriptions",
+    "annual_spend": 590,
+    "annual_spend_currency": "GBP",
+    "description": "Sarah Roberts is a 40-year-old subscription-first consumer in UK who prefers set-and-forget wellness that arrives automatically. With a high income and high digital fluency, she loyal to brands offering personalisation and easy management. Health priorities include Convenience, Everyday Wellness, Personalisation. She prefers daily supplements, probiotics and gut support, shops mainly via monthly online subscriptions, and spends roughly 590 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GBR-037",
+    "name": "Sophie Hughes",
+    "market": "UK",
+    "archetype": "social-led wellness enthusiast",
+    "age": 33,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Trending Wellness",
+      "Gut Health",
+      "Skin & Beauty"
+    ],
+    "preferred_categories": [
+      "Gut Health",
+      "Vitamins & Supplements",
+      "Weight Management"
+    ],
+    "preferred_channel": "influencer-driven social commerce",
+    "annual_spend": 530,
+    "annual_spend_currency": "GBP",
+    "description": "Sophie Hughes is a 33-year-old social-led wellness enthusiast in UK who discovers products through social media and community trends. With a middle income and high digital fluency, she adopts new trends quickly and shares experiences online. Health priorities include Trending Wellness, Gut Health, Skin & Beauty. She prefers probiotics and gut support, daily supplements, weight-management and metabolic products, shops mainly via influencer-driven social commerce, and spends roughly 530 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "GBR-038",
+    "name": "Chris Hughes",
+    "market": "UK",
+    "archetype": "weight-management seeker",
+    "age": 45,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Weight Loss",
+      "Metabolic Health",
+      "Appetite Control"
+    ],
+    "preferred_categories": [
+      "Weight Management",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "online programmes and pharmacies",
+    "annual_spend": 670,
+    "annual_spend_currency": "GBP",
+    "description": "Chris Hughes is a 45-year-old weight-management seeker in UK who pursues sustainable weight goals, sometimes alongside GLP-1 therapy. With a middle income and medium digital fluency, he tracks progress closely and values nutritional support and coaching. Health priorities include Weight Loss, Metabolic Health, Appetite Control. He prefers weight-management and metabolic products, at-home diagnostic kits, shops mainly via online programmes and pharmacies, and spends roughly 670 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GBR-039",
+    "name": "Barbara Wright",
+    "market": "UK",
+    "archetype": "sustainability-focused buyer",
+    "age": 39,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Sustainability",
+      "Clean Ingredients",
+      "Healthy Aging"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "eco-conscious premium brands",
+    "annual_spend": 920,
+    "annual_spend_currency": "GBP",
+    "description": "Barbara Wright is a 39-year-old sustainability-focused buyer in UK who chooses products aligned with environmental and ethical values. With a middle income and high digital fluency, she scrutinises sourcing, packaging and clean-label credentials. Health priorities include Sustainability, Clean Ingredients, Healthy Aging. She prefers daily supplements, probiotics and gut support, shops mainly via eco-conscious premium brands, and spends roughly 920 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GBR-040",
+    "name": "Isla Edwards",
+    "market": "UK",
+    "archetype": "chronic-condition monitor",
+    "age": 65,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Early Detection",
+      "Cholesterol",
+      "Heart Health"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "pharmacies and healthcare providers",
+    "annual_spend": 660,
+    "annual_spend_currency": "GBP",
+    "description": "Isla Edwards is a 65-year-old chronic-condition monitor in UK who manages ongoing risk factors and tracks them between GP visits. With a middle income and medium digital fluency, she adheres to routine testing and doctor-aligned supplementation. Health priorities include Early Detection, Cholesterol, Heart Health. She prefers at-home diagnostic kits, daily supplements, shops mainly via pharmacies and healthcare providers, and spends roughly 660 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "GBR-041",
+    "name": "Hannah Williams",
+    "market": "UK",
+    "archetype": "digital-native decision maker",
+    "age": 29,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Convenience",
+      "Gut Health",
+      "Energy"
+    ],
+    "preferred_categories": [
+      "Gut Health",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "mobile-first apps and marketplaces",
+    "annual_spend": 690,
+    "annual_spend_currency": "GBP",
+    "description": "Hannah Williams is a 29-year-old digital-native decision maker in UK who relies on apps and reviews to guide every purchase. With a middle income and high digital fluency, she compares options rapidly and expects seamless digital experiences. Health priorities include Convenience, Gut Health, Energy. She prefers probiotics and gut support, daily supplements, shops mainly via mobile-first apps and marketplaces, and spends roughly 690 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "GBR-042",
+    "name": "Poppy Brown",
+    "market": "UK",
+    "archetype": "longevity innovator",
+    "age": 44,
+    "gender": "female",
+    "income_band": "Affluent",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Biological Age",
+      "Preventative Care",
+      "Longevity"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "clinical-grade wellness programmes",
+    "annual_spend": 1550,
+    "annual_spend_currency": "GBP",
+    "description": "Poppy Brown is a 44-year-old longevity innovator in UK who invests heavily in extending healthspan and measuring biological age. With a affluent income and high digital fluency, she participates in advanced testing and personalised longevity protocols. Health priorities include Biological Age, Preventative Care, Longevity. She prefers at-home diagnostic kits, daily supplements, shops mainly via clinical-grade wellness programmes, and spends roughly 1550 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "GBR-043",
+    "name": "Chloe Hughes",
+    "market": "UK",
+    "archetype": "active retiree",
+    "age": 75,
+    "gender": "female",
+    "income_band": "High",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Low",
+    "interests": [
+      "Preventative Care",
+      "Longevity",
+      "Healthy Aging"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "pharmacies and trusted health retailers",
+    "annual_spend": 1050,
+    "annual_spend_currency": "GBP",
+    "description": "Chloe Hughes is a 75-year-old active retiree in UK who wants to stay independent and physically active well into later life. With a high income and low digital fluency, she prefers proven, clinically backed products and values pharmacist advice. Health priorities include Preventative Care, Longevity, Healthy Aging. She prefers daily supplements, at-home diagnostic kits, shops mainly via pharmacies and trusted health retailers, and spends roughly 1050 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "GBR-044",
+    "name": "Isla Wilson",
+    "market": "UK",
+    "archetype": "time-poor executive",
+    "age": 54,
+    "gender": "female",
+    "income_band": "Affluent",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Cognitive Performance",
+      "Energy",
+      "Stress Management"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "premium online subscriptions",
+    "annual_spend": 2190,
+    "annual_spend_currency": "GBP",
+    "description": "Isla Wilson is a 54-year-old time-poor executive in UK who seeks to sustain high performance and manage stress under pressure. With a affluent income and medium digital fluency, she willing to pay a premium for convenience and measurable results. Health priorities include Cognitive Performance, Energy, Stress Management. She prefers daily supplements, at-home diagnostic kits, shops mainly via premium online subscriptions, and spends roughly 2190 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GBR-045",
+    "name": "Lucy Walker",
+    "market": "UK",
+    "archetype": "pharmacy-loyal shopper",
+    "age": 49,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Low",
+    "interests": [
+      "Bone Health",
+      "Everyday Wellness",
+      "Immune Health"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "local pharmacies",
+    "annual_spend": 530,
+    "annual_spend_currency": "GBP",
+    "description": "Lucy Walker is a 49-year-old pharmacy-loyal shopper in UK who relies on familiar brands and professional recommendations. With a middle income and low digital fluency, she rarely experiments and prioritises trust and safety over novelty. Health priorities include Bone Health, Everyday Wellness, Immune Health. She prefers daily supplements, shops mainly via local pharmacies, and spends roughly 530 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "GBR-046",
+    "name": "Ben Edwards",
+    "market": "UK",
+    "archetype": "fitness professional",
+    "age": 33,
+    "gender": "male",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Energy",
+      "Lean Muscle",
+      "Recovery"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Weight Management"
+    ],
+    "preferred_channel": "specialist sports-nutrition retailers and online",
+    "annual_spend": 1280,
+    "annual_spend_currency": "GBP",
+    "description": "Ben Edwards is a 33-year-old fitness professional in UK who optimises training, recovery and body composition. With a high income and high digital fluency, he reads labels closely and favours high-dosage, transparent formulas. Health priorities include Energy, Lean Muscle, Recovery. He prefers daily supplements, weight-management and metabolic products, shops mainly via specialist sports-nutrition retailers and online, and spends roughly 1280 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GBR-047",
+    "name": "Emma Walker",
+    "market": "UK",
+    "archetype": "busy parent",
+    "age": 37,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Immune Health",
+      "Family Wellness",
+      "Convenience"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "supermarkets and convenient online delivery",
+    "annual_spend": 570,
+    "annual_spend_currency": "GBP",
+    "description": "Emma Walker is a 37-year-old busy parent in UK who wants simple, reliable wellness for the whole family. With a middle income and medium digital fluency, she values convenience, bundles and easy reordering. Health priorities include Immune Health, Family Wellness, Convenience. She prefers daily supplements, probiotics and gut support, shops mainly via supermarkets and convenient online delivery, and spends roughly 570 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "GBR-048",
+    "name": "Ryan Wilson",
+    "market": "UK",
+    "archetype": "preventive-health adopter",
+    "age": 35,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Metabolic Health",
+      "Early Detection",
+      "Preventative Care"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "online diagnostics platforms",
+    "annual_spend": 980,
+    "annual_spend_currency": "GBP",
+    "description": "Ryan Wilson is a 35-year-old preventive-health adopter in UK who monitors health markers regularly to catch issues early. With a middle income and high digital fluency, he data-driven and comfortable with at-home testing. Health priorities include Metabolic Health, Early Detection, Preventative Care. He prefers at-home diagnostic kits, daily supplements, shops mainly via online diagnostics platforms, and spends roughly 980 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "GBR-049",
+    "name": "Barbara Jones",
+    "market": "UK",
+    "archetype": "biohacker and self-optimiser",
+    "age": 44,
+    "gender": "female",
+    "income_band": "Affluent",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Metabolic Health",
+      "Longevity",
+      "Sleep"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "cutting-edge D2C brands and subscriptions",
+    "annual_spend": 1960,
+    "annual_spend_currency": "GBP",
+    "description": "Barbara Jones is a 44-year-old biohacker and self-optimiser in UK who treats health as a measurable system to continuously optimise. With a affluent income and high digital fluency, she an early adopter who combines wearables, diagnostics and personalised stacks. Health priorities include Metabolic Health, Longevity, Sleep. She prefers at-home diagnostic kits, daily supplements, probiotics and gut support, shops mainly via cutting-edge D2C brands and subscriptions, and spends roughly 1960 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "GBR-050",
+    "name": "Poppy Robinson",
+    "market": "UK",
+    "archetype": "subscription-first consumer",
+    "age": 25,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Everyday Wellness",
+      "Personalisation",
+      "Convenience"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "monthly online subscriptions",
+    "annual_spend": 1000,
+    "annual_spend_currency": "GBP",
+    "description": "Poppy Robinson is a 25-year-old subscription-first consumer in UK who prefers set-and-forget wellness that arrives automatically. With a middle income and high digital fluency, she loyal to brands offering personalisation and easy management. Health priorities include Everyday Wellness, Personalisation, Convenience. She prefers daily supplements, probiotics and gut support, shops mainly via monthly online subscriptions, and spends roughly 1000 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "NOR-001",
+    "name": "Astrid Bergström",
+    "market": "Nordics",
+    "archetype": "active retiree",
+    "age": 62,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Low",
+    "interests": [
+      "Longevity",
+      "Heart Health",
+      "Preventative Care"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "pharmacies and trusted health retailers",
+    "annual_spend": 870,
+    "annual_spend_currency": "EUR",
+    "description": "Astrid Bergström is a 62-year-old active retiree in Nordics who wants to stay independent and physically active well into later life. With a middle income and low digital fluency, she prefers proven, clinically backed products and values pharmacist advice. Health priorities include Longevity, Heart Health, Preventative Care. She prefers daily supplements, at-home diagnostic kits, shops mainly via pharmacies and trusted health retailers, and spends roughly 870 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "NOR-002",
+    "name": "Anders Larsen",
+    "market": "Nordics",
+    "archetype": "time-poor executive",
+    "age": 43,
+    "gender": "male",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Energy",
+      "Stress Management",
+      "Sleep"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "premium online subscriptions",
+    "annual_spend": 980,
+    "annual_spend_currency": "EUR",
+    "description": "Anders Larsen is a 43-year-old time-poor executive in Nordics who seeks to sustain high performance and manage stress under pressure. With a high income and medium digital fluency, he willing to pay a premium for convenience and measurable results. Health priorities include Energy, Stress Management, Sleep. He prefers daily supplements, at-home diagnostic kits, shops mainly via premium online subscriptions, and spends roughly 980 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "NOR-003",
+    "name": "Emil Hansen",
+    "market": "Nordics",
+    "archetype": "pharmacy-loyal shopper",
+    "age": 59,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Low",
+    "interests": [
+      "Bone Health",
+      "Immune Health",
+      "Everyday Wellness"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "local pharmacies",
+    "annual_spend": 500,
+    "annual_spend_currency": "EUR",
+    "description": "Emil Hansen is a 59-year-old pharmacy-loyal shopper in Nordics who relies on familiar brands and professional recommendations. With a middle income and low digital fluency, he rarely experiments and prioritises trust and safety over novelty. Health priorities include Bone Health, Immune Health, Everyday Wellness. He prefers daily supplements, shops mainly via local pharmacies, and spends roughly 500 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "NOR-004",
+    "name": "Emil Berg",
+    "market": "Nordics",
+    "archetype": "fitness professional",
+    "age": 28,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Energy",
+      "Performance Nutrition",
+      "Recovery"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Weight Management"
+    ],
+    "preferred_channel": "specialist sports-nutrition retailers and online",
+    "annual_spend": 1510,
+    "annual_spend_currency": "EUR",
+    "description": "Emil Berg is a 28-year-old fitness professional in Nordics who optimises training, recovery and body composition. With a middle income and high digital fluency, he reads labels closely and favours high-dosage, transparent formulas. Health priorities include Energy, Performance Nutrition, Recovery. He prefers daily supplements, weight-management and metabolic products, shops mainly via specialist sports-nutrition retailers and online, and spends roughly 1510 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "NOR-005",
+    "name": "Lena Johansson",
+    "market": "Nordics",
+    "archetype": "busy parent",
+    "age": 38,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Family Wellness",
+      "Immune Health",
+      "Convenience"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "supermarkets and convenient online delivery",
+    "annual_spend": 560,
+    "annual_spend_currency": "EUR",
+    "description": "Lena Johansson is a 38-year-old busy parent in Nordics who wants simple, reliable wellness for the whole family. With a middle income and medium digital fluency, she values convenience, bundles and easy reordering. Health priorities include Family Wellness, Immune Health, Convenience. She prefers daily supplements, probiotics and gut support, shops mainly via supermarkets and convenient online delivery, and spends roughly 560 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "NOR-006",
+    "name": "Ella Lindqvist",
+    "market": "Nordics",
+    "archetype": "preventive-health adopter",
+    "age": 51,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Preventative Care",
+      "Metabolic Health",
+      "Early Detection"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "online diagnostics platforms",
+    "annual_spend": 870,
+    "annual_spend_currency": "EUR",
+    "description": "Ella Lindqvist is a 51-year-old preventive-health adopter in Nordics who monitors health markers regularly to catch issues early. With a middle income and medium digital fluency, she data-driven and comfortable with at-home testing. Health priorities include Preventative Care, Metabolic Health, Early Detection. She prefers at-home diagnostic kits, daily supplements, shops mainly via online diagnostics platforms, and spends roughly 870 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "NOR-007",
+    "name": "Henrik Nyström",
+    "market": "Nordics",
+    "archetype": "biohacker and self-optimiser",
+    "age": 39,
+    "gender": "male",
+    "income_band": "Affluent",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Cognitive Performance",
+      "Metabolic Health",
+      "Sleep"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "cutting-edge D2C brands and subscriptions",
+    "annual_spend": 1240,
+    "annual_spend_currency": "EUR",
+    "description": "Henrik Nyström is a 39-year-old biohacker and self-optimiser in Nordics who treats health as a measurable system to continuously optimise. With a affluent income and high digital fluency, he an early adopter who combines wearables, diagnostics and personalised stacks. Health priorities include Cognitive Performance, Metabolic Health, Sleep. He prefers at-home diagnostic kits, daily supplements, probiotics and gut support, shops mainly via cutting-edge D2C brands and subscriptions, and spends roughly 1240 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "NOR-008",
+    "name": "Ingrid Nielsen",
+    "market": "Nordics",
+    "archetype": "subscription-first consumer",
+    "age": 30,
+    "gender": "female",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Everyday Wellness",
+      "Personalisation",
+      "Convenience"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "monthly online subscriptions",
+    "annual_spend": 1250,
+    "annual_spend_currency": "EUR",
+    "description": "Ingrid Nielsen is a 30-year-old subscription-first consumer in Nordics who prefers set-and-forget wellness that arrives automatically. With a high income and high digital fluency, she loyal to brands offering personalisation and easy management. Health priorities include Everyday Wellness, Personalisation, Convenience. She prefers daily supplements, probiotics and gut support, shops mainly via monthly online subscriptions, and spends roughly 1250 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "NOR-009",
+    "name": "Johan Virtanen",
+    "market": "Nordics",
+    "archetype": "social-led wellness enthusiast",
+    "age": 24,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Skin & Beauty",
+      "Trending Wellness",
+      "Energy"
+    ],
+    "preferred_categories": [
+      "Gut Health",
+      "Vitamins & Supplements",
+      "Weight Management"
+    ],
+    "preferred_channel": "influencer-driven social commerce",
+    "annual_spend": 470,
+    "annual_spend_currency": "EUR",
+    "description": "Johan Virtanen is a 24-year-old social-led wellness enthusiast in Nordics who discovers products through social media and community trends. With a middle income and high digital fluency, he adopts new trends quickly and shares experiences online. Health priorities include Skin & Beauty, Trending Wellness, Energy. He prefers probiotics and gut support, daily supplements, weight-management and metabolic products, shops mainly via influencer-driven social commerce, and spends roughly 470 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "NOR-010",
+    "name": "Henrik Hansen",
+    "market": "Nordics",
+    "archetype": "weight-management seeker",
+    "age": 35,
+    "gender": "male",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Appetite Control",
+      "Metabolic Health",
+      "Weight Loss"
+    ],
+    "preferred_categories": [
+      "Weight Management",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "online programmes and pharmacies",
+    "annual_spend": 1380,
+    "annual_spend_currency": "EUR",
+    "description": "Henrik Hansen is a 35-year-old weight-management seeker in Nordics who pursues sustainable weight goals, sometimes alongside GLP-1 therapy. With a high income and medium digital fluency, he tracks progress closely and values nutritional support and coaching. Health priorities include Appetite Control, Metabolic Health, Weight Loss. He prefers weight-management and metabolic products, at-home diagnostic kits, shops mainly via online programmes and pharmacies, and spends roughly 1380 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "NOR-011",
+    "name": "Erik Korhonen",
+    "market": "Nordics",
+    "archetype": "sustainability-focused buyer",
+    "age": 48,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Clean Ingredients",
+      "Sustainability",
+      "Healthy Aging"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "eco-conscious premium brands",
+    "annual_spend": 760,
+    "annual_spend_currency": "EUR",
+    "description": "Erik Korhonen is a 48-year-old sustainability-focused buyer in Nordics who chooses products aligned with environmental and ethical values. With a middle income and high digital fluency, he scrutinises sourcing, packaging and clean-label credentials. Health priorities include Clean Ingredients, Sustainability, Healthy Aging. He prefers daily supplements, probiotics and gut support, shops mainly via eco-conscious premium brands, and spends roughly 760 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "NOR-012",
+    "name": "Henrik Dahl",
+    "market": "Nordics",
+    "archetype": "chronic-condition monitor",
+    "age": 55,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Low",
+    "interests": [
+      "Heart Health",
+      "Blood Sugar",
+      "Early Detection"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "pharmacies and healthcare providers",
+    "annual_spend": 550,
+    "annual_spend_currency": "EUR",
+    "description": "Henrik Dahl is a 55-year-old chronic-condition monitor in Nordics who manages ongoing risk factors and tracks them between GP visits. With a middle income and low digital fluency, he adheres to routine testing and doctor-aligned supplementation. Health priorities include Heart Health, Blood Sugar, Early Detection. He prefers at-home diagnostic kits, daily supplements, shops mainly via pharmacies and healthcare providers, and spends roughly 550 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "NOR-013",
+    "name": "Linnea Lindqvist",
+    "market": "Nordics",
+    "archetype": "digital-native decision maker",
+    "age": 30,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Energy",
+      "Convenience",
+      "Gut Health"
+    ],
+    "preferred_categories": [
+      "Gut Health",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "mobile-first apps and marketplaces",
+    "annual_spend": 470,
+    "annual_spend_currency": "EUR",
+    "description": "Linnea Lindqvist is a 30-year-old digital-native decision maker in Nordics who relies on apps and reviews to guide every purchase. With a middle income and high digital fluency, she compares options rapidly and expects seamless digital experiences. Health priorities include Energy, Convenience, Gut Health. She prefers probiotics and gut support, daily supplements, shops mainly via mobile-first apps and marketplaces, and spends roughly 470 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "NOR-014",
+    "name": "Karin Dahl",
+    "market": "Nordics",
+    "archetype": "longevity innovator",
+    "age": 48,
+    "gender": "female",
+    "income_band": "Affluent",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Preventative Care",
+      "Biological Age",
+      "Metabolic Health"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "clinical-grade wellness programmes",
+    "annual_spend": 1540,
+    "annual_spend_currency": "EUR",
+    "description": "Karin Dahl is a 48-year-old longevity innovator in Nordics who invests heavily in extending healthspan and measuring biological age. With a affluent income and high digital fluency, she participates in advanced testing and personalised longevity protocols. Health priorities include Preventative Care, Biological Age, Metabolic Health. She prefers at-home diagnostic kits, daily supplements, shops mainly via clinical-grade wellness programmes, and spends roughly 1540 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "NOR-015",
+    "name": "Sofia Lund",
+    "market": "Nordics",
+    "archetype": "active retiree",
+    "age": 64,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Low",
+    "interests": [
+      "Healthy Aging",
+      "Heart Health",
+      "Longevity"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "pharmacies and trusted health retailers",
+    "annual_spend": 840,
+    "annual_spend_currency": "EUR",
+    "description": "Sofia Lund is a 64-year-old active retiree in Nordics who wants to stay independent and physically active well into later life. With a middle income and low digital fluency, she prefers proven, clinically backed products and values pharmacist advice. Health priorities include Healthy Aging, Heart Health, Longevity. She prefers daily supplements, at-home diagnostic kits, shops mainly via pharmacies and trusted health retailers, and spends roughly 840 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "NOR-016",
+    "name": "Mikael Lindqvist",
+    "market": "Nordics",
+    "archetype": "time-poor executive",
+    "age": 54,
+    "gender": "male",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Cognitive Performance",
+      "Stress Management",
+      "Sleep"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "premium online subscriptions",
+    "annual_spend": 1920,
+    "annual_spend_currency": "EUR",
+    "description": "Mikael Lindqvist is a 54-year-old time-poor executive in Nordics who seeks to sustain high performance and manage stress under pressure. With a high income and medium digital fluency, he willing to pay a premium for convenience and measurable results. Health priorities include Cognitive Performance, Stress Management, Sleep. He prefers daily supplements, at-home diagnostic kits, shops mainly via premium online subscriptions, and spends roughly 1920 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "NOR-017",
+    "name": "Andreas Johansson",
+    "market": "Nordics",
+    "archetype": "pharmacy-loyal shopper",
+    "age": 65,
+    "gender": "male",
+    "income_band": "Low",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Low",
+    "interests": [
+      "Immune Health",
+      "Everyday Wellness",
+      "Bone Health"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "local pharmacies",
+    "annual_spend": 620,
+    "annual_spend_currency": "EUR",
+    "description": "Andreas Johansson is a 65-year-old pharmacy-loyal shopper in Nordics who relies on familiar brands and professional recommendations. With a low income and low digital fluency, he rarely experiments and prioritises trust and safety over novelty. Health priorities include Immune Health, Everyday Wellness, Bone Health. He prefers daily supplements, shops mainly via local pharmacies, and spends roughly 620 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "NOR-018",
+    "name": "Lena Lund",
+    "market": "Nordics",
+    "archetype": "fitness professional",
+    "age": 34,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Recovery",
+      "Performance Nutrition",
+      "Lean Muscle"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Weight Management"
+    ],
+    "preferred_channel": "specialist sports-nutrition retailers and online",
+    "annual_spend": 1350,
+    "annual_spend_currency": "EUR",
+    "description": "Lena Lund is a 34-year-old fitness professional in Nordics who optimises training, recovery and body composition. With a middle income and high digital fluency, she reads labels closely and favours high-dosage, transparent formulas. Health priorities include Recovery, Performance Nutrition, Lean Muscle. She prefers daily supplements, weight-management and metabolic products, shops mainly via specialist sports-nutrition retailers and online, and spends roughly 1350 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "NOR-019",
+    "name": "Emil Andersson",
+    "market": "Nordics",
+    "archetype": "busy parent",
+    "age": 41,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Convenience",
+      "Immune Health",
+      "Family Wellness"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "supermarkets and convenient online delivery",
+    "annual_spend": 760,
+    "annual_spend_currency": "EUR",
+    "description": "Emil Andersson is a 41-year-old busy parent in Nordics who wants simple, reliable wellness for the whole family. With a middle income and medium digital fluency, he values convenience, bundles and easy reordering. Health priorities include Convenience, Immune Health, Family Wellness. He prefers daily supplements, probiotics and gut support, shops mainly via supermarkets and convenient online delivery, and spends roughly 760 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "NOR-020",
+    "name": "Aksel Moe",
+    "market": "Nordics",
+    "archetype": "preventive-health adopter",
+    "age": 51,
+    "gender": "male",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Early Detection",
+      "Metabolic Health",
+      "Preventative Care"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "online diagnostics platforms",
+    "annual_spend": 990,
+    "annual_spend_currency": "EUR",
+    "description": "Aksel Moe is a 51-year-old preventive-health adopter in Nordics who monitors health markers regularly to catch issues early. With a high income and high digital fluency, he data-driven and comfortable with at-home testing. Health priorities include Early Detection, Metabolic Health, Preventative Care. He prefers at-home diagnostic kits, daily supplements, shops mainly via online diagnostics platforms, and spends roughly 990 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "NOR-021",
+    "name": "Frida Lindqvist",
+    "market": "Nordics",
+    "archetype": "biohacker and self-optimiser",
+    "age": 31,
+    "gender": "female",
+    "income_band": "High",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Cognitive Performance",
+      "Sleep",
+      "Metabolic Health"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "cutting-edge D2C brands and subscriptions",
+    "annual_spend": 2490,
+    "annual_spend_currency": "EUR",
+    "description": "Frida Lindqvist is a 31-year-old biohacker and self-optimiser in Nordics who treats health as a measurable system to continuously optimise. With a high income and high digital fluency, she an early adopter who combines wearables, diagnostics and personalised stacks. Health priorities include Cognitive Performance, Sleep, Metabolic Health. She prefers at-home diagnostic kits, daily supplements, probiotics and gut support, shops mainly via cutting-edge D2C brands and subscriptions, and spends roughly 2490 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "NOR-022",
+    "name": "Sanna Dahl",
+    "market": "Nordics",
+    "archetype": "subscription-first consumer",
+    "age": 26,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Personalisation",
+      "Everyday Wellness",
+      "Convenience"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "monthly online subscriptions",
+    "annual_spend": 1190,
+    "annual_spend_currency": "EUR",
+    "description": "Sanna Dahl is a 26-year-old subscription-first consumer in Nordics who prefers set-and-forget wellness that arrives automatically. With a middle income and high digital fluency, she loyal to brands offering personalisation and easy management. Health priorities include Personalisation, Everyday Wellness, Convenience. She prefers daily supplements, probiotics and gut support, shops mainly via monthly online subscriptions, and spends roughly 1190 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "NOR-023",
+    "name": "Erik Hansen",
+    "market": "Nordics",
+    "archetype": "social-led wellness enthusiast",
+    "age": 29,
+    "gender": "male",
+    "income_band": "Low",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Energy",
+      "Gut Health",
+      "Skin & Beauty"
+    ],
+    "preferred_categories": [
+      "Gut Health",
+      "Vitamins & Supplements",
+      "Weight Management"
+    ],
+    "preferred_channel": "influencer-driven social commerce",
+    "annual_spend": 570,
+    "annual_spend_currency": "EUR",
+    "description": "Erik Hansen is a 29-year-old social-led wellness enthusiast in Nordics who discovers products through social media and community trends. With a low income and high digital fluency, he adopts new trends quickly and shares experiences online. Health priorities include Energy, Gut Health, Skin & Beauty. He prefers probiotics and gut support, daily supplements, weight-management and metabolic products, shops mainly via influencer-driven social commerce, and spends roughly 570 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "NOR-024",
+    "name": "Rasmus Nielsen",
+    "market": "Nordics",
+    "archetype": "weight-management seeker",
+    "age": 31,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Appetite Control",
+      "Weight Loss",
+      "Metabolic Health"
+    ],
+    "preferred_categories": [
+      "Weight Management",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "online programmes and pharmacies",
+    "annual_spend": 1180,
+    "annual_spend_currency": "EUR",
+    "description": "Rasmus Nielsen is a 31-year-old weight-management seeker in Nordics who pursues sustainable weight goals, sometimes alongside GLP-1 therapy. With a middle income and medium digital fluency, he tracks progress closely and values nutritional support and coaching. Health priorities include Appetite Control, Weight Loss, Metabolic Health. He prefers weight-management and metabolic products, at-home diagnostic kits, shops mainly via online programmes and pharmacies, and spends roughly 1180 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "NOR-025",
+    "name": "Ingrid Aho",
+    "market": "Nordics",
+    "archetype": "sustainability-focused buyer",
+    "age": 33,
+    "gender": "female",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Healthy Aging",
+      "Sustainability",
+      "Clean Ingredients"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "eco-conscious premium brands",
+    "annual_spend": 970,
+    "annual_spend_currency": "EUR",
+    "description": "Ingrid Aho is a 33-year-old sustainability-focused buyer in Nordics who chooses products aligned with environmental and ethical values. With a high income and high digital fluency, she scrutinises sourcing, packaging and clean-label credentials. Health priorities include Healthy Aging, Sustainability, Clean Ingredients. She prefers daily supplements, probiotics and gut support, shops mainly via eco-conscious premium brands, and spends roughly 970 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "NOR-026",
+    "name": "Anders Moe",
+    "market": "Nordics",
+    "archetype": "chronic-condition monitor",
+    "age": 50,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Cholesterol",
+      "Heart Health",
+      "Blood Sugar"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "pharmacies and healthcare providers",
+    "annual_spend": 700,
+    "annual_spend_currency": "EUR",
+    "description": "Anders Moe is a 50-year-old chronic-condition monitor in Nordics who manages ongoing risk factors and tracks them between GP visits. With a middle income and medium digital fluency, he adheres to routine testing and doctor-aligned supplementation. Health priorities include Cholesterol, Heart Health, Blood Sugar. He prefers at-home diagnostic kits, daily supplements, shops mainly via pharmacies and healthcare providers, and spends roughly 700 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "NOR-027",
+    "name": "Karin Lund",
+    "market": "Nordics",
+    "archetype": "digital-native decision maker",
+    "age": 28,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Gut Health",
+      "Personalisation",
+      "Energy"
+    ],
+    "preferred_categories": [
+      "Gut Health",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "mobile-first apps and marketplaces",
+    "annual_spend": 430,
+    "annual_spend_currency": "EUR",
+    "description": "Karin Lund is a 28-year-old digital-native decision maker in Nordics who relies on apps and reviews to guide every purchase. With a middle income and high digital fluency, she compares options rapidly and expects seamless digital experiences. Health priorities include Gut Health, Personalisation, Energy. She prefers probiotics and gut support, daily supplements, shops mainly via mobile-first apps and marketplaces, and spends roughly 430 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "NOR-028",
+    "name": "Johan Berg",
+    "market": "Nordics",
+    "archetype": "longevity innovator",
+    "age": 52,
+    "gender": "male",
+    "income_band": "Affluent",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Biological Age",
+      "Longevity",
+      "Metabolic Health"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "clinical-grade wellness programmes",
+    "annual_spend": 2450,
+    "annual_spend_currency": "EUR",
+    "description": "Johan Berg is a 52-year-old longevity innovator in Nordics who invests heavily in extending healthspan and measuring biological age. With a affluent income and high digital fluency, he participates in advanced testing and personalised longevity protocols. Health priorities include Biological Age, Longevity, Metabolic Health. He prefers at-home diagnostic kits, daily supplements, shops mainly via clinical-grade wellness programmes, and spends roughly 2450 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "NOR-029",
+    "name": "Ida Nielsen",
+    "market": "Nordics",
+    "archetype": "active retiree",
+    "age": 69,
+    "gender": "female",
+    "income_band": "High",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Low",
+    "interests": [
+      "Healthy Aging",
+      "Heart Health",
+      "Longevity"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "pharmacies and trusted health retailers",
+    "annual_spend": 980,
+    "annual_spend_currency": "EUR",
+    "description": "Ida Nielsen is a 69-year-old active retiree in Nordics who wants to stay independent and physically active well into later life. With a high income and low digital fluency, she prefers proven, clinically backed products and values pharmacist advice. Health priorities include Healthy Aging, Heart Health, Longevity. She prefers daily supplements, at-home diagnostic kits, shops mainly via pharmacies and trusted health retailers, and spends roughly 980 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "NOR-030",
+    "name": "Tuva Lindqvist",
+    "market": "Nordics",
+    "archetype": "time-poor executive",
+    "age": 45,
+    "gender": "female",
+    "income_band": "Affluent",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Cognitive Performance",
+      "Sleep",
+      "Stress Management"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "premium online subscriptions",
+    "annual_spend": 1580,
+    "annual_spend_currency": "EUR",
+    "description": "Tuva Lindqvist is a 45-year-old time-poor executive in Nordics who seeks to sustain high performance and manage stress under pressure. With a affluent income and medium digital fluency, she willing to pay a premium for convenience and measurable results. Health priorities include Cognitive Performance, Sleep, Stress Management. She prefers daily supplements, at-home diagnostic kits, shops mainly via premium online subscriptions, and spends roughly 1580 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "NOR-031",
+    "name": "Gustav Bergström",
+    "market": "Nordics",
+    "archetype": "pharmacy-loyal shopper",
+    "age": 55,
+    "gender": "male",
+    "income_band": "Low",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Low",
+    "interests": [
+      "Immune Health",
+      "Everyday Wellness",
+      "Bone Health"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "local pharmacies",
+    "annual_spend": 620,
+    "annual_spend_currency": "EUR",
+    "description": "Gustav Bergström is a 55-year-old pharmacy-loyal shopper in Nordics who relies on familiar brands and professional recommendations. With a low income and low digital fluency, he rarely experiments and prioritises trust and safety over novelty. Health priorities include Immune Health, Everyday Wellness, Bone Health. He prefers daily supplements, shops mainly via local pharmacies, and spends roughly 620 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "NOR-032",
+    "name": "Henrik Aho",
+    "market": "Nordics",
+    "archetype": "fitness professional",
+    "age": 25,
+    "gender": "male",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Energy",
+      "Lean Muscle",
+      "Recovery"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Weight Management"
+    ],
+    "preferred_channel": "specialist sports-nutrition retailers and online",
+    "annual_spend": 920,
+    "annual_spend_currency": "EUR",
+    "description": "Henrik Aho is a 25-year-old fitness professional in Nordics who optimises training, recovery and body composition. With a high income and medium digital fluency, he reads labels closely and favours high-dosage, transparent formulas. Health priorities include Energy, Lean Muscle, Recovery. He prefers daily supplements, weight-management and metabolic products, shops mainly via specialist sports-nutrition retailers and online, and spends roughly 920 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "NOR-033",
+    "name": "Signe Moe",
+    "market": "Nordics",
+    "archetype": "busy parent",
+    "age": 32,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Immune Health",
+      "Convenience",
+      "Family Wellness"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "supermarkets and convenient online delivery",
+    "annual_spend": 690,
+    "annual_spend_currency": "EUR",
+    "description": "Signe Moe is a 32-year-old busy parent in Nordics who wants simple, reliable wellness for the whole family. With a middle income and medium digital fluency, she values convenience, bundles and easy reordering. Health priorities include Immune Health, Convenience, Family Wellness. She prefers daily supplements, probiotics and gut support, shops mainly via supermarkets and convenient online delivery, and spends roughly 690 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "NOR-034",
+    "name": "Bjørn Lund",
+    "market": "Nordics",
+    "archetype": "preventive-health adopter",
+    "age": 48,
+    "gender": "male",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Metabolic Health",
+      "Early Detection",
+      "Preventative Care"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "online diagnostics platforms",
+    "annual_spend": 980,
+    "annual_spend_currency": "EUR",
+    "description": "Bjørn Lund is a 48-year-old preventive-health adopter in Nordics who monitors health markers regularly to catch issues early. With a high income and medium digital fluency, he data-driven and comfortable with at-home testing. Health priorities include Metabolic Health, Early Detection, Preventative Care. He prefers at-home diagnostic kits, daily supplements, shops mainly via online diagnostics platforms, and spends roughly 980 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "NOR-035",
+    "name": "Fredrik Dahl",
+    "market": "Nordics",
+    "archetype": "biohacker and self-optimiser",
+    "age": 34,
+    "gender": "male",
+    "income_band": "Affluent",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Metabolic Health",
+      "Cognitive Performance",
+      "Sleep"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "cutting-edge D2C brands and subscriptions",
+    "annual_spend": 2470,
+    "annual_spend_currency": "EUR",
+    "description": "Fredrik Dahl is a 34-year-old biohacker and self-optimiser in Nordics who treats health as a measurable system to continuously optimise. With a affluent income and high digital fluency, he an early adopter who combines wearables, diagnostics and personalised stacks. Health priorities include Metabolic Health, Cognitive Performance, Sleep. He prefers at-home diagnostic kits, daily supplements, probiotics and gut support, shops mainly via cutting-edge D2C brands and subscriptions, and spends roughly 2470 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "NOR-036",
+    "name": "Oskar Aho",
+    "market": "Nordics",
+    "archetype": "subscription-first consumer",
+    "age": 37,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Everyday Wellness",
+      "Convenience",
+      "Personalisation"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "monthly online subscriptions",
+    "annual_spend": 1020,
+    "annual_spend_currency": "EUR",
+    "description": "Oskar Aho is a 37-year-old subscription-first consumer in Nordics who prefers set-and-forget wellness that arrives automatically. With a middle income and high digital fluency, he loyal to brands offering personalisation and easy management. Health priorities include Everyday Wellness, Convenience, Personalisation. He prefers daily supplements, probiotics and gut support, shops mainly via monthly online subscriptions, and spends roughly 1020 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "NOR-037",
+    "name": "Erik Nyström",
+    "market": "Nordics",
+    "archetype": "social-led wellness enthusiast",
+    "age": 27,
+    "gender": "male",
+    "income_band": "Low",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Skin & Beauty",
+      "Trending Wellness",
+      "Energy"
+    ],
+    "preferred_categories": [
+      "Gut Health",
+      "Vitamins & Supplements",
+      "Weight Management"
+    ],
+    "preferred_channel": "influencer-driven social commerce",
+    "annual_spend": 400,
+    "annual_spend_currency": "EUR",
+    "description": "Erik Nyström is a 27-year-old social-led wellness enthusiast in Nordics who discovers products through social media and community trends. With a low income and high digital fluency, he adopts new trends quickly and shares experiences online. Health priorities include Skin & Beauty, Trending Wellness, Energy. He prefers probiotics and gut support, daily supplements, weight-management and metabolic products, shops mainly via influencer-driven social commerce, and spends roughly 400 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "NOR-038",
+    "name": "Magnus Lindqvist",
+    "market": "Nordics",
+    "archetype": "weight-management seeker",
+    "age": 33,
+    "gender": "male",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Appetite Control",
+      "Metabolic Health",
+      "Weight Loss"
+    ],
+    "preferred_categories": [
+      "Weight Management",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "online programmes and pharmacies",
+    "annual_spend": 680,
+    "annual_spend_currency": "EUR",
+    "description": "Magnus Lindqvist is a 33-year-old weight-management seeker in Nordics who pursues sustainable weight goals, sometimes alongside GLP-1 therapy. With a high income and medium digital fluency, he tracks progress closely and values nutritional support and coaching. Health priorities include Appetite Control, Metabolic Health, Weight Loss. He prefers weight-management and metabolic products, at-home diagnostic kits, shops mainly via online programmes and pharmacies, and spends roughly 680 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "NOR-039",
+    "name": "Gustav Aho",
+    "market": "Nordics",
+    "archetype": "sustainability-focused buyer",
+    "age": 30,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Clean Ingredients",
+      "Healthy Aging",
+      "Sustainability"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "eco-conscious premium brands",
+    "annual_spend": 890,
+    "annual_spend_currency": "EUR",
+    "description": "Gustav Aho is a 30-year-old sustainability-focused buyer in Nordics who chooses products aligned with environmental and ethical values. With a middle income and high digital fluency, he scrutinises sourcing, packaging and clean-label credentials. Health priorities include Clean Ingredients, Healthy Aging, Sustainability. He prefers daily supplements, probiotics and gut support, shops mainly via eco-conscious premium brands, and spends roughly 890 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "NOR-040",
+    "name": "Tuva Berg",
+    "market": "Nordics",
+    "archetype": "chronic-condition monitor",
+    "age": 54,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Early Detection",
+      "Cholesterol",
+      "Blood Sugar"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "pharmacies and healthcare providers",
+    "annual_spend": 530,
+    "annual_spend_currency": "EUR",
+    "description": "Tuva Berg is a 54-year-old chronic-condition monitor in Nordics who manages ongoing risk factors and tracks them between GP visits. With a middle income and medium digital fluency, she adheres to routine testing and doctor-aligned supplementation. Health priorities include Early Detection, Cholesterol, Blood Sugar. She prefers at-home diagnostic kits, daily supplements, shops mainly via pharmacies and healthcare providers, and spends roughly 530 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "NOR-041",
+    "name": "Ingrid Korhonen",
+    "market": "Nordics",
+    "archetype": "digital-native decision maker",
+    "age": 30,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Personalisation",
+      "Gut Health",
+      "Convenience"
+    ],
+    "preferred_categories": [
+      "Gut Health",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "mobile-first apps and marketplaces",
+    "annual_spend": 320,
+    "annual_spend_currency": "EUR",
+    "description": "Ingrid Korhonen is a 30-year-old digital-native decision maker in Nordics who relies on apps and reviews to guide every purchase. With a middle income and high digital fluency, she compares options rapidly and expects seamless digital experiences. Health priorities include Personalisation, Gut Health, Convenience. She prefers probiotics and gut support, daily supplements, shops mainly via mobile-first apps and marketplaces, and spends roughly 320 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "NOR-042",
+    "name": "Rasmus Korhonen",
+    "market": "Nordics",
+    "archetype": "longevity innovator",
+    "age": 41,
+    "gender": "male",
+    "income_band": "Affluent",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Biological Age",
+      "Longevity",
+      "Metabolic Health"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "clinical-grade wellness programmes",
+    "annual_spend": 1550,
+    "annual_spend_currency": "EUR",
+    "description": "Rasmus Korhonen is a 41-year-old longevity innovator in Nordics who invests heavily in extending healthspan and measuring biological age. With a affluent income and high digital fluency, he participates in advanced testing and personalised longevity protocols. Health priorities include Biological Age, Longevity, Metabolic Health. He prefers at-home diagnostic kits, daily supplements, shops mainly via clinical-grade wellness programmes, and spends roughly 1550 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "NOR-043",
+    "name": "Oskar Bergström",
+    "market": "Nordics",
+    "archetype": "active retiree",
+    "age": 73,
+    "gender": "male",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Low",
+    "interests": [
+      "Heart Health",
+      "Longevity",
+      "Preventative Care"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "pharmacies and trusted health retailers",
+    "annual_spend": 880,
+    "annual_spend_currency": "EUR",
+    "description": "Oskar Bergström is a 73-year-old active retiree in Nordics who wants to stay independent and physically active well into later life. With a middle income and low digital fluency, he prefers proven, clinically backed products and values pharmacist advice. Health priorities include Heart Health, Longevity, Preventative Care. He prefers daily supplements, at-home diagnostic kits, shops mainly via pharmacies and trusted health retailers, and spends roughly 880 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "NOR-044",
+    "name": "Amalie Andersson",
+    "market": "Nordics",
+    "archetype": "time-poor executive",
+    "age": 39,
+    "gender": "female",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Cognitive Performance",
+      "Energy",
+      "Stress Management"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Home Diagnostics"
+    ],
+    "preferred_channel": "premium online subscriptions",
+    "annual_spend": 1850,
+    "annual_spend_currency": "EUR",
+    "description": "Amalie Andersson is a 39-year-old time-poor executive in Nordics who seeks to sustain high performance and manage stress under pressure. With a high income and medium digital fluency, she willing to pay a premium for convenience and measurable results. Health priorities include Cognitive Performance, Energy, Stress Management. She prefers daily supplements, at-home diagnostic kits, shops mainly via premium online subscriptions, and spends roughly 1850 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "NOR-045",
+    "name": "Nora Lindqvist",
+    "market": "Nordics",
+    "archetype": "pharmacy-loyal shopper",
+    "age": 55,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Low",
+    "interests": [
+      "Immune Health",
+      "Bone Health",
+      "Everyday Wellness"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "local pharmacies",
+    "annual_spend": 560,
+    "annual_spend_currency": "EUR",
+    "description": "Nora Lindqvist is a 55-year-old pharmacy-loyal shopper in Nordics who relies on familiar brands and professional recommendations. With a middle income and low digital fluency, she rarely experiments and prioritises trust and safety over novelty. Health priorities include Immune Health, Bone Health, Everyday Wellness. She prefers daily supplements, shops mainly via local pharmacies, and spends roughly 560 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "NOR-046",
+    "name": "Sara Virtanen",
+    "market": "Nordics",
+    "archetype": "fitness professional",
+    "age": 30,
+    "gender": "female",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Energy",
+      "Recovery",
+      "Performance Nutrition"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Weight Management"
+    ],
+    "preferred_channel": "specialist sports-nutrition retailers and online",
+    "annual_spend": 1320,
+    "annual_spend_currency": "EUR",
+    "description": "Sara Virtanen is a 30-year-old fitness professional in Nordics who optimises training, recovery and body composition. With a high income and high digital fluency, she reads labels closely and favours high-dosage, transparent formulas. Health priorities include Energy, Recovery, Performance Nutrition. She prefers daily supplements, weight-management and metabolic products, shops mainly via specialist sports-nutrition retailers and online, and spends roughly 1320 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "NOR-047",
+    "name": "Sofia Nyström",
+    "market": "Nordics",
+    "archetype": "busy parent",
+    "age": 35,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Conservative",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Immune Health",
+      "Convenience",
+      "Family Wellness"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "supermarkets and convenient online delivery",
+    "annual_spend": 520,
+    "annual_spend_currency": "EUR",
+    "description": "Sofia Nyström is a 35-year-old busy parent in Nordics who wants simple, reliable wellness for the whole family. With a middle income and medium digital fluency, she values convenience, bundles and easy reordering. Health priorities include Immune Health, Convenience, Family Wellness. She prefers daily supplements, probiotics and gut support, shops mainly via supermarkets and convenient online delivery, and spends roughly 520 per year. Risk tolerance toward new products is conservative."
+  },
+  {
+    "persona_id": "NOR-048",
+    "name": "Nora Holm",
+    "market": "Nordics",
+    "archetype": "preventive-health adopter",
+    "age": 57,
+    "gender": "female",
+    "income_band": "Middle",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "Medium",
+    "interests": [
+      "Metabolic Health",
+      "Preventative Care",
+      "Early Detection"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements"
+    ],
+    "preferred_channel": "online diagnostics platforms",
+    "annual_spend": 1000,
+    "annual_spend_currency": "EUR",
+    "description": "Nora Holm is a 57-year-old preventive-health adopter in Nordics who monitors health markers regularly to catch issues early. With a middle income and medium digital fluency, she data-driven and comfortable with at-home testing. Health priorities include Metabolic Health, Preventative Care, Early Detection. She prefers at-home diagnostic kits, daily supplements, shops mainly via online diagnostics platforms, and spends roughly 1000 per year. Risk tolerance toward new products is moderate."
+  },
+  {
+    "persona_id": "NOR-049",
+    "name": "Henrik Lund",
+    "market": "Nordics",
+    "archetype": "biohacker and self-optimiser",
+    "age": 37,
+    "gender": "male",
+    "income_band": "High",
+    "risk_tolerance": "Adventurous",
+    "digital_maturity": "High",
+    "interests": [
+      "Longevity",
+      "Cognitive Performance",
+      "Sleep"
+    ],
+    "preferred_categories": [
+      "Home Diagnostics",
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "cutting-edge D2C brands and subscriptions",
+    "annual_spend": 1700,
+    "annual_spend_currency": "EUR",
+    "description": "Henrik Lund is a 37-year-old biohacker and self-optimiser in Nordics who treats health as a measurable system to continuously optimise. With a high income and high digital fluency, he an early adopter who combines wearables, diagnostics and personalised stacks. Health priorities include Longevity, Cognitive Performance, Sleep. He prefers at-home diagnostic kits, daily supplements, probiotics and gut support, shops mainly via cutting-edge D2C brands and subscriptions, and spends roughly 1700 per year. Risk tolerance toward new products is adventurous."
+  },
+  {
+    "persona_id": "NOR-050",
+    "name": "Henrik Nielsen",
+    "market": "Nordics",
+    "archetype": "subscription-first consumer",
+    "age": 25,
+    "gender": "male",
+    "income_band": "High",
+    "risk_tolerance": "Moderate",
+    "digital_maturity": "High",
+    "interests": [
+      "Personalisation",
+      "Convenience",
+      "Everyday Wellness"
+    ],
+    "preferred_categories": [
+      "Vitamins & Supplements",
+      "Gut Health"
+    ],
+    "preferred_channel": "monthly online subscriptions",
+    "annual_spend": 830,
+    "annual_spend_currency": "EUR",
+    "description": "Henrik Nielsen is a 25-year-old subscription-first consumer in Nordics who prefers set-and-forget wellness that arrives automatically. With a high income and high digital fluency, he loyal to brands offering personalisation and easy management. Health priorities include Personalisation, Convenience, Everyday Wellness. He prefers daily supplements, probiotics and gut support, shops mainly via monthly online subscriptions, and spends roughly 830 per year. Risk tolerance toward new products is moderate."
+  }
+]

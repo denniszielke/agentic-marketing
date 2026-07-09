@@ -1,0 +1,962 @@
+[
+  {
+    "innovation_id": "INN-001",
+    "innovation_name": "NeuroFocus AI",
+    "category": "Vitamins & Supplements",
+    "technology": "AI recommendation engine",
+    "concept": "AI-guided cognitive supplement",
+    "trends_addressed": [
+      "cognitive performance",
+      "AI health coaching",
+      "personalised nutrition"
+    ],
+    "estimated_cost": 19,
+    "estimated_sale_price": 60,
+    "estimated_gross_margin": 68.3,
+    "market_readiness": "Medium",
+    "target_market": "Germany",
+    "expected_launch_year": 2027,
+    "description": "NeuroFocus AI is a medium-readiness Vitamins & Supplements innovation built on an AI recommendation engine. As an AI-guided cognitive supplement, it addresses cognitive performance, AI health coaching, personalised nutrition, and is designed to deliver bone and joint strength. Targeted at Germany, it is expected to launch in 2027 at an estimated retail price of 60 (production cost ~19, roughly 68.3% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-002",
+    "innovation_name": "Adaptive Vitamin Pack",
+    "category": "Vitamins & Supplements",
+    "technology": "AI recommendation engine",
+    "concept": "diagnostic-driven adaptive formulation",
+    "trends_addressed": [
+      "personalised nutrition",
+      "precision supplementation",
+      "at-home diagnostics"
+    ],
+    "estimated_cost": 19,
+    "estimated_sale_price": 77,
+    "estimated_gross_margin": 75.3,
+    "market_readiness": "Low",
+    "target_market": "Germany",
+    "expected_launch_year": 2028,
+    "description": "Adaptive Vitamin Pack is a low-readiness Vitamins & Supplements innovation built on an AI recommendation engine. As a diagnostic-driven adaptive formulation, it addresses personalised nutrition, precision supplementation, at-home diagnostics, and is designed to deliver hormonal balance. Targeted at Germany, it is expected to launch in 2028 at an estimated retail price of 77 (production cost ~19, roughly 75.3% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-003",
+    "innovation_name": "ChronoDose",
+    "category": "Vitamins & Supplements",
+    "technology": "adaptive micro-dosing",
+    "concept": "circadian-timed nutrient delivery",
+    "trends_addressed": [
+      "sleep optimisation",
+      "precision supplementation"
+    ],
+    "estimated_cost": 12,
+    "estimated_sale_price": 45,
+    "estimated_gross_margin": 73.3,
+    "market_readiness": "Low",
+    "target_market": "All markets",
+    "expected_launch_year": 2028,
+    "description": "ChronoDose is a low-readiness Vitamins & Supplements innovation built on an adaptive micro-dosing. As a circadian-timed nutrient delivery, it addresses sleep optimisation, precision supplementation, and is designed to deliver restful sleep. Targeted at all markets, it is expected to launch in 2028 at an estimated retail price of 45 (production cost ~12, roughly 73.3% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-004",
+    "innovation_name": "CellRenew NAD+",
+    "category": "Vitamins & Supplements",
+    "technology": "biomarker-linked formulation",
+    "concept": "NAD+ precursor longevity stack",
+    "trends_addressed": [
+      "longevity and healthy aging",
+      "precision supplementation"
+    ],
+    "estimated_cost": 18,
+    "estimated_sale_price": 53,
+    "estimated_gross_margin": 66.0,
+    "market_readiness": "High",
+    "target_market": "UK",
+    "expected_launch_year": 2026,
+    "description": "CellRenew NAD+ is a high-readiness Vitamins & Supplements innovation built on a biomarker-linked formulation. As a NAD+ precursor longevity stack, it addresses longevity and healthy aging, precision supplementation, and is designed to deliver healthy aging. Targeted at UK, it is expected to launch in 2026 at an estimated retail price of 53 (production cost ~18, roughly 66.0% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-005",
+    "innovation_name": "ImmunoSense",
+    "category": "Vitamins & Supplements",
+    "technology": "AI recommendation engine",
+    "concept": "wearable-linked immune support",
+    "trends_addressed": [
+      "immune resilience",
+      "wearable and continuous monitoring"
+    ],
+    "estimated_cost": 18,
+    "estimated_sale_price": 60,
+    "estimated_gross_margin": 70.0,
+    "market_readiness": "Low",
+    "target_market": "Nordics",
+    "expected_launch_year": 2028,
+    "description": "ImmunoSense is a low-readiness Vitamins & Supplements innovation built on an AI recommendation engine. As a wearable-linked immune support, it addresses immune resilience, wearable and continuous monitoring, and is designed to deliver stress adaptation. Targeted at Nordics, it is expected to launch in 2028 at an estimated retail price of 60 (production cost ~18, roughly 70.0% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-006",
+    "innovation_name": "ActiveBalance Bio",
+    "category": "Vitamins & Supplements",
+    "technology": "AI recommendation engine",
+    "concept": "time-released delivery concept",
+    "trends_addressed": [
+      "microbiome science",
+      "women's health",
+      "cognitive performance"
+    ],
+    "estimated_cost": 17,
+    "estimated_sale_price": 53,
+    "estimated_gross_margin": 67.9,
+    "market_readiness": "Low",
+    "target_market": "Nordics",
+    "expected_launch_year": 2028,
+    "description": "ActiveBalance Bio is a low-readiness Vitamins & Supplements innovation built on an AI recommendation engine. As a time-released delivery concept, it addresses microbiome science, women's health, cognitive performance, and is designed to deliver healthy aging. Targeted at Nordics, it is expected to launch in 2028 at an estimated retail price of 53 (production cost ~17, roughly 67.9% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-007",
+    "innovation_name": "ImmunoCore Precision",
+    "category": "Vitamins & Supplements",
+    "technology": "time-released delivery",
+    "concept": "adaptive micro-dosing concept",
+    "trends_addressed": [
+      "precision supplementation",
+      "personalised nutrition",
+      "at-home diagnostics"
+    ],
+    "estimated_cost": 9,
+    "estimated_sale_price": 35,
+    "estimated_gross_margin": 74.3,
+    "market_readiness": "Medium",
+    "target_market": "Germany",
+    "expected_launch_year": 2027,
+    "description": "ImmunoCore Precision is a medium-readiness Vitamins & Supplements innovation built on a time-released delivery. As an adaptive micro-dosing concept, it addresses precision supplementation, personalised nutrition, at-home diagnostics, and is designed to deliver cardiovascular health. Targeted at Germany, it is expected to launch in 2027 at an estimated retail price of 35 (production cost ~9, roughly 74.3% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-008",
+    "innovation_name": "CellularBoost Bio",
+    "category": "Vitamins & Supplements",
+    "technology": "time-released delivery",
+    "concept": "AI recommendation engine concept",
+    "trends_addressed": [
+      "women's health",
+      "AI health coaching"
+    ],
+    "estimated_cost": 12,
+    "estimated_sale_price": 38,
+    "estimated_gross_margin": 68.4,
+    "market_readiness": "Medium",
+    "target_market": "UK",
+    "expected_launch_year": 2028,
+    "description": "CellularBoost Bio is a medium-readiness Vitamins & Supplements innovation built on a time-released delivery. As an AI recommendation engine concept, it addresses women's health, AI health coaching, and is designed to deliver hormonal balance. Targeted at UK, it is expected to launch in 2028 at an estimated retail price of 38 (production cost ~12, roughly 68.4% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-009",
+    "innovation_name": "DailyBalance Next",
+    "category": "Vitamins & Supplements",
+    "technology": "biomarker-linked formulation",
+    "concept": "biomarker-linked formulation concept",
+    "trends_addressed": [
+      "gut-brain axis",
+      "cognitive performance"
+    ],
+    "estimated_cost": 12,
+    "estimated_sale_price": 50,
+    "estimated_gross_margin": 76.0,
+    "market_readiness": "High",
+    "target_market": "Germany",
+    "expected_launch_year": 2027,
+    "description": "DailyBalance Next is a high-readiness Vitamins & Supplements innovation built on a biomarker-linked formulation. As a biomarker-linked formulation concept, it addresses gut-brain axis, cognitive performance, and is designed to deliver immune resilience. Targeted at Germany, it is expected to launch in 2027 at an estimated retail price of 50 (production cost ~12, roughly 76.0% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-010",
+    "innovation_name": "ActiveMax Continuous",
+    "category": "Vitamins & Supplements",
+    "technology": "time-released delivery",
+    "concept": "time-released delivery concept",
+    "trends_addressed": [
+      "GLP-1 and metabolic health",
+      "wearable and continuous monitoring",
+      "sustainability and clean labels"
+    ],
+    "estimated_cost": 20,
+    "estimated_sale_price": 80,
+    "estimated_gross_margin": 75.0,
+    "market_readiness": "Low",
+    "target_market": "UK",
+    "expected_launch_year": 2028,
+    "description": "ActiveMax Continuous is a low-readiness Vitamins & Supplements innovation built on a time-released delivery. As a time-released delivery concept, it addresses GLP-1 and metabolic health, wearable and continuous monitoring, sustainability and clean labels, and is designed to deliver restful sleep. Targeted at UK, it is expected to launch in 2028 at an estimated retail price of 80 (production cost ~20, roughly 75.0% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-011",
+    "innovation_name": "ActiveComplete AI",
+    "category": "Vitamins & Supplements",
+    "technology": "biomarker-linked formulation",
+    "concept": "biomarker-linked formulation concept",
+    "trends_addressed": [
+      "at-home diagnostics",
+      "microbiome science"
+    ],
+    "estimated_cost": 22,
+    "estimated_sale_price": 91,
+    "estimated_gross_margin": 75.8,
+    "market_readiness": "Medium",
+    "target_market": "All markets",
+    "expected_launch_year": 2027,
+    "description": "ActiveComplete AI is a medium-readiness Vitamins & Supplements innovation built on a biomarker-linked formulation. As a biomarker-linked formulation concept, it addresses at-home diagnostics, microbiome science, and is designed to deliver bone and joint strength. Targeted at all markets, it is expected to launch in 2027 at an estimated retail price of 91 (production cost ~22, roughly 75.8% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-012",
+    "innovation_name": "EnergyRestore Continuous",
+    "category": "Vitamins & Supplements",
+    "technology": "time-released delivery",
+    "concept": "biomarker-linked formulation concept",
+    "trends_addressed": [
+      "precision supplementation",
+      "sleep optimisation"
+    ],
+    "estimated_cost": 11,
+    "estimated_sale_price": 29,
+    "estimated_gross_margin": 62.1,
+    "market_readiness": "Medium",
+    "target_market": "All markets",
+    "expected_launch_year": 2027,
+    "description": "EnergyRestore Continuous is a medium-readiness Vitamins & Supplements innovation built on a time-released delivery. As a biomarker-linked formulation concept, it addresses precision supplementation, sleep optimisation, and is designed to deliver restful sleep. Targeted at all markets, it is expected to launch in 2027 at an estimated retail price of 29 (production cost ~11, roughly 62.1% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-013",
+    "innovation_name": "CellularBoost Precision",
+    "category": "Vitamins & Supplements",
+    "technology": "AI recommendation engine",
+    "concept": "AI recommendation engine concept",
+    "trends_addressed": [
+      "sleep optimisation",
+      "cognitive performance"
+    ],
+    "estimated_cost": 14,
+    "estimated_sale_price": 47,
+    "estimated_gross_margin": 70.2,
+    "market_readiness": "Low",
+    "target_market": "All markets",
+    "expected_launch_year": 2028,
+    "description": "CellularBoost Precision is a low-readiness Vitamins & Supplements innovation built on an AI recommendation engine. As an AI recommendation engine concept, it addresses sleep optimisation, cognitive performance, and is designed to deliver cardiovascular health. Targeted at all markets, it is expected to launch in 2028 at an estimated retail price of 47 (production cost ~14, roughly 70.2% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-014",
+    "innovation_name": "MicroBiome Twin",
+    "category": "Gut Health",
+    "technology": "metagenomic sequencing",
+    "concept": "continuous microbiome monitoring with probiotics",
+    "trends_addressed": [
+      "microbiome science",
+      "wearable and continuous monitoring",
+      "personalised nutrition"
+    ],
+    "estimated_cost": 34,
+    "estimated_sale_price": 126,
+    "estimated_gross_margin": 73.0,
+    "market_readiness": "High",
+    "target_market": "UK",
+    "expected_launch_year": 2026,
+    "description": "MicroBiome Twin is a high-readiness Gut Health innovation built on a metagenomic sequencing. As a continuous microbiome monitoring with probiotics, it addresses microbiome science, wearable and continuous monitoring, personalised nutrition, and is designed to deliver reduced bloating. Targeted at UK, it is expected to launch in 2026 at an estimated retail price of 126 (production cost ~34, roughly 73.0% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-015",
+    "innovation_name": "Gut Age Score",
+    "category": "Gut Health",
+    "technology": "engineered probiotics",
+    "concept": "biological gut-age scoring",
+    "trends_addressed": [
+      "microbiome science",
+      "longevity and healthy aging"
+    ],
+    "estimated_cost": 30,
+    "estimated_sale_price": 88,
+    "estimated_gross_margin": 65.9,
+    "market_readiness": "Medium",
+    "target_market": "Germany",
+    "expected_launch_year": 2028,
+    "description": "Gut Age Score is a medium-readiness Gut Health innovation built on an engineered probiotics. As a biological gut-age scoring, it addresses microbiome science, longevity and healthy aging, and is designed to deliver reduced bloating. Targeted at Germany, it is expected to launch in 2028 at an estimated retail price of 88 (production cost ~30, roughly 65.9% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-016",
+    "innovation_name": "PsychoBiotic Calm",
+    "category": "Gut Health",
+    "technology": "engineered probiotics",
+    "concept": "gut-brain axis mood support",
+    "trends_addressed": [
+      "gut-brain axis",
+      "microbiome science"
+    ],
+    "estimated_cost": 8,
+    "estimated_sale_price": 22,
+    "estimated_gross_margin": 63.6,
+    "market_readiness": "Medium",
+    "target_market": "Germany",
+    "expected_launch_year": 2028,
+    "description": "PsychoBiotic Calm is a medium-readiness Gut Health innovation built on an engineered probiotics. As a gut-brain axis mood support, it addresses gut-brain axis, microbiome science, and is designed to deliver immune modulation via the gut. Targeted at Germany, it is expected to launch in 2028 at an estimated retail price of 22 (production cost ~8, roughly 63.6% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-017",
+    "innovation_name": "Precision Postbiotics",
+    "category": "Gut Health",
+    "technology": "metagenomic sequencing",
+    "concept": "targeted postbiotic therapeutics",
+    "trends_addressed": [
+      "microbiome science",
+      "precision supplementation"
+    ],
+    "estimated_cost": 34,
+    "estimated_sale_price": 122,
+    "estimated_gross_margin": 72.1,
+    "market_readiness": "Low",
+    "target_market": "All markets",
+    "expected_launch_year": 2028,
+    "description": "Precision Postbiotics is a low-readiness Gut Health innovation built on a metagenomic sequencing. As a targeted postbiotic therapeutics, it addresses microbiome science, precision supplementation, and is designed to deliver gut barrier integrity. Targeted at all markets, it is expected to launch in 2028 at an estimated retail price of 122 (production cost ~34, roughly 72.1% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-018",
+    "innovation_name": "FloraSync AI",
+    "category": "Gut Health",
+    "technology": "postbiotic bioactives",
+    "concept": "AI nutrition coach for the microbiome",
+    "trends_addressed": [
+      "AI health coaching",
+      "microbiome science",
+      "personalised nutrition"
+    ],
+    "estimated_cost": 23,
+    "estimated_sale_price": 68,
+    "estimated_gross_margin": 66.2,
+    "market_readiness": "Medium",
+    "target_market": "Germany",
+    "expected_launch_year": 2028,
+    "description": "FloraSync AI is a medium-readiness Gut Health innovation built on a postbiotic bioactives. As an AI nutrition coach for the microbiome, it addresses AI health coaching, microbiome science, personalised nutrition, and is designed to deliver microbiome balance. Targeted at Germany, it is expected to launch in 2028 at an estimated retail price of 68 (production cost ~23, roughly 66.2% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-019",
+    "innovation_name": "FibreComplete Bio",
+    "category": "Gut Health",
+    "technology": "metagenomic sequencing",
+    "concept": "metagenomic sequencing concept",
+    "trends_addressed": [
+      "sleep optimisation",
+      "women's health",
+      "wearable and continuous monitoring"
+    ],
+    "estimated_cost": 8,
+    "estimated_sale_price": 22,
+    "estimated_gross_margin": 63.6,
+    "market_readiness": "Low",
+    "target_market": "UK",
+    "expected_launch_year": 2029,
+    "description": "FibreComplete Bio is a low-readiness Gut Health innovation built on a metagenomic sequencing. As a metagenomic sequencing concept, it addresses sleep optimisation, women's health, wearable and continuous monitoring, and is designed to deliver reduced bloating. Targeted at UK, it is expected to launch in 2029 at an estimated retail price of 22 (production cost ~8, roughly 63.6% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-020",
+    "innovation_name": "DigestCare Precision",
+    "category": "Gut Health",
+    "technology": "postbiotic bioactives",
+    "concept": "continuous microbiome monitoring concept",
+    "trends_addressed": [
+      "gut-brain axis",
+      "cognitive performance"
+    ],
+    "estimated_cost": 27,
+    "estimated_sale_price": 72,
+    "estimated_gross_margin": 62.5,
+    "market_readiness": "Medium",
+    "target_market": "UK",
+    "expected_launch_year": 2027,
+    "description": "DigestCare Precision is a medium-readiness Gut Health innovation built on a postbiotic bioactives. As a continuous microbiome monitoring concept, it addresses gut-brain axis, cognitive performance, and is designed to deliver regularity. Targeted at UK, it is expected to launch in 2027 at an estimated retail price of 72 (production cost ~27, roughly 62.5% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-021",
+    "innovation_name": "FibreComplete Continuous",
+    "category": "Gut Health",
+    "technology": "engineered probiotics",
+    "concept": "postbiotic bioactives concept",
+    "trends_addressed": [
+      "immune resilience",
+      "at-home diagnostics",
+      "gut-brain axis"
+    ],
+    "estimated_cost": 13,
+    "estimated_sale_price": 48,
+    "estimated_gross_margin": 72.9,
+    "market_readiness": "Medium",
+    "target_market": "UK",
+    "expected_launch_year": 2027,
+    "description": "FibreComplete Continuous is a medium-readiness Gut Health innovation built on an engineered probiotics. As a postbiotic bioactives concept, it addresses immune resilience, at-home diagnostics, gut-brain axis, and is designed to deliver digestive comfort. Targeted at UK, it is expected to launch in 2027 at an estimated retail price of 48 (production cost ~13, roughly 72.9% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-022",
+    "innovation_name": "DigestGuard Next",
+    "category": "Gut Health",
+    "technology": "postbiotic bioactives",
+    "concept": "metagenomic sequencing concept",
+    "trends_addressed": [
+      "cognitive performance",
+      "at-home diagnostics"
+    ],
+    "estimated_cost": 31,
+    "estimated_sale_price": 92,
+    "estimated_gross_margin": 66.3,
+    "market_readiness": "High",
+    "target_market": "Nordics",
+    "expected_launch_year": 2026,
+    "description": "DigestGuard Next is a high-readiness Gut Health innovation built on a postbiotic bioactives. As a metagenomic sequencing concept, it addresses cognitive performance, at-home diagnostics, and is designed to deliver gut barrier integrity. Targeted at Nordics, it is expected to launch in 2026 at an estimated retail price of 92 (production cost ~31, roughly 66.3% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-023",
+    "innovation_name": "SymbioPlus Bio",
+    "category": "Gut Health",
+    "technology": "engineered probiotics",
+    "concept": "postbiotic bioactives concept",
+    "trends_addressed": [
+      "sleep optimisation",
+      "personalised nutrition"
+    ],
+    "estimated_cost": 8,
+    "estimated_sale_price": 22,
+    "estimated_gross_margin": 63.6,
+    "market_readiness": "Medium",
+    "target_market": "Nordics",
+    "expected_launch_year": 2027,
+    "description": "SymbioPlus Bio is a medium-readiness Gut Health innovation built on an engineered probiotics. As a postbiotic bioactives concept, it addresses sleep optimisation, personalised nutrition, and is designed to deliver improved nutrient absorption. Targeted at Nordics, it is expected to launch in 2027 at an estimated retail price of 22 (production cost ~8, roughly 63.6% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-024",
+    "innovation_name": "SymbioAdvanced Continuous",
+    "category": "Gut Health",
+    "technology": "AI nutrition coaching",
+    "concept": "AI nutrition coaching concept",
+    "trends_addressed": [
+      "immune resilience",
+      "preventive healthcare",
+      "personalised nutrition"
+    ],
+    "estimated_cost": 28,
+    "estimated_sale_price": 74,
+    "estimated_gross_margin": 62.2,
+    "market_readiness": "Medium",
+    "target_market": "Germany",
+    "expected_launch_year": 2027,
+    "description": "SymbioAdvanced Continuous is a medium-readiness Gut Health innovation built on an AI nutrition coaching. As an AI nutrition coaching concept, it addresses immune resilience, preventive healthcare, personalised nutrition, and is designed to deliver gut barrier integrity. Targeted at Germany, it is expected to launch in 2027 at an estimated retail price of 74 (production cost ~28, roughly 62.2% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-025",
+    "innovation_name": "BioComplex Bio",
+    "category": "Gut Health",
+    "technology": "postbiotic bioactives",
+    "concept": "metagenomic sequencing concept",
+    "trends_addressed": [
+      "personalised nutrition",
+      "GLP-1 and metabolic health",
+      "at-home diagnostics"
+    ],
+    "estimated_cost": 32,
+    "estimated_sale_price": 85,
+    "estimated_gross_margin": 62.4,
+    "market_readiness": "Medium",
+    "target_market": "Germany",
+    "expected_launch_year": 2028,
+    "description": "BioComplex Bio is a medium-readiness Gut Health innovation built on a postbiotic bioactives. As a metagenomic sequencing concept, it addresses personalised nutrition, GLP-1 and metabolic health, at-home diagnostics, and is designed to deliver reduced bloating. Targeted at Germany, it is expected to launch in 2028 at an estimated retail price of 85 (production cost ~32, roughly 62.4% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-026",
+    "innovation_name": "BiomeCare AI",
+    "category": "Gut Health",
+    "technology": "metagenomic sequencing",
+    "concept": "engineered probiotics concept",
+    "trends_addressed": [
+      "sustainability and clean labels",
+      "precision supplementation",
+      "personalised nutrition"
+    ],
+    "estimated_cost": 28,
+    "estimated_sale_price": 107,
+    "estimated_gross_margin": 73.8,
+    "market_readiness": "Low",
+    "target_market": "UK",
+    "expected_launch_year": 2028,
+    "description": "BiomeCare AI is a low-readiness Gut Health innovation built on a metagenomic sequencing. As an engineered probiotics concept, it addresses sustainability and clean labels, precision supplementation, personalised nutrition, and is designed to deliver digestive comfort. Targeted at UK, it is expected to launch in 2028 at an estimated retail price of 107 (production cost ~28, roughly 73.8% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-027",
+    "innovation_name": "GLP Companion Plus",
+    "category": "Weight Management",
+    "technology": "continuous glucose monitoring",
+    "concept": "nutrition system for GLP-1 users",
+    "trends_addressed": [
+      "GLP-1 and metabolic health",
+      "personalised nutrition"
+    ],
+    "estimated_cost": 24,
+    "estimated_sale_price": 62,
+    "estimated_gross_margin": 61.3,
+    "market_readiness": "High",
+    "target_market": "UK",
+    "expected_launch_year": 2026,
+    "description": "GLP Companion Plus is a high-readiness Weight Management innovation built on a continuous glucose monitoring. As a nutrition system for GLP-1 users, it addresses GLP-1 and metabolic health, personalised nutrition, and is designed to deliver sustained satiety. Targeted at UK, it is expected to launch in 2026 at an estimated retail price of 62 (production cost ~24, roughly 61.3% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-028",
+    "innovation_name": "Metabolic Digital Twin",
+    "category": "Weight Management",
+    "technology": "continuous glucose monitoring",
+    "concept": "personalised metabolic simulation model",
+    "trends_addressed": [
+      "GLP-1 and metabolic health",
+      "AI health coaching",
+      "wearable and continuous monitoring"
+    ],
+    "estimated_cost": 27,
+    "estimated_sale_price": 81,
+    "estimated_gross_margin": 66.7,
+    "market_readiness": "Low",
+    "target_market": "UK",
+    "expected_launch_year": 2028,
+    "description": "Metabolic Digital Twin is a low-readiness Weight Management innovation built on a continuous glucose monitoring. As a personalised metabolic simulation model, it addresses GLP-1 and metabolic health, AI health coaching, wearable and continuous monitoring, and is designed to deliver lean muscle preservation. Targeted at UK, it is expected to launch in 2028 at an estimated retail price of 81 (production cost ~27, roughly 66.7% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-029",
+    "innovation_name": "Satiety Sense CGM",
+    "category": "Weight Management",
+    "technology": "metabolic digital twin modelling",
+    "concept": "appetite coaching linked to glucose monitoring",
+    "trends_addressed": [
+      "GLP-1 and metabolic health",
+      "wearable and continuous monitoring"
+    ],
+    "estimated_cost": 20,
+    "estimated_sale_price": 72,
+    "estimated_gross_margin": 72.2,
+    "market_readiness": "Medium",
+    "target_market": "Nordics",
+    "expected_launch_year": 2027,
+    "description": "Satiety Sense CGM is a medium-readiness Weight Management innovation built on a metabolic digital twin modelling. As an appetite coaching linked to glucose monitoring, it addresses GLP-1 and metabolic health, wearable and continuous monitoring, and is designed to deliver lean muscle preservation. Targeted at Nordics, it is expected to launch in 2027 at an estimated retail price of 72 (production cost ~20, roughly 72.2% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-030",
+    "innovation_name": "LeanProtein Precision",
+    "category": "Weight Management",
+    "technology": "continuous glucose monitoring",
+    "concept": "DNA-informed protein optimisation",
+    "trends_addressed": [
+      "personalised nutrition",
+      "precision supplementation"
+    ],
+    "estimated_cost": 27,
+    "estimated_sale_price": 77,
+    "estimated_gross_margin": 64.9,
+    "market_readiness": "Medium",
+    "target_market": "Nordics",
+    "expected_launch_year": 2028,
+    "description": "LeanProtein Precision is a medium-readiness Weight Management innovation built on a continuous glucose monitoring. As a DNA-informed protein optimisation, it addresses personalised nutrition, precision supplementation, and is designed to deliver steady energy. Targeted at Nordics, it is expected to launch in 2028 at an estimated retail price of 77 (production cost ~27, roughly 64.9% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-031",
+    "innovation_name": "AppetiteReset",
+    "category": "Weight Management",
+    "technology": "metabolic digital twin modelling",
+    "concept": "personalised appetite optimisation programme",
+    "trends_addressed": [
+      "GLP-1 and metabolic health",
+      "AI health coaching"
+    ],
+    "estimated_cost": 22,
+    "estimated_sale_price": 53,
+    "estimated_gross_margin": 58.5,
+    "market_readiness": "Medium",
+    "target_market": "All markets",
+    "expected_launch_year": 2028,
+    "description": "AppetiteReset is a medium-readiness Weight Management innovation built on a metabolic digital twin modelling. As a personalised appetite optimisation programme, it addresses GLP-1 and metabolic health, AI health coaching, and is designed to deliver lean muscle preservation. Targeted at all markets, it is expected to launch in 2028 at an estimated retail price of 53 (production cost ~22, roughly 58.5% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-032",
+    "innovation_name": "LeanPlus Bio",
+    "category": "Weight Management",
+    "technology": "continuous glucose monitoring",
+    "concept": "AI appetite coaching concept",
+    "trends_addressed": [
+      "women's health",
+      "preventive healthcare"
+    ],
+    "estimated_cost": 21,
+    "estimated_sale_price": 73,
+    "estimated_gross_margin": 71.2,
+    "market_readiness": "Medium",
+    "target_market": "UK",
+    "expected_launch_year": 2027,
+    "description": "LeanPlus Bio is a medium-readiness Weight Management innovation built on a continuous glucose monitoring. As an AI appetite coaching concept, it addresses women's health, preventive healthcare, and is designed to deliver appetite control. Targeted at UK, it is expected to launch in 2027 at an estimated retail price of 73 (production cost ~21, roughly 71.2% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-033",
+    "innovation_name": "MetaComplete Next",
+    "category": "Weight Management",
+    "technology": "continuous glucose monitoring",
+    "concept": "DNA-informed protein design concept",
+    "trends_addressed": [
+      "women's health",
+      "cognitive performance"
+    ],
+    "estimated_cost": 31,
+    "estimated_sale_price": 109,
+    "estimated_gross_margin": 71.6,
+    "market_readiness": "High",
+    "target_market": "UK",
+    "expected_launch_year": 2027,
+    "description": "MetaComplete Next is a high-readiness Weight Management innovation built on a continuous glucose monitoring. As a DNA-informed protein design concept, it addresses women's health, cognitive performance, and is designed to deliver sustained satiety. Targeted at UK, it is expected to launch in 2027 at an estimated retail price of 109 (production cost ~31, roughly 71.6% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-034",
+    "innovation_name": "BurnPro Precision",
+    "category": "Weight Management",
+    "technology": "GLP-1 companion nutrition",
+    "concept": "GLP-1 companion nutrition concept",
+    "trends_addressed": [
+      "gut-brain axis",
+      "women's health",
+      "preventive healthcare"
+    ],
+    "estimated_cost": 16,
+    "estimated_sale_price": 55,
+    "estimated_gross_margin": 70.9,
+    "market_readiness": "Medium",
+    "target_market": "Germany",
+    "expected_launch_year": 2028,
+    "description": "BurnPro Precision is a medium-readiness Weight Management innovation built on a GLP-1 companion nutrition. As a GLP-1 companion nutrition concept, it addresses gut-brain axis, women's health, preventive healthcare, and is designed to deliver sustained satiety. Targeted at Germany, it is expected to launch in 2028 at an estimated retail price of 55 (production cost ~16, roughly 70.9% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-035",
+    "innovation_name": "ShapeCompanion AI",
+    "category": "Weight Management",
+    "technology": "metabolic digital twin modelling",
+    "concept": "GLP-1 companion nutrition concept",
+    "trends_addressed": [
+      "gut-brain axis",
+      "preventive healthcare",
+      "wearable and continuous monitoring"
+    ],
+    "estimated_cost": 35,
+    "estimated_sale_price": 86,
+    "estimated_gross_margin": 59.3,
+    "market_readiness": "Medium",
+    "target_market": "Nordics",
+    "expected_launch_year": 2028,
+    "description": "ShapeCompanion AI is a medium-readiness Weight Management innovation built on a metabolic digital twin modelling. As a GLP-1 companion nutrition concept, it addresses gut-brain axis, preventive healthcare, wearable and continuous monitoring, and is designed to deliver sustained satiety. Targeted at Nordics, it is expected to launch in 2028 at an estimated retail price of 86 (production cost ~35, roughly 59.3% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-036",
+    "innovation_name": "SatietyPath Bio",
+    "category": "Weight Management",
+    "technology": "metabolic digital twin modelling",
+    "concept": "DNA-informed protein design concept",
+    "trends_addressed": [
+      "sleep optimisation",
+      "immune resilience",
+      "sustainability and clean labels"
+    ],
+    "estimated_cost": 21,
+    "estimated_sale_price": 72,
+    "estimated_gross_margin": 70.8,
+    "market_readiness": "Low",
+    "target_market": "All markets",
+    "expected_launch_year": 2029,
+    "description": "SatietyPath Bio is a low-readiness Weight Management innovation built on a metabolic digital twin modelling. As a DNA-informed protein design concept, it addresses sleep optimisation, immune resilience, sustainability and clean labels, and is designed to deliver steady energy. Targeted at all markets, it is expected to launch in 2029 at an estimated retail price of 72 (production cost ~21, roughly 70.8% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-037",
+    "innovation_name": "MetaDaily AI",
+    "category": "Weight Management",
+    "technology": "metabolic digital twin modelling",
+    "concept": "DNA-informed protein design concept",
+    "trends_addressed": [
+      "longevity and healthy aging",
+      "gut-brain axis"
+    ],
+    "estimated_cost": 28,
+    "estimated_sale_price": 84,
+    "estimated_gross_margin": 66.7,
+    "market_readiness": "Medium",
+    "target_market": "Nordics",
+    "expected_launch_year": 2027,
+    "description": "MetaDaily AI is a medium-readiness Weight Management innovation built on a metabolic digital twin modelling. As a DNA-informed protein design concept, it addresses longevity and healthy aging, gut-brain axis, and is designed to deliver appetite control. Targeted at Nordics, it is expected to launch in 2027 at an estimated retail price of 84 (production cost ~28, roughly 66.7% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-038",
+    "innovation_name": "TrimBoost Continuous",
+    "category": "Weight Management",
+    "technology": "metabolic digital twin modelling",
+    "concept": "GLP-1 companion nutrition concept",
+    "trends_addressed": [
+      "cognitive performance",
+      "personalised nutrition",
+      "sleep optimisation"
+    ],
+    "estimated_cost": 34,
+    "estimated_sale_price": 121,
+    "estimated_gross_margin": 71.9,
+    "market_readiness": "Low",
+    "target_market": "Nordics",
+    "expected_launch_year": 2028,
+    "description": "TrimBoost Continuous is a low-readiness Weight Management innovation built on a metabolic digital twin modelling. As a GLP-1 companion nutrition concept, it addresses cognitive performance, personalised nutrition, sleep optimisation, and is designed to deliver balanced blood sugar. Targeted at Nordics, it is expected to launch in 2028 at an estimated retail price of 121 (production cost ~34, roughly 71.9% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-039",
+    "innovation_name": "SlimCompanion Continuous",
+    "category": "Weight Management",
+    "technology": "DNA-informed protein design",
+    "concept": "DNA-informed protein design concept",
+    "trends_addressed": [
+      "cognitive performance",
+      "GLP-1 and metabolic health"
+    ],
+    "estimated_cost": 11,
+    "estimated_sale_price": 29,
+    "estimated_gross_margin": 62.1,
+    "market_readiness": "High",
+    "target_market": "All markets",
+    "expected_launch_year": 2026,
+    "description": "SlimCompanion Continuous is a high-readiness Weight Management innovation built on a DNA-informed protein design. As a DNA-informed protein design concept, it addresses cognitive performance, GLP-1 and metabolic health, and is designed to deliver sustained satiety. Targeted at all markets, it is expected to launch in 2026 at an estimated retail price of 29 (production cost ~11, roughly 62.1% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-040",
+    "innovation_name": "Health Insight 360",
+    "category": "Home Diagnostics",
+    "technology": "cloud-based longevity scoring",
+    "concept": "integrated multi-marker subscription panel",
+    "trends_addressed": [
+      "at-home diagnostics",
+      "preventive healthcare",
+      "personalised nutrition"
+    ],
+    "estimated_cost": 51,
+    "estimated_sale_price": 162,
+    "estimated_gross_margin": 68.5,
+    "market_readiness": "Low",
+    "target_market": "Nordics",
+    "expected_launch_year": 2028,
+    "description": "Health Insight 360 is a low-readiness Home Diagnostics innovation built on a cloud-based longevity scoring. As an integrated multi-marker subscription panel, it addresses at-home diagnostics, preventive healthcare, personalised nutrition, and is designed to deliver early detection of deficiencies. Targeted at Nordics, it is expected to launch in 2028 at an estimated retail price of 162 (production cost ~51, roughly 68.5% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-041",
+    "innovation_name": "Longevity Index",
+    "category": "Home Diagnostics",
+    "technology": "smartphone spectrometry",
+    "concept": "biological age scoring kit",
+    "trends_addressed": [
+      "longevity and healthy aging",
+      "at-home diagnostics",
+      "preventive healthcare"
+    ],
+    "estimated_cost": 37,
+    "estimated_sale_price": 105,
+    "estimated_gross_margin": 64.8,
+    "market_readiness": "Low",
+    "target_market": "Germany",
+    "expected_launch_year": 2028,
+    "description": "Longevity Index is a low-readiness Home Diagnostics innovation built on a smartphone spectrometry. As a biological age scoring kit, it addresses longevity and healthy aging, at-home diagnostics, preventive healthcare, and is designed to deliver actionable lifestyle guidance. Targeted at Germany, it is expected to launch in 2028 at an estimated retail price of 105 (production cost ~37, roughly 64.8% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-042",
+    "innovation_name": "HormoneTrack Fem",
+    "category": "Home Diagnostics",
+    "technology": "cloud-based longevity scoring",
+    "concept": "continuous female hormone tracking",
+    "trends_addressed": [
+      "women's health",
+      "at-home diagnostics"
+    ],
+    "estimated_cost": 40,
+    "estimated_sale_price": 145,
+    "estimated_gross_margin": 72.4,
+    "market_readiness": "Medium",
+    "target_market": "All markets",
+    "expected_launch_year": 2027,
+    "description": "HormoneTrack Fem is a medium-readiness Home Diagnostics innovation built on a cloud-based longevity scoring. As a continuous female hormone tracking, it addresses women's health, at-home diagnostics, and is designed to deliver actionable lifestyle guidance. Targeted at all markets, it is expected to launch in 2027 at an estimated retail price of 145 (production cost ~40, roughly 72.4% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-043",
+    "innovation_name": "CardioEarly",
+    "category": "Home Diagnostics",
+    "technology": "subscription multi-marker panel",
+    "concept": "at-home cardiovascular risk panel",
+    "trends_addressed": [
+      "preventive healthcare",
+      "at-home diagnostics"
+    ],
+    "estimated_cost": 48,
+    "estimated_sale_price": 191,
+    "estimated_gross_margin": 74.9,
+    "market_readiness": "High",
+    "target_market": "All markets",
+    "expected_launch_year": 2027,
+    "description": "CardioEarly is a high-readiness Home Diagnostics innovation built on a subscription multi-marker panel. As an at-home cardiovascular risk panel, it addresses preventive healthcare, at-home diagnostics, and is designed to deliver clinically validated results. Targeted at all markets, it is expected to launch in 2027 at an estimated retail price of 191 (production cost ~48, roughly 74.9% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-044",
+    "innovation_name": "InflammoScan",
+    "category": "Home Diagnostics",
+    "technology": "dried blood spot sampling",
+    "concept": "chronic inflammation monitoring",
+    "trends_addressed": [
+      "preventive healthcare",
+      "at-home diagnostics",
+      "longevity and healthy aging"
+    ],
+    "estimated_cost": 29,
+    "estimated_sale_price": 101,
+    "estimated_gross_margin": 71.3,
+    "market_readiness": "Low",
+    "target_market": "UK",
+    "expected_launch_year": 2029,
+    "description": "InflammoScan is a low-readiness Home Diagnostics innovation built on a dried blood spot sampling. As a chronic inflammation monitoring, it addresses preventive healthcare, at-home diagnostics, longevity and healthy aging, and is designed to deliver early detection of deficiencies. Targeted at UK, it is expected to launch in 2029 at an estimated retail price of 101 (production cost ~29, roughly 71.3% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-045",
+    "innovation_name": "GutReport Bio",
+    "category": "Home Diagnostics",
+    "technology": "smartphone spectrometry",
+    "concept": "cloud-based longevity scoring concept",
+    "trends_addressed": [
+      "longevity and healthy aging",
+      "women's health"
+    ],
+    "estimated_cost": 27,
+    "estimated_sale_price": 95,
+    "estimated_gross_margin": 71.6,
+    "market_readiness": "High",
+    "target_market": "All markets",
+    "expected_launch_year": 2027,
+    "description": "GutReport Bio is a high-readiness Home Diagnostics innovation built on a smartphone spectrometry. As a cloud-based longevity scoring concept, it addresses longevity and healthy aging, women's health, and is designed to deliver personalised recommendations. Targeted at all markets, it is expected to launch in 2027 at an estimated retail price of 95 (production cost ~27, roughly 71.6% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-046",
+    "innovation_name": "HealthScreen Continuous",
+    "category": "Home Diagnostics",
+    "technology": "multiplex biomarker assay",
+    "concept": "subscription multi-marker panel concept",
+    "trends_addressed": [
+      "at-home diagnostics",
+      "AI health coaching",
+      "microbiome science"
+    ],
+    "estimated_cost": 33,
+    "estimated_sale_price": 89,
+    "estimated_gross_margin": 62.9,
+    "market_readiness": "High",
+    "target_market": "Nordics",
+    "expected_launch_year": 2026,
+    "description": "HealthScreen Continuous is a high-readiness Home Diagnostics innovation built on a multiplex biomarker assay. As a subscription multi-marker panel concept, it addresses at-home diagnostics, AI health coaching, microbiome science, and is designed to deliver early detection of deficiencies. Targeted at Nordics, it is expected to launch in 2026 at an estimated retail price of 89 (production cost ~33, roughly 62.9% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-047",
+    "innovation_name": "HormoneInsight Bio",
+    "category": "Home Diagnostics",
+    "technology": "multiplex biomarker assay",
+    "concept": "dried blood spot sampling concept",
+    "trends_addressed": [
+      "GLP-1 and metabolic health",
+      "at-home diagnostics"
+    ],
+    "estimated_cost": 59,
+    "estimated_sale_price": 168,
+    "estimated_gross_margin": 64.9,
+    "market_readiness": "Low",
+    "target_market": "UK",
+    "expected_launch_year": 2029,
+    "description": "HormoneInsight Bio is a low-readiness Home Diagnostics innovation built on a multiplex biomarker assay. As a dried blood spot sampling concept, it addresses GLP-1 and metabolic health, at-home diagnostics, and is designed to deliver progress tracking over time. Targeted at UK, it is expected to launch in 2029 at an estimated retail price of 168 (production cost ~59, roughly 64.9% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-048",
+    "innovation_name": "LongevityScreen Next",
+    "category": "Home Diagnostics",
+    "technology": "multiplex biomarker assay",
+    "concept": "cloud-based longevity scoring concept",
+    "trends_addressed": [
+      "gut-brain axis",
+      "at-home diagnostics",
+      "sustainability and clean labels"
+    ],
+    "estimated_cost": 45,
+    "estimated_sale_price": 157,
+    "estimated_gross_margin": 71.3,
+    "market_readiness": "Medium",
+    "target_market": "UK",
+    "expected_launch_year": 2027,
+    "description": "LongevityScreen Next is a medium-readiness Home Diagnostics innovation built on a multiplex biomarker assay. As a cloud-based longevity scoring concept, it addresses gut-brain axis, at-home diagnostics, sustainability and clean labels, and is designed to deliver early detection of deficiencies. Targeted at UK, it is expected to launch in 2027 at an estimated retail price of 157 (production cost ~45, roughly 71.3% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-049",
+    "innovation_name": "GutIndex Continuous",
+    "category": "Home Diagnostics",
+    "technology": "cloud-based longevity scoring",
+    "concept": "smartphone spectrometry concept",
+    "trends_addressed": [
+      "women's health",
+      "at-home diagnostics"
+    ],
+    "estimated_cost": 57,
+    "estimated_sale_price": 155,
+    "estimated_gross_margin": 63.2,
+    "market_readiness": "Low",
+    "target_market": "Nordics",
+    "expected_launch_year": 2028,
+    "description": "GutIndex Continuous is a low-readiness Home Diagnostics innovation built on a cloud-based longevity scoring. As a smartphone spectrometry concept, it addresses women's health, at-home diagnostics, and is designed to deliver clinically validated results. Targeted at Nordics, it is expected to launch in 2028 at an estimated retail price of 155 (production cost ~57, roughly 63.2% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-050",
+    "innovation_name": "VitaTrack Next",
+    "category": "Home Diagnostics",
+    "technology": "multiplex biomarker assay",
+    "concept": "smartphone spectrometry concept",
+    "trends_addressed": [
+      "gut-brain axis",
+      "microbiome science"
+    ],
+    "estimated_cost": 24,
+    "estimated_sale_price": 86,
+    "estimated_gross_margin": 72.1,
+    "market_readiness": "High",
+    "target_market": "UK",
+    "expected_launch_year": 2027,
+    "description": "VitaTrack Next is a high-readiness Home Diagnostics innovation built on a multiplex biomarker assay. As a smartphone spectrometry concept, it addresses gut-brain axis, microbiome science, and is designed to deliver personalised recommendations. Targeted at UK, it is expected to launch in 2027 at an estimated retail price of 86 (production cost ~24, roughly 72.1% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-051",
+    "innovation_name": "CholestroIndex Continuous",
+    "category": "Home Diagnostics",
+    "technology": "multiplex biomarker assay",
+    "concept": "subscription multi-marker panel concept",
+    "trends_addressed": [
+      "sleep optimisation",
+      "women's health",
+      "GLP-1 and metabolic health"
+    ],
+    "estimated_cost": 35,
+    "estimated_sale_price": 100,
+    "estimated_gross_margin": 65.0,
+    "market_readiness": "High",
+    "target_market": "UK",
+    "expected_launch_year": 2027,
+    "description": "CholestroIndex Continuous is a high-readiness Home Diagnostics innovation built on a multiplex biomarker assay. As a subscription multi-marker panel concept, it addresses sleep optimisation, women's health, GLP-1 and metabolic health, and is designed to deliver clinically validated results. Targeted at UK, it is expected to launch in 2027 at an estimated retail price of 100 (production cost ~35, roughly 65.0% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  },
+  {
+    "innovation_id": "INN-052",
+    "innovation_name": "VitaScreen Precision",
+    "category": "Home Diagnostics",
+    "technology": "cloud-based longevity scoring",
+    "concept": "multiplex biomarker assay concept",
+    "trends_addressed": [
+      "AI health coaching",
+      "wearable and continuous monitoring",
+      "precision supplementation"
+    ],
+    "estimated_cost": 20,
+    "estimated_sale_price": 75,
+    "estimated_gross_margin": 73.3,
+    "market_readiness": "Low",
+    "target_market": "UK",
+    "expected_launch_year": 2028,
+    "description": "VitaScreen Precision is a low-readiness Home Diagnostics innovation built on a cloud-based longevity scoring. As a multiplex biomarker assay concept, it addresses AI health coaching, wearable and continuous monitoring, precision supplementation, and is designed to deliver personalised recommendations. Targeted at UK, it is expected to launch in 2028 at an estimated retail price of 75 (production cost ~20, roughly 73.3% gross margin). It fits consumers seeking data-driven, personalised health outcomes."
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "description": "Market intelligence agent for NorthStar Health. Discovers growth opportunities and analyses market dynamics across products, market performance and customer personas, and produces grounded category/market/pricing recommendations.",
+  "skills": [
+    {
+      "id": "opportunity-analysis",
+      "name": "Opportunity Analysis",
+      "description": "Identify the highest-growth category and market by combining market performance, competitor positioning and persona demand, and recommend a price point."
+    },
+    {
+      "id": "persona-targeting",
+      "name": "Persona Targeting",
+      "description": "Find the customer personas most likely to respond to a category or product and explain why."
+    }
+  ]
+}

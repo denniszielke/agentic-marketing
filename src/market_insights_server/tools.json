@@ -1,0 +1,92 @@
+{
+  "server": "market_insights",
+  "description": "NorthStar Health market intelligence (sales, revenue, margin, growth, market share, forecast), computed in-process from static datasets.",
+  "transport": "streamable-http",
+  "tools": [
+    {
+      "name": "get_sales",
+      "description": "Query annual sales rows, optionally filtered by market, category, product, brand and year.",
+      "access": "read",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "market": {"type": "string", "description": "Optional market filter — 'Germany', 'UK' or 'Nordics'."},
+          "category": {"type": "string", "description": "Optional category filter."},
+          "product_id": {"type": "string", "description": "Optional product id filter (e.g. 'GUT-2001')."},
+          "brand": {"type": "string", "description": "Optional brand filter."},
+          "year": {"type": "integer", "description": "Optional single year filter."},
+          "include_forecast": {"type": "boolean", "default": false, "description": "Include forecast rows."},
+          "top": {"type": "integer", "default": 200, "description": "Maximum number of rows to return."}
+        },
+        "required": []
+      }
+    },
+    {
+      "name": "get_market_share",
+      "description": "Return market-share by brand for a market (and optional category/year).",
+      "access": "read",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "market": {"type": "string", "description": "The market — 'Germany', 'UK' or 'Nordics'."},
+          "category": {"type": "string", "description": "Optional category filter."},
+          "year": {"type": "integer", "description": "Optional year (defaults to the latest historical year)."}
+        },
+        "required": ["market"]
+      }
+    },
+    {
+      "name": "get_growth_rates",
+      "description": "Return average annual growth rates by category (and optional market).",
+      "access": "read",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "market": {"type": "string", "description": "Optional market filter."},
+          "category": {"type": "string", "description": "Optional category filter."}
+        },
+        "required": []
+      }
+    },
+    {
+      "name": "compare_margins",
+      "description": "Compare average gross margin for a category across markets.",
+      "access": "read",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "category": {"type": "string", "description": "The product category to compare."},
+          "markets": {"type": "array", "items": {"type": "string"}, "description": "Markets to compare (defaults to Germany, UK, Nordics)."}
+        },
+        "required": ["category"]
+      }
+    },
+    {
+      "name": "get_forecast",
+      "description": "Return the forecast (projection) rows for a market, aggregated by year.",
+      "access": "read",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "market": {"type": "string", "description": "The market — 'Germany', 'UK' or 'Nordics'."},
+          "category": {"type": "string", "description": "Optional category filter."}
+        },
+        "required": ["market"]
+      }
+    },
+    {
+      "name": "competitor_performance",
+      "description": "Return brand-level performance (revenue, units, share) for competitors.",
+      "access": "read",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "market": {"type": "string", "description": "Optional market filter."},
+          "brand": {"type": "string", "description": "Optional single brand filter."},
+          "year": {"type": "integer", "description": "Optional year (defaults to the latest historical year)."}
+        },
+        "required": []
+      }
+    }
+  ]
+}

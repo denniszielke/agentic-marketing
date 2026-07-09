@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "description": "AG-UI marketing assistant for NorthStar Health. Lets a marketer discuss customer personas and explore products and market performance through a custom web UI, backed by the Foundry marketing toolbox.",
+  "skills": [
+    {
+      "id": "persona-discussion",
+      "name": "Persona Discussion",
+      "description": "Discuss and compare customer personas, surface the focus persona and relevant products in the sidebar."
+    }
+  ]
+}

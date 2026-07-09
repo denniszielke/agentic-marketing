@@ -1,0 +1,16 @@
+{
+  "serverName": "ext_persona_data",
+  "serverUrl": "",
+  "authType": "EntraID",
+  "description": "NorthStar Health customer persona segmentation MCP server, backed by Azure AI Search.",
+  "publisherName": "NorthStar Health",
+  "tools": [
+    {"name": "list_personas", "description": "List personas, optionally filtered by market, preferred category, age group or income band."},
+    {"name": "search_personas", "description": "Search personas semantically by need, motivation or behaviour."},
+    {"name": "get_persona", "description": "Get a single persona's full profile by id (e.g. 'GER-001')."},
+    {"name": "find_personas_by_interest", "description": "Find personas whose health interests match a topic."}
+  ],
+  "remoteScopes": null,
+  "externalOAuth": null,
+  "apiKey": null
+}
