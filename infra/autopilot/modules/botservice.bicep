@@ -33,4 +33,17 @@ resource botServiceMsTeamsChannel 'Microsoft.BotService/botServices/channels@202
   }
 }
 
+// Connect the bot to the Microsoft 365 Extensions channel — required to publish
+// and hire the agent as an Agent 365 digital worker in Teams / M365 Copilot
+// (see the hosted-agent-permissions "Azure Bot Service setup" doc, which calls
+// for configuring the Teams AND Microsoft 365 Extensions channels).
+resource botServiceM365ExtensionsChannel 'Microsoft.BotService/botServices/channels@2022-09-15' = {
+  parent: botService
+  location: 'global'
+  name: 'M365Extensions'
+  properties: {
+    channelName: 'M365Extensions'
+  }
+}
+
 output botName string = botService.name

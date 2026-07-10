@@ -39,11 +39,11 @@ param agentName string = 'campaign-a365-agent'
 @description('Agent identity blueprint (app) client id, created by create_maib.py.')
 param blueprintClientId string
 
-@description('Name of the Bot Service.')
-param botName string = '${agentName}-bot'
+@description('Name of the Bot Service. Azure Bot handles are GLOBALLY unique, so the default appends a per-resource-group/account hash to avoid "bot name is already registered" collisions.')
+param botName string = '${agentName}-${uniqueString(resourceGroup().id, accountName)}'
 
 @description('Display name of the bot.')
-param botDisplayName string = 'Campaign Planner'
+param botDisplayName string = 'NorthStar Campaign Planner'
 
 @description('SKU of the Bot Service.')
 param botServiceSku string = 'F0'
