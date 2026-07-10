@@ -40,6 +40,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 # image name -> Dockerfile path (relative to REPO_ROOT)
 IMAGES: dict[str, str] = {
     "product-mcp-server": "src/product_mcp_server/Dockerfile",
+    "public-product-mcp-server": "src/public_product_mcp_server/Dockerfile",
     "persona-mcp-server": "src/persona_mcp_server/Dockerfile",
     "research-mcp-server": "src/research_mcp_server/Dockerfile",
     "market-insights-server": "src/market_insights_server/Dockerfile",

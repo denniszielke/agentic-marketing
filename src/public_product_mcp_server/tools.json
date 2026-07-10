@@ -1,0 +1,72 @@
+{
+  "server": "public_product_data",
+  "description": "Public NorthStar Health product catalogue (internal and competitor products), backed by Azure AI Search. Anonymous/public — exposes names, categories, brands, markets, price tier, claims and descriptions only (no prices, margins or costs).",
+  "transport": "streamable-http",
+  "tools": [
+    {
+      "name": "list_products",
+      "description": "List the public product catalogue, optionally filtered by category, market, brand or competitor-only. No prices, margins or costs.",
+      "access": "read",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "category": {"type": "string", "description": "Optional category filter (e.g. 'Gut Health')."},
+          "market": {"type": "string", "description": "Optional market filter — 'Germany', 'UK' or 'Nordics'."},
+          "brand": {"type": "string", "description": "Optional brand filter (e.g. 'NorthStar Health')."},
+          "competitor_only": {"type": "boolean", "default": false, "description": "Return only competitor products."},
+          "top": {"type": "integer", "default": 50, "description": "Maximum number of products to return."}
+        },
+        "required": []
+      }
+    },
+    {
+      "name": "search_products",
+      "description": "Search the public product catalogue by free-text need, benefit or claim (semantic + vector search). No prices, margins or costs.",
+      "access": "read",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "query": {"type": "string", "description": "Free-text query, e.g. 'premium probiotic for gut health'."},
+          "top": {"type": "integer", "default": 10, "description": "Maximum number of products to return."}
+        },
+        "required": ["query"]
+      }
+    },
+    {
+      "name": "get_product",
+      "description": "Get a single product's public metadata by product id (e.g. 'VIT-1001'). No prices, margins or costs.",
+      "access": "read",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "product_id": {"type": "string", "description": "The product id, e.g. 'VIT-1001'."}
+        },
+        "required": ["product_id"]
+      }
+    },
+    {
+      "name": "list_categories",
+      "description": "List the distinct product categories in the catalogue.",
+      "access": "read",
+      "inputSchema": {"type": "object", "properties": {}, "required": []}
+    },
+    {
+      "name": "list_brands",
+      "description": "List the distinct brands in the catalogue (NorthStar + competitors).",
+      "access": "read",
+      "inputSchema": {"type": "object", "properties": {}, "required": []}
+    },
+    {
+      "name": "get_positioning",
+      "description": "Return a product's public competitive positioning summary (qualitative price tier and claims) plus competing products in the same category. No prices, margins or costs.",
+      "access": "read",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "product_id": {"type": "string", "description": "The product id, e.g. 'GUT-2001'."}
+        },
+        "required": ["product_id"]
+      }
+    }
+  ]
+}

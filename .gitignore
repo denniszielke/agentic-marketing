@@ -58,6 +58,10 @@ cover/
 # Django stuff:
 *.log
 local_settings.py
+
+# Generated A365 external-MCP register manifests — filled with real deployed URLs
+# from the committed *.json template; never checked in.
+**/register-external-mcp-server.generated.json
 db.sqlite3
 db.sqlite3-journal
 

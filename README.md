@@ -11,6 +11,7 @@ toolboxes** and **three agents**:
 | Component | Type | Backing data | Port |
 |---|---|---|---|
 | `product_mcp_server` | Container App (MCP) | AI Search `products` index | 8093 |
+| `public_product_mcp_server` | Container App (MCP, no auth) | AI Search `products` index (public fields only) | 8097 |
 | `persona_mcp_server` | Container App (MCP) | AI Search `personas` index | 8094 |
 | `research_mcp_server` | Container App (MCP) | AI Search `innovations` index | 8095 |
 | `market_insights_server` | Container App (MCP) | static JSON in-process | 8096 |
@@ -170,6 +171,50 @@ registration (`<app>-mcp-auth`) with an `Mcp.Invoke` app role (audience
 audience callers must request a token for. Anonymous requests get **HTTP 401**.
 Requires `az login` with rights to create app registrations and app-role
 assignments.
+
+### Public product MCP server (no auth, Agent 365 BYO tool)
+
+`public_product_mcp_server` is a **public, anonymous** view of the product
+catalogue for internet consumption. It shares the `products` search index but
+**omits commercially sensitive fields** (list prices, margins, costs) — it only
+returns names, categories, brands, markets, qualitative price tier, claims and
+descriptions. It is **never** protected with Entra auth.
+
+```bash
+python -m scripts.deploy_public_product_mcp_server --build   # public catalogue (8097)
+```
+
+Prints the deployed `…/mcp` URL and exposes `/health`. Key overrides:
+`PUBLIC_PRODUCT_MCP_APP_NAME` (default `public-product-mcp-server`),
+`PUBLIC_PRODUCT_MCP_PORT` (8097), `PUBLIC_PRODUCT_MCP_EXTERNAL` (default `true`).
+
+**Register it as an Agent 365 BYO external MCP tool.** The deploy step fills the
+committed template
+[`register-external-mcp-server.json`](src/public_product_mcp_server/register-external-mcp-server.json)
+(a `NoAuth` tool manifest — server description ≤ 80 chars, tool descriptions ≤ 100
+chars) with the real URL and writes the **git-ignored**
+`register-external-mcp-server.generated.json`. Then print (or run) the `a365`
+registration command:
+
+```bash
+# Print the a365 develop-mcp register-external-mcp-server command
+python -m scripts.register_public_product_a365_tool
+
+# …or run it immediately
+eval $(python -m scripts.register_public_product_a365_tool)
+
+# …or register directly from the generated JSON manifest
+a365 develop-mcp register-external-mcp-server \
+    -f src/public_product_mcp_server/register-external-mcp-server.generated.json
+```
+
+The URL is resolved from `PUBLIC_PRODUCT_MCP_URL`, or derived from the
+`public-product-mcp-server` Container App FQDN via `AZURE_RESOURCE_GROUP`.
+Requires the Agent 365 CLI (`a365`, ≥ 1.1.165-preview) and a publicly reachable
+`/mcp` endpoint. After registration, an IT admin approves the server (and grants
+consent) in the **Microsoft 365 admin center → Agents → Tools → Requests** before
+it can be used in Copilot Studio / VS Code. Set `A365_DRY_RUN=true` to append
+`--dry-run`.
 
 ---
 
@@ -348,7 +393,7 @@ azd down
 - Hosted agents speak **RESPONSES + A2A + INVOCATIONS** on port `8088`; the web
   recommender serves the AG-UI web UI on port `8092`.
 - MCP server ports: product `8093`, persona `8094`, research `8095`,
-  market-insights `8096`.
+  market-insights `8096`, public-product `8097`.
 - Agents reach MCP servers through **Foundry toolboxes** by default; a direct
   `*_MCP_URL` override bypasses the toolbox for local dev.
 - MCP deploy scripts do **not** take `--register`; toolbox registration is a
