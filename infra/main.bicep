@@ -166,7 +166,7 @@ module containerAppsEnv 'core/host/container-apps-environment.bicep' = {
   scope: rg
   name: 'container-apps-environment'
   params: {
-    name: 'cae-${environmentName}'
+    name: 'ca-${environmentName}'
     location: location
     tags: tags
     logAnalyticsWorkspaceName: aiProject.outputs.logAnalyticsWorkspaceName

@@ -104,6 +104,25 @@ resource vnet 'Microsoft.Network/virtualNetworks@2021-05-01' = {
           ]
         }
       }
+      {
+        name: 'aca-environment'
+        properties: {
+          addressPrefix: '10.0.20.0/23'
+          privateEndpointNetworkPolicies: 'Disabled'
+          privateLinkServiceNetworkPolicies: 'Enabled'
+          delegations: [
+            {
+              name: 'Microsoft.App.'
+              properties: {
+                serviceName: 'Microsoft.App/environments'
+                actions: [
+                  'Microsoft.Network/virtualNetworks/subnets/join/action'
+                ]
+              }
+            }
+          ]
+        }
+      }
     ]
   }
 }
