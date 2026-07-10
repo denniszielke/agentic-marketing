@@ -21,7 +21,7 @@ resource containerAppsEnvironment 'Microsoft.App/managedEnvironments@2025-07-01'
       }
     }
     vnetConfiguration: {
-      infrastructureSubnetId: '${vnet.id}/subnets/aca-environment'
+      infrastructureSubnetId: '${vnet.id}/subnets/aca-apps'
       internal: false
     }
     workloadProfiles: [
