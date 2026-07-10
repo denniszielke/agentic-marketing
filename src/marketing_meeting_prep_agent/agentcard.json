@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "description": "Marketing meeting prep agent for NorthStar Health. Reads the signed-in user's upcoming calendar meetings through WorkIQ and prepares a grounded briefing by pulling relevant product details, market insights and persona profiles from the marketing toolbox.",
+  "skills": [
+    {
+      "id": "meeting-briefing",
+      "name": "Meeting Briefing",
+      "description": "Read an upcoming meeting's title, agenda and attendees from the user's calendar (WorkIQ) and assemble a decision-ready briefing grounded in product, market and persona data."
+    },
+    {
+      "id": "calendar-lookup",
+      "name": "Calendar Lookup",
+      "description": "Find the next meeting or a meeting on a given day from the signed-in user's Microsoft 365 calendar and extract its topic, agenda and participants."
+    }
+  ]
+}

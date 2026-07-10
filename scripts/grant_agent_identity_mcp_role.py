@@ -32,6 +32,7 @@ Environment variables:
                                       ids to grant (overrides auto-discovery).
   AZURE_AI_MARKET_AGENT_NAME          default: market-intelligence-agent.
   AZURE_AI_STRATEGY_AGENT_NAME        default: executive-strategy-agent.
+  AZURE_AI_MEETING_PREP_AGENT_NAME    default: marketing-meeting-prep-agent.
   PRODUCT_MCP_APP_NAME / MARKET_MCP_APP_NAME / PERSONA_MCP_APP_NAME /
   RESEARCH_MCP_APP_NAME               Container App names (defaults below).
 """
@@ -111,6 +112,7 @@ def _resolve_agent_ids(cli_ids: list[str]) -> list[str]:
     agent_names = [
         os.getenv("AZURE_AI_MARKET_AGENT_NAME", "market-intelligence-agent"),
         os.getenv("AZURE_AI_STRATEGY_AGENT_NAME", "executive-strategy-agent"),
+        os.getenv("AZURE_AI_MEETING_PREP_AGENT_NAME", "marketing-meeting-prep-agent"),
     ]
     print(f"==> Auto-discovering Entra Agent Identities for: {', '.join(agent_names)}")
     discovered = _discover_agent_identities(agent_names)

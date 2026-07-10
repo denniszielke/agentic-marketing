@@ -14,8 +14,10 @@ Environment variables:
   AZURE_AI_PROJECT_ENDPOINT       Foundry project endpoint (required).
   AZURE_AI_MARKET_AGENT_NAME      default: market-intelligence-agent
   AZURE_AI_STRATEGY_AGENT_NAME    default: executive-strategy-agent
+  AZURE_AI_MEETING_PREP_AGENT_NAME default: marketing-meeting-prep-agent
   MARKETING_TOOLBOX_NAME          default: marketing_toolbox
   STRATEGY_TOOLBOX_NAME           default: strategy_toolbox
+  WORKIQ_TOOLBOX_NAME             default: workiq-tools
 """
 
 from __future__ import annotations
@@ -28,11 +30,13 @@ from scripts.agent_deploy_helpers import get_client
 AGENT_NAMES = [
     os.getenv("AZURE_AI_MARKET_AGENT_NAME", "market-intelligence-agent"),
     os.getenv("AZURE_AI_STRATEGY_AGENT_NAME", "executive-strategy-agent"),
+    os.getenv("AZURE_AI_MEETING_PREP_AGENT_NAME", "marketing-meeting-prep-agent"),
 ]
 
 TOOLBOX_NAMES = [
     os.getenv("MARKETING_TOOLBOX_NAME", "marketing_toolbox"),
     os.getenv("STRATEGY_TOOLBOX_NAME", "strategy_toolbox"),
+    os.getenv("WORKIQ_TOOLBOX_NAME", "workiq-tools"),
 ]
 
 
