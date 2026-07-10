@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "description": "Supervisor agent for NorthStar Health. Triages incoming questions and, when a question is about marketing (products, customer personas or market performance), delegates it to the marketing specialist over the A2A protocol and returns the specialist's answer. Non-marketing questions are answered directly or declined as out of scope.",
+  "skills": [
+    {
+      "id": "request-triage",
+      "name": "Request Triage",
+      "description": "Decide whether an incoming question is a marketing question (products, personas, markets) that should be routed to the marketing specialist."
+    },
+    {
+      "id": "marketing-delegation",
+      "name": "Marketing Delegation",
+      "description": "Delegate a marketing task to the marketing specialist over A2A, then relay the specialist's grounded answer back to the caller."
+    }
+  ]
+}

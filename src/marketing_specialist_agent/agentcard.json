@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "description": "Marketing specialist for NorthStar Health. Answers questions about products, customer personas and market performance (sales, growth, margin, market share, forecast) grounded in the marketing toolbox, and returns concise, evidence-backed marketing guidance. Exposed as an A2A endpoint so other agents can delegate marketing tasks to it.",
+  "skills": [
+    {
+      "id": "product-knowledge",
+      "name": "Product Knowledge",
+      "description": "Look up and compare NorthStar Health and competitor products, positioning, pricing tiers and metadata from the product catalogue."
+    },
+    {
+      "id": "persona-insight",
+      "name": "Persona Insight",
+      "description": "Find and describe the customer personas most relevant to a category, market or interest, including their behaviour and spend."
+    },
+    {
+      "id": "market-performance",
+      "name": "Market Performance",
+      "description": "Report sales, revenue, gross margin, growth rates, market share and 2026-2028 forecasts by market, category, product and brand."
+    }
+  ]
+}
