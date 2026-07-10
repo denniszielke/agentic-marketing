@@ -18,7 +18,7 @@
       "value": "${AZURE_PRINCIPAL_TYPE=User}"
     },
     "enableHostedAgents": {
-      "value": "${ENABLE_HOSTED_AGENTS=false}"
+      "value": "${ENABLE_HOSTED_AGENTS=true}"
     },
     "skipConnectionCreation": {
       "value": "${SKIP_CONNECTION_CREATION=false}"
