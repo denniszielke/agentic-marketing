@@ -15,6 +15,8 @@ Environment variables:
   AZURE_AI_MARKET_AGENT_NAME      default: market-intelligence-agent
   AZURE_AI_STRATEGY_AGENT_NAME    default: executive-strategy-agent
   AZURE_AI_MEETING_PREP_AGENT_NAME default: marketing-meeting-prep-agent
+  AZURE_AI_SPECIALIST_AGENT_NAME  default: marketing-specialist-agent
+  AZURE_AI_SUPERVISOR_AGENT_NAME  default: supervisor-agent
   MARKETING_TOOLBOX_NAME          default: marketing_toolbox
   STRATEGY_TOOLBOX_NAME           default: strategy_toolbox
   WORKIQ_TOOLBOX_NAME             default: workiq-tools
@@ -31,6 +33,8 @@ AGENT_NAMES = [
     os.getenv("AZURE_AI_MARKET_AGENT_NAME", "market-intelligence-agent"),
     os.getenv("AZURE_AI_STRATEGY_AGENT_NAME", "executive-strategy-agent"),
     os.getenv("AZURE_AI_MEETING_PREP_AGENT_NAME", "marketing-meeting-prep-agent"),
+    os.getenv("AZURE_AI_SPECIALIST_AGENT_NAME", "marketing-specialist-agent"),
+    os.getenv("AZURE_AI_SUPERVISOR_AGENT_NAME", "supervisor-agent"),
 ]
 
 TOOLBOX_NAMES = [
