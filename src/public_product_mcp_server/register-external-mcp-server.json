@@ -1,0 +1,36 @@
+{
+  "serverName": "ext_public_products",
+  "serverUrl": "",
+  "authType": "NoAuth",
+  "description": "Public NorthStar Health product catalogue (no prices/margins/costs).",
+  "publisherName": "NorthStar Health",
+  "tools": [
+    {
+      "name": "list_products",
+      "description": "List public products by category, market, brand or competitor."
+    },
+    {
+      "name": "search_products",
+      "description": "Search public products by need, benefit or claim."
+    },
+    {
+      "name": "get_product",
+      "description": "Get a product's public metadata by id."
+    },
+    {
+      "name": "list_categories",
+      "description": "List distinct product categories."
+    },
+    {
+      "name": "list_brands",
+      "description": "List distinct brands."
+    },
+    {
+      "name": "get_positioning",
+      "description": "Public positioning price tier, claims and category competitors."
+    }
+  ],
+  "remoteScopes": null,
+  "externalOAuth": null,
+  "apiKey": null
+}
