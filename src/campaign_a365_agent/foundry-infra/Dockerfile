@@ -9,6 +9,9 @@ ARG MODEL_DEPLOYMENT
 # NorthStar Health marketing grounding (marketing_toolbox) — optional.
 ARG MARKETING_TOOLBOX_MCP_ENDPOINT
 ARG MARKETING_MCP_SCOPE
+# Application Insights instrumentation — optional (base64-encoded to survive
+# `az acr build` --build-arg parsing; decoded at startup by host_agent_server).
+ARG APPLICATIONINSIGHTS_CONNECTION_STRING_B64
 
 # Copy source. The build context is the agent project root
 # (src/campaign_a365_agent),
@@ -88,5 +91,14 @@ ENV FOUNDRY_AGENT_DEFAULT_INSTANCE_CLIENT_ID=${BLUEPRINT_CLIENT_ID}
 # -----------------------------------------------------------------------------
 ENV MARKETING_TOOLBOX_MCP_ENDPOINT=${MARKETING_TOOLBOX_MCP_ENDPOINT}
 ENV MARKETING_MCP_SCOPE=${MARKETING_MCP_SCOPE}
+
+# -----------------------------------------------------------------------------
+# Application Insights — host_agent_server calls configure_azure_monitor() at
+# startup when a connection string is available. Transported base64-encoded
+# because the raw string contains ';' which breaks `az acr build` --build-arg,
+# and because the hosted-agent create API reserves
+# APPLICATIONINSIGHTS_CONNECTION_STRING in the agent version's environment.
+# -----------------------------------------------------------------------------
+ENV APPLICATIONINSIGHTS_CONNECTION_STRING_B64=${APPLICATIONINSIGHTS_CONNECTION_STRING_B64}
 
 ENTRYPOINT ["python", "-m", "campaign_a365_agent"]

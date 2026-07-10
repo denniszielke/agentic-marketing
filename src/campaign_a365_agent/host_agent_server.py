@@ -134,6 +134,22 @@ def _configure_application_insights() -> None:
         or os.getenv("ApplicationInsights__ConnectionString")
     )
     if not conn:
+        # The connection string is transported base64-encoded through the image
+        # build (the raw value contains ';' which breaks `az acr build`
+        # --build-arg). Decode it here and expose the plain env var so the rest
+        # of the process (and any child SDKs) can read it too.
+        encoded = os.getenv("APPLICATIONINSIGHTS_CONNECTION_STRING_B64")
+        if encoded:
+            import base64
+
+            try:
+                conn = base64.b64decode(encoded).decode("utf-8").strip()
+                if conn:
+                    os.environ["APPLICATIONINSIGHTS_CONNECTION_STRING"] = conn
+            except Exception as ex:
+                logger.warning("Failed to decode APPLICATIONINSIGHTS_CONNECTION_STRING_B64: %s", ex)
+                conn = None
+    if not conn:
         return
     print(f"AI ConnectionString: {conn}")
     try:

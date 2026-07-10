@@ -56,19 +56,24 @@ def create_agent(config: AutopilotConfig | None = None) -> str:
         f"{config.project_endpoint}/agents/{config.agent_name}/versions"
         f"?api-version={AGENTS_API_VERSION}"
     )
+    env_vars = {
+        # NorthStar Health marketing grounding (marketing_toolbox).
+        "MARKETING_TOOLBOX_MCP_ENDPOINT": config.marketing_toolbox_endpoint,
+        "MARKETING_TOOLBOX_NAME": config.marketing_toolbox_name,
+        "MARKETING_MCP_SCOPE": config.marketing_mcp_scope,
+        "AZURE_AI_PROJECT_ENDPOINT": config.project_endpoint,
+    }
+    # NOTE: APPLICATIONINSIGHTS_CONNECTION_STRING is a reserved key for hosted
+    # agents (the platform manages observability) and is rejected here with a
+    # 400. It is instead baked into the image as an ENV (see build_image.py /
+    # foundry-infra/Dockerfile) and read by host_agent_server at startup.
     body = {
         "definition": {
             "kind": "hosted",
             "image": image,
             "cpu": "2",
             "memory": "4Gi",
-            "environment_variables": {
-                # NorthStar Health marketing grounding (marketing_toolbox).
-                "MARKETING_TOOLBOX_MCP_ENDPOINT": config.marketing_toolbox_endpoint,
-                "MARKETING_TOOLBOX_NAME": config.marketing_toolbox_name,
-                "MARKETING_MCP_SCOPE": config.marketing_mcp_scope,
-                "AZURE_AI_PROJECT_ENDPOINT": config.project_endpoint,
-            },
+            "environment_variables": env_vars,
             "container_protocol_versions": [
                 {"protocol": "activity_protocol", "version": "v1"}
             ],

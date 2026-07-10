@@ -118,6 +118,7 @@ class AutopilotConfig:
     image_name: str
     marketing_toolbox_name: str
     marketing_mcp_scope: str
+    appinsights_connection_string: str
 
     @property
     def authority_endpoint(self) -> str:
@@ -225,6 +226,10 @@ class AutopilotConfig:
         marketing_mcp_scope = os.getenv(
             "MARKETING_MCP_SCOPE", "https://ai.azure.com/.default"
         ).strip()
+        appinsights_connection_string = (
+            os.getenv("APPLICATIONINSIGHTS_CONNECTION_STRING", "").strip()
+            or os.getenv("AZURE_MONITOR_CONNECTION_STRING", "").strip()
+        )
 
         return cls(
             subscription_id=subscription_id,
@@ -242,6 +247,7 @@ class AutopilotConfig:
             image_name=image_name,
             marketing_toolbox_name=marketing_toolbox_name,
             marketing_mcp_scope=marketing_mcp_scope,
+            appinsights_connection_string=appinsights_connection_string,
         )
 
     def summary(self) -> str:

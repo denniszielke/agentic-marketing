@@ -15,6 +15,7 @@ Run standalone (requires AGENT_IDENTITY_BLUEPRINT_ID in the environment):
 
 from __future__ import annotations
 
+import base64
 import os
 import subprocess
 
@@ -30,6 +31,15 @@ def build_image(blueprint_client_id: str, config: AutopilotConfig | None = None)
     registry_name = config.registry_login_server.split(".")[0]
     context_path = repo_root() / "src" / "campaign_a365_agent"
     image_ref = f"{config.image_name}:latest"
+
+    # The App Insights connection string contains ';' which breaks `az acr build`
+    # --build-arg parsing on the remote build agent, so transport it base64-encoded
+    # and decode it at container startup (host_agent_server).
+    appinsights_b64 = (
+        base64.b64encode(config.appinsights_connection_string.encode("utf-8")).decode("ascii")
+        if config.appinsights_connection_string
+        else ""
+    )
 
     print(f"==> Building {image_ref} via ACR Build in registry: {registry_name}")
     # Run with the build context as CWD so `az acr build` resolves the relative
@@ -48,6 +58,7 @@ def build_image(blueprint_client_id: str, config: AutopilotConfig | None = None)
         "--build-arg", f"MODEL_DEPLOYMENT={config.model_deployment}",
         "--build-arg", f"MARKETING_TOOLBOX_MCP_ENDPOINT={config.marketing_toolbox_endpoint}",
         "--build-arg", f"MARKETING_MCP_SCOPE={config.marketing_mcp_scope}",
+        "--build-arg", f"APPLICATIONINSIGHTS_CONNECTION_STRING_B64={appinsights_b64}",
         ".",
         capture=False,
         cwd=context_path,
