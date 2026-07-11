@@ -1,12 +1,25 @@
-"""Provision the **OAuth 2.0 credentials Copilot Studio needs to call the
-marketing specialist over A2A**.
+"""Provision the **credentials Copilot Studio needs to call the marketing
+specialist over A2A** — via an OAuth 2.0 app registration *or* an Entra Agent
+Identity.
 
-Copilot Studio authenticates outbound calls (to an A2A agent, a custom connector
-or an MCP tool) with the OAuth 2.0 **authorization-code** flow. It needs a
-confidential-client Entra **app registration** (client id + secret) whose issued
-tokens target the Azure AI data plane (``https://ai.azure.com``) — the audience the
-Foundry A2A endpoint of the specialist accepts. This script creates/updates that
-app registration and prints the exact parameters to paste into Copilot Studio:
+Two authentication modes are supported (use either or both):
+
+* **OAuth 2.0 (default)** — Copilot Studio authenticates outbound calls with the
+  authorization-code flow using a confidential-client Entra **app registration**
+  (client id + secret). This script creates/updates that app registration and
+  prints the exact parameters to paste into Copilot Studio (see below).
+
+* **Entra Agent Identity** (``--agent-identity-id``) — a Copilot Studio agent can
+  instead present its own **Entra Agent Identity** (agentic auth, *no secret*).
+  In that case the only thing needed is the **Foundry Agent Consumer** RBAC role
+  on the project, granted to that identity. Pass the agent identity's app/object
+  id (or set ``COPILOT_STUDIO_AGENT_IDS``); add ``--agent-identity-only`` to skip
+  the OAuth app-registration/secret provisioning entirely.
+
+Both modes issue tokens whose audience is the Azure AI data plane
+(``https://ai.azure.com``) — the audience the Foundry A2A endpoint of the
+specialist accepts. In OAuth mode the script prints these parameters to paste
+into Copilot Studio:
 
     Client ID              the app registration's application (client) id
     Client secret          a freshly-minted secret value (shown once)
@@ -42,9 +55,14 @@ marketing specialist deployed (``scripts.deploy_marketing_specialist_agent``).
 
 Usage::
 
+    # OAuth 2.0 app registration (default)
     python -m scripts.create_copilot_studio_a2a_auth
     python -m scripts.create_copilot_studio_a2a_auth --app-name "marketing-a2a-copilot" --secret-years 2
     python -m scripts.create_copilot_studio_a2a_auth --grant-object-id <USER_OR_SP_OBJECT_ID>
+
+    # Entra Agent Identity of the Copilot Studio agent (no secret)
+    python -m scripts.create_copilot_studio_a2a_auth \\
+        --agent-identity-id 6da8f969-1785-4559-804b-1d95e09f6544 --agent-identity-only
 
 Fixing ``AADSTS50011`` (redirect URI mismatch): Copilot Studio appends a
 connector-specific suffix to its base redirect when you create the connection,
@@ -67,6 +85,9 @@ Environment variables:
                                        AZURE_AI_PROJECT_NAME + endpoint when unset.
   COPILOT_STUDIO_A2A_APP_NAME          App-registration display name (default: <specialist>-copilot-studio-a2a).
   COPILOT_STUDIO_REDIRECT_URI         Override the Copilot Studio redirect URI.
+  COPILOT_STUDIO_AGENT_IDS             Comma-separated Copilot Studio agent identity
+                                       identifiers (app id, object id or display name)
+                                       to grant the Foundry Agent Consumer role.
 """
 
 from __future__ import annotations
@@ -267,6 +288,25 @@ def _signed_in_user_object_id() -> str:
                "--query", "id", "-o", "tsv").stdout.strip()
 
 
+def _resolve_agent_identity_object_id(identifier: str) -> str:
+    """Resolve a Copilot Studio agent identity to its service-principal object id.
+
+    ``identifier`` may be the agent identity's object id, application (client) id
+    or display name. Returns "" when nothing matches.
+    """
+    identifier = identifier.strip()
+    if not identifier:
+        return ""
+    # `az ad sp show --id` accepts an object id, appId or identifier URI.
+    obj_id = _az("ad", "sp", "show", "--id", identifier,
+                 "--query", "id", "-o", "tsv").stdout.strip()
+    if obj_id:
+        return obj_id
+    # Fall back to a display-name lookup.
+    return _az("ad", "sp", "list", "--display-name", identifier,
+               "--query", "[0].id", "-o", "tsv").stdout.strip()
+
+
 def _assign_role(principal_object_id: str, principal_type: str, scope: str) -> None:
     """Assign the caller role to a principal, using the correct principal type.
 
@@ -292,8 +332,16 @@ def _assign_role(principal_object_id: str, principal_type: str, scope: str) -> N
               f"{(result.stderr or result.stdout).strip()}")
 
 
-def grant_a2a_caller_role(app_id: str, extra_object_ids: list[str]) -> None:
-    """Grant the Foundry Agent Consumer role on the project to the relevant principals."""
+def grant_a2a_caller_role(
+    app_id: str,
+    extra_object_ids: list[str],
+    agent_identity_ids: list[str],
+) -> list[str]:
+    """Grant the Foundry Agent Consumer role on the project to the relevant principals.
+
+    Returns the resolved object ids of the Copilot Studio agent identities that were
+    granted (for the summary banner).
+    """
     project_id = resolve_project_id()
     if not project_id:
         print(
@@ -301,22 +349,43 @@ def grant_a2a_caller_role(app_id: str, extra_object_ids: list[str]) -> None:
             f"'{A2A_CALLER_ROLE}' grant. Set AZURE_AI_PROJECT_ID in ./.env and re-run.",
             file=sys.stderr,
         )
-        return
+        return []
 
     # (object id) -> (label, principal type). The signed-in user is a *User* — the
     # identity behind Copilot Studio's interactive auth-code flow — while the app's
     # own service principal covers the app-only/client-credentials test.
     principals: dict[str, tuple[str, str]] = {}
-    sp_object_id = _sp_object_id(app_id)
-    if sp_object_id:
-        principals[sp_object_id] = (
-            "app service principal (client-credentials / test)", "ServicePrincipal"
-        )
-    user_object_id = _signed_in_user_object_id()
-    if user_object_id:
+    if app_id:
+        sp_object_id = _sp_object_id(app_id)
+        if sp_object_id:
+            principals[sp_object_id] = (
+                "app service principal (client-credentials / test)", "ServicePrincipal"
+            )
+        user_object_id = _signed_in_user_object_id()
+        if user_object_id:
+            principals.setdefault(
+                user_object_id, ("signed-in user (interactive auth-code flow)", "User")
+            )
+
+    # Copilot Studio agent identities (agentic auth, no secret) are service
+    # principals — resolve each supplied identifier to its object id.
+    granted_agent_ids: list[str] = []
+    for identifier in agent_identity_ids:
+        obj_id = _resolve_agent_identity_object_id(identifier)
+        if not obj_id:
+            print(
+                f"  WARN: could not resolve an agent identity for '{identifier}'. "
+                "Pass its object id, application (client) id or display name.",
+                file=sys.stderr,
+            )
+            continue
+        if obj_id != identifier:
+            print(f"  Resolved agent identity '{identifier}' → {obj_id}")
         principals.setdefault(
-            user_object_id, ("signed-in user (interactive auth-code flow)", "User")
+            obj_id, ("Copilot Studio agent identity (agentic auth)", "ServicePrincipal")
         )
+        granted_agent_ids.append(obj_id)
+
     for obj_id in extra_object_ids:
         # Type unknown for supplied ids — let the CLI resolve it via Graph.
         principals.setdefault(obj_id, ("extra principal (--grant-object-id)", ""))
@@ -326,37 +395,55 @@ def grant_a2a_caller_role(app_id: str, extra_object_ids: list[str]) -> None:
             f"\nWARN: no principals resolved for the '{A2A_CALLER_ROLE}' grant.",
             file=sys.stderr,
         )
-        return
+        return granted_agent_ids
 
     print(f"\n==> Granting '{A2A_CALLER_ROLE}' on the project ({project_id})")
     for obj_id, (label, principal_type) in principals.items():
         print(f"  {label}: {obj_id}")
         _assign_role(obj_id, principal_type, project_id)
+    return granted_agent_ids
 
 
 def _print_parameters(
     *,
     tenant_id: str,
+    oauth_enabled: bool,
     client_id: str,
     client_secret: str,
     scopes: str,
     redirect_uri: str,
     specialist_a2a: str,
     agent_description: str,
+    agent_identity_ids: list[str],
 ) -> None:
-    authority = f"https://login.microsoftonline.com/{tenant_id}"
     line = "=" * 78
+    if oauth_enabled:
+        authority = f"https://login.microsoftonline.com/{tenant_id}"
+        print(f"\n{line}")
+        print("Copilot Studio — OAuth 2.0 connection parameters (copy into Copilot Studio)")
+        print(line)
+        print(f"Client ID*            {client_id}")
+        print(f"Client secret*        {client_secret}")
+        print(f"Authorization URL*    {authority}/oauth2/v2.0/authorize")
+        print(f"Token URL template*   {authority}/oauth2/v2.0/token")
+        print(f"Refresh URL*          {authority}/oauth2/v2.0/token")
+        print(f"Scopes                {scopes}")
+        print(f"Redirect URL          {redirect_uri}")
+        print(line)
+
+    if agent_identity_ids:
+        print(f"\n{line}")
+        print("Copilot Studio — Entra Agent Identity auth (agentic, no secret)")
+        print(line)
+        print("Configure the Copilot Studio agent to authenticate with its own Entra")
+        print("Agent Identity. Token audience: https://ai.azure.com — no client secret")
+        print("is required.")
+        print(f"Granted '{A2A_CALLER_ROLE}' to agent identity object id(s):")
+        for obj_id in agent_identity_ids:
+            print(f"  - {obj_id}")
+        print(line)
+
     print(f"\n{line}")
-    print("Copilot Studio — OAuth 2.0 connection parameters (copy into Copilot Studio)")
-    print(line)
-    print(f"Client ID*            {client_id}")
-    print(f"Client secret*        {client_secret}")
-    print(f"Authorization URL*    {authority}/oauth2/v2.0/authorize")
-    print(f"Token URL template*   {authority}/oauth2/v2.0/token")
-    print(f"Refresh URL*          {authority}/oauth2/v2.0/token")
-    print(f"Scopes                {scopes}")
-    print(f"Redirect URL          {redirect_uri}")
-    print(line)
     print(f"Specialist A2A endpoint   {specialist_a2a}")
     print(f"Agent card (v1.0)         {specialist_a2a}/agentCard/v1.0")
     print(line)
@@ -365,13 +452,20 @@ def _print_parameters(
         print(line)
         print(agent_description)
         print(line)
-    print(
-        "\nNOTE: the client secret is shown ONCE — store it in a secure place now.\n"
-        "RBAC role assignments can take 2-5 minutes to propagate before the first\n"
-        "A2A call from Copilot Studio succeeds. Verify the auth flow with:\n"
-        f"  python -m scripts.test_copilot_studio_a2a_auth --client-id {client_id} \\\n"
-        "      --client-secret <the-secret-above>"
-    )
+
+    if oauth_enabled:
+        print(
+            "\nNOTE: the client secret is shown ONCE — store it in a secure place now.\n"
+            "RBAC role assignments can take 2-5 minutes to propagate before the first\n"
+            "A2A call from Copilot Studio succeeds. Verify the auth flow with:\n"
+            f"  python -m scripts.test_copilot_studio_a2a_auth --client-id {client_id} \\\n"
+            "      --client-secret <the-secret-above>"
+        )
+    else:
+        print(
+            "\nNOTE: RBAC role assignments can take 2-5 minutes to propagate before the\n"
+            "first A2A call from the Copilot Studio agent identity succeeds."
+        )
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -411,7 +505,36 @@ def main(argv: list[str] | None = None) -> int:
         help="Path to the specialist's agentcard.json used to build the Copilot "
              "Studio agent description.",
     )
+    parser.add_argument(
+        "--agent-identity-id", dest="agent_identity_ids", action="append", default=[],
+        metavar="AGENT_ID",
+        help="Entra Agent Identity of a Copilot Studio agent (app id, object id or "
+             "display name) to grant the Foundry Agent Consumer role — enables "
+             "agentic auth with no secret (repeatable).",
+    )
+    parser.add_argument(
+        "--agent-identity-only", action="store_true",
+        help="Only grant the role to the supplied agent identities; skip the OAuth "
+             "app-registration/secret provisioning.",
+    )
     args = parser.parse_args(argv)
+
+    env_agent_ids = [
+        i.strip()
+        for i in os.getenv("COPILOT_STUDIO_AGENT_IDS", "").split(",")
+        if i.strip()
+    ]
+    agent_identity_ids = [*args.agent_identity_ids, *env_agent_ids]
+
+    if args.agent_identity_only and not agent_identity_ids:
+        print(
+            "ERROR: --agent-identity-only requires at least one --agent-identity-id "
+            "(or COPILOT_STUDIO_AGENT_IDS).",
+            file=sys.stderr,
+        )
+        return 1
+
+    oauth_enabled = not args.agent_identity_only
 
     project_endpoint = os.getenv("AZURE_AI_PROJECT_ENDPOINT", "").strip()
     if not project_endpoint:
@@ -429,30 +552,41 @@ def main(argv: list[str] | None = None) -> int:
 
     print(f"==> Tenant:      {tenant_id}")
     print(f"==> Specialist:  {specialist_name}")
-    print(f"==> Redirect:    {', '.join(redirect_uris)}\n")
+    if oauth_enabled:
+        print(f"==> Redirect:    {', '.join(redirect_uris)}")
+    if agent_identity_ids:
+        print(f"==> Agent ids:   {', '.join(agent_identity_ids)}")
+    print()
 
-    try:
-        app_id = ensure_app_registration(args.app_name, redirect_uris)
-        add_azure_ai_delegated_permission(app_id)
-        client_secret = create_client_secret(
-            app_id, args.secret_years, f"{args.app_name}-secret"
-        )
-    except RuntimeError as exc:
-        print(f"\nERROR: {exc}", file=sys.stderr)
-        return 1
+    app_id = ""
+    client_secret = ""
+    if oauth_enabled:
+        try:
+            app_id = ensure_app_registration(args.app_name, redirect_uris)
+            add_azure_ai_delegated_permission(app_id)
+            client_secret = create_client_secret(
+                app_id, args.secret_years, f"{args.app_name}-secret"
+            )
+        except RuntimeError as exc:
+            print(f"\nERROR: {exc}", file=sys.stderr)
+            return 1
 
-    grant_a2a_caller_role(app_id, args.grant_object_ids)
+    granted_agent_ids = grant_a2a_caller_role(
+        app_id, args.grant_object_ids, agent_identity_ids
+    )
 
     agent_description = build_agent_description(args.agent_card)
 
     _print_parameters(
         tenant_id=tenant_id,
+        oauth_enabled=oauth_enabled,
         client_id=app_id,
         client_secret=client_secret,
         scopes=args.scopes,
         redirect_uri=redirect_uris[0],
         specialist_a2a=specialist_a2a,
         agent_description=agent_description,
+        agent_identity_ids=granted_agent_ids,
     )
     return 0
 
